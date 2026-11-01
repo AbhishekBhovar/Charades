@@ -1,22 +1,21 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#704594"><meta name="dc-build" content="v7-292-compact"><title>Dumb Charades — Party Game v7</title><style>*{box-sizing:border-box}
 :root{
-  --bg-1:#fff3f6;
-  --bg-2:#f7e8ff;
-  --bg-3:#2c0f43;
-  --plum:#5a247f;
-  --plum-dark:#3d1759;
-  --violet:#7d3cb0;
-  --rose:#d94f7f;
-  --rose-dark:#aa2d59;
-  --gold:#f2c55c;
-  --gold-deep:#e1a93d;
-  --cream:#fffaf2;
-  --card:#fffdf9;
-  --ink:#4b285f;
-  --muted:#7b5c8d;
-  --line:#ecd8f5;
-  --success:#1d9e7d;
-  --success-dark:#13715a;
+  --bg:#1b0d25;
+  --bg-2:#31123f;
+  --velvet:#3f1456;
+  --velvet-2:#5a1b6f;
+  --wine:#8f1f4d;
+  --crimson:#db2f5f;
+  --crimson-2:#f04f75;
+  --gold:#f0c35a;
+  --gold-deep:#cb9630;
+  --champagne:#fff7ea;
+  --ivory:#fffdf8;
+  --card:#fffaf4;
+  --ink:#442055;
+  --muted:#7a6784;
+  --line:#ecd9f3;
+  --shadow:0 16px 34px rgba(29,11,38,.18);
 }
 html,body{min-height:100%}
 body{
@@ -25,209 +24,131 @@ body{
   font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   min-height:100dvh;
   background:
-    radial-gradient(circle at 12% 8%, rgba(255,255,255,.9) 0 6%, transparent 6.5%),
-    radial-gradient(circle at 83% 10%, rgba(255,230,150,.45) 0 7%, transparent 7.5%),
-    radial-gradient(circle at 88% 28%, rgba(255,255,255,.75) 0 3%, transparent 3.5%),
-    radial-gradient(circle at 20% 80%, rgba(241,197,92,.24) 0 12%, transparent 13%),
-    linear-gradient(180deg,#fff4dd 0%, #ffeaf3 18%, #f5e7ff 55%, #ecd9fb 100%);
-  position:relative;
+    radial-gradient(circle at 50% -10%, rgba(240,195,90,.26) 0 18%, transparent 24%),
+    radial-gradient(circle at 0% 0%, rgba(126,53,167,.18) 0 28%, transparent 40%),
+    radial-gradient(circle at 100% 12%, rgba(219,47,95,.14) 0 20%, transparent 34%),
+    linear-gradient(180deg,#2a1039 0%, #3a144b 11%, #f5e7f1 11.5%, #f8edf4 42%, #f3e5ef 100%);
   overflow-x:hidden;
 }
 body::before{
-  content:"";
-  position:fixed;
-  inset:0;
-  pointer-events:none;
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.85;
   background:
-    radial-gradient(circle at 7% 28%, rgba(255,255,255,.92) 0 2px, transparent 3px),
-    radial-gradient(circle at 22% 14%, rgba(255,255,255,.72) 0 1.5px, transparent 2.5px),
-    radial-gradient(circle at 74% 8%, rgba(255,255,255,.8) 0 2px, transparent 3px),
-    radial-gradient(circle at 90% 42%, rgba(255,255,255,.75) 0 1.5px, transparent 2.5px),
-    radial-gradient(circle at 28% 64%, rgba(255,255,255,.65) 0 2px, transparent 3px),
-    radial-gradient(circle at 80% 72%, rgba(255,255,255,.78) 0 2px, transparent 3px);
-  opacity:.8;
+    radial-gradient(circle at 10% 15%, rgba(255,255,255,.75) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 80% 10%, rgba(255,255,255,.7) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 90% 65%, rgba(255,255,255,.45) 0 2px, transparent 3px),
+    radial-gradient(circle at 25% 78%, rgba(255,255,255,.4) 0 2px, transparent 3px);
 }
-main{max-width:640px;margin:auto;padding:22px 18px 56px;position:relative;z-index:1}
+main{max-width:640px;margin:auto;padding:22px 16px 46px;position:relative;z-index:1}
 button,select,input{font:inherit}
 .hero{
-  position:relative;
-  overflow:hidden;
-  background:linear-gradient(135deg,rgba(255,255,255,.94),rgba(255,249,240,.98));
-  border:1px solid rgba(255,255,255,.8);
-  border-radius:30px;
-  padding:22px 20px 18px;
-  box-shadow:0 18px 40px rgba(104,35,128,.14), inset 0 1px 0 rgba(255,255,255,.85);
-  margin-bottom:18px;
+  position:relative; overflow:hidden; margin-bottom:18px; border-radius:28px; padding:22px 18px 18px;
+  background:
+    radial-gradient(circle at 92% 28%, rgba(240,195,90,.24), transparent 22%),
+    linear-gradient(135deg,#fffdfa 0%, #fff7ea 48%, #fff1dd 100%);
+  border:2px solid rgba(240,195,90,.4);
+  box-shadow:var(--shadow), inset 0 1px 0 rgba(255,255,255,.95);
 }
-.hero::after{
-  content:"";
-  position:absolute;
-  inset:auto -35px -35px auto;
-  width:150px;height:150px;
-  background:radial-gradient(circle, rgba(242,197,92,.5) 0%, rgba(242,197,92,.12) 45%, transparent 70%);
-  border-radius:50%;
+.hero::before{
+  content:""; position:absolute; inset:0 auto 0 0; width:10px;
+  background:linear-gradient(180deg,var(--gold),#f7d885,var(--gold));
 }
 .eyebrow{
-  display:inline-flex;align-items:center;gap:8px;
-  padding:8px 12px;border-radius:999px;
-  background:linear-gradient(90deg,#6f2a95,#8e43b8);
-  color:#fff;font-weight:800;font-size:11px;letter-spacing:.18em;
-  box-shadow:0 6px 14px rgba(96,39,132,.25);
+  display:inline-flex; align-items:center; gap:10px; padding:9px 14px; border-radius:999px;
+  background:linear-gradient(90deg,#4e1568,#7b28a3);
+  color:#fff; font-weight:900; font-size:11px; letter-spacing:.2em;
+  box-shadow:0 8px 18px rgba(66,21,94,.24);
 }
-.eyebrow::before,.eyebrow::after{content:"✦";color:#ffd76b;font-size:12px;letter-spacing:0}
-h1{font-size:clamp(38px,8.2vw,62px);line-height:1.02;margin:16px 0 10px;color:var(--plum-dark);letter-spacing:-.03em;text-shadow:0 3px 0 rgba(255,255,255,.72)}
-.hero p{margin:0;color:var(--muted);font-size:18px}
-.hero-sub{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.mini-pill{display:inline-block;padding:8px 12px;border-radius:999px;background:linear-gradient(135deg,#fff7df,#ffe9b0);border:1px solid rgba(241,195,70,.55);color:#8c5b00;font-weight:800;font-size:12px;box-shadow:0 4px 10px rgba(242,197,92,.22)}
+.eyebrow::before,.eyebrow::after{content:"✦"; color:#ffd76a; font-size:12px; letter-spacing:0}
+h1{font-size:clamp(38px,8.4vw,58px);line-height:.98;margin:16px 0 10px;color:#421357;letter-spacing:-.04em}
+.hero p{margin:0;color:#6e5678;font-size:17px}
+.hero-sub{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.mini-pill{display:inline-block;padding:8px 12px;border-radius:999px;background:linear-gradient(180deg,#fff5d5,#ffe4a0);border:1px solid rgba(203,150,48,.42);color:#7a5200;font-weight:900;font-size:12px;box-shadow:0 4px 10px rgba(203,150,48,.16)}
 .panel{
-  background:rgba(255,252,248,.96);
-  border:1px solid rgba(255,255,255,.88);
-  border-radius:30px;
-  padding:20px;
-  margin-top:18px;
-  box-shadow:0 16px 34px rgba(104,35,128,.12), inset 0 1px 0 rgba(255,255,255,.85);
+  background:linear-gradient(180deg,rgba(255,250,244,.98),rgba(255,247,240,.98));
+  border:2px solid rgba(240,195,90,.24);
+  border-radius:28px; padding:18px 16px; margin-top:16px;
+  box-shadow:var(--shadow), inset 0 1px 0 rgba(255,255,255,.9);
 }
-.controls{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
-.controls>*{flex:1;min-width:120px}
-.field{display:flex;flex-direction:column;text-align:left;gap:8px;margin:14px 0;font-weight:800;color:var(--plum-dark)}
+.setup-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px}
+.field{display:flex;flex-direction:column;gap:8px;font-weight:900;color:#4b1e63;margin:0}
+.field span{font-size:13px;letter-spacing:-.01em}
 .field select,.field input{
-  appearance:none;
-  background:#fff;
-  color:var(--ink);
-  padding:16px 18px;
-  border:2px solid var(--line);
-  border-radius:18px;
-  width:100%;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.8), 0 4px 14px rgba(106,50,127,.06);
+  appearance:none; width:100%; border:2px solid var(--line); border-radius:18px;
+  padding:15px 16px; background:#fff; color:var(--ink); font-weight:800;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.9), 0 4px 10px rgba(91,35,116,.05);
 }
+.field select{background-image:linear-gradient(45deg,transparent 50%, #57256f 50%),linear-gradient(135deg,#57256f 50%, transparent 50%);background-position:calc(100% - 22px) calc(50% - 3px),calc(100% - 15px) calc(50% - 3px);background-size:7px 7px,7px 7px;background-repeat:no-repeat;padding-right:40px}
+#advanced{grid-column:1/-1;margin-top:2px;border:2px solid var(--line);border-radius:18px;background:#fff;overflow:hidden}
+#advanced summary,.settings-more summary{list-style:none;cursor:pointer;padding:14px 15px;display:flex;align-items:center;justify-content:space-between;color:#5a2774;font-weight:900}
+#advanced summary::-webkit-details-marker,.settings-more summary::-webkit-details-marker{display:none}
+#advanced summary::after,.settings-more summary::after{content:"⌄";font-size:18px;color:#7b28a3}
+.advanced-content{padding:0 12px 12px;display:grid;gap:10px}
+.team-inputs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.setup-actions{display:flex;flex-direction:column;gap:10px;margin-top:14px}
 button{
-  border:0;border-radius:20px;padding:16px 22px;min-height:56px;
-  font-weight:900;cursor:pointer;color:#fff;
-  background:linear-gradient(180deg,#e34a75,#cb305d);
-  box-shadow:0 6px 0 #922449, 0 12px 18px rgba(176,46,85,.18);
+  border:0; border-radius:18px; min-height:54px; padding:14px 18px;
+  font-weight:900; letter-spacing:-.01em; color:#fff; cursor:pointer;
+  background:linear-gradient(180deg,var(--crimson-2),var(--crimson));
+  box-shadow:0 6px 0 #982547, 0 12px 18px rgba(152,37,71,.16);
 }
 button:hover{filter:brightness(1.02)}
-button:active{transform:translateY(2px);box-shadow:0 4px 0 #922449, 0 8px 12px rgba(176,46,85,.18)}
-button.secondary{background:linear-gradient(180deg,#7f43af,#663191);box-shadow:0 6px 0 #432060, 0 12px 18px rgba(67,32,96,.17)}
-button.good{background:linear-gradient(180deg,#20a988,#168a70);box-shadow:0 6px 0 #11614f, 0 12px 18px rgba(17,97,79,.18)}
-button.danger{background:linear-gradient(180deg,#f08a53,#db6337);box-shadow:0 6px 0 #a24727, 0 12px 18px rgba(162,71,39,.18)}
+button:active{transform:translateY(2px);box-shadow:0 4px 0 #982547, 0 8px 12px rgba(152,37,71,.16)}
+button.secondary{background:linear-gradient(180deg,#6c328c,#53236f);box-shadow:0 6px 0 #39174e, 0 12px 18px rgba(57,23,78,.16)}
+button.good{background:linear-gradient(180deg,#1ba48a,#0e8b71);box-shadow:0 6px 0 #0b5a4b, 0 12px 18px rgba(11,90,75,.16)}
+button.danger{background:linear-gradient(180deg,#ef8d50,#da6838);box-shadow:0 6px 0 #9d4727, 0 12px 18px rgba(157,71,39,.16)}
 button:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+.primary-cta{min-height:60px;font-size:17px;background:linear-gradient(180deg,#f14978,#d92b5f);box-shadow:0 7px 0 #9a2148, 0 14px 22px rgba(154,33,72,.2)}
+.settings-more{margin-top:8px}
+.settings-more{border:0;background:transparent}
+.settings-more summary{justify-content:center;padding:8px 10px;font-size:13px}
+.settings-more button{display:block;width:100%;margin-top:8px;min-height:44px;font-size:14px}
+.subtle-note,.settings-more p,.tiny{font-size:12px;color:var(--muted)}
+#historyStatus{text-align:center}
+.hidden{display:none!important}
+.advanced-ui.hidden-advanced{display:none!important}
+.score{display:flex;gap:10px;justify-content:space-around;font-size:13px}
+.score>div{flex:1;background:linear-gradient(180deg,#fff,#fff5ee);border:1px solid rgba(240,195,90,.34);border-radius:16px;padding:8px;box-shadow:0 6px 14px rgba(67,31,86,.05)}
+.score strong{display:block;font-size:26px;color:#49195f}
+#turn{text-align:center;font-weight:900;font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:#5e2d75}
+.timer{font-size:42px;font-weight:950;color:#3f1456;text-align:center;font-variant-numeric:tabular-nums;margin:4px 0 6px}
 .movie-wrap{
-  position:relative;
-  margin-top:16px;
-  background:linear-gradient(180deg,#fffefc,#fff7f0);
-  border:3px solid rgba(242,197,92,.65);
-  border-radius:32px;
-  padding:28px 18px 22px;
-  box-shadow:inset 0 0 0 1px rgba(255,255,255,.8), 0 12px 26px rgba(111,42,149,.1);
+  position:relative; margin-top:6px; border-radius:24px; padding:22px 12px 14px;
+  background:linear-gradient(180deg,#fffdf9,#fff8f0); border:2px solid rgba(240,195,90,.6);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.9), 0 10px 18px rgba(76,28,99,.08);
 }
 .movie-wrap::before{
-  content:"";
-  position:absolute;left:14px;right:14px;top:12px;height:8px;border-radius:999px;
-  background:repeating-linear-gradient(90deg,var(--gold) 0 10px, transparent 10px 18px);
-  opacity:.75;
+  content:""; position:absolute; left:14px; right:14px; top:9px; height:4px; border-radius:999px;
+  background:repeating-linear-gradient(90deg,var(--gold) 0 10px, transparent 10px 18px); opacity:.8;
 }
-.movie{font-size:clamp(30px,7.2vw,52px);line-height:1.1;font-weight:950;margin:18px 0 14px;overflow-wrap:anywhere;color:var(--plum-dark);letter-spacing:-.03em}
-.timer{font-size:66px;font-weight:950;font-variant-numeric:tabular-nums;margin:12px 0 8px;color:var(--plum-dark);text-shadow:0 2px 0 rgba(255,255,255,.75)}
-.meta{color:var(--muted);font-size:14px}
-.score{display:flex;justify-content:space-around;font-size:18px;gap:10px}
-.score>div{background:linear-gradient(180deg,#fff,#fff7f3);border:1px solid #f0dbee;border-radius:20px;padding:12px 10px;flex:1;box-shadow:0 6px 18px rgba(90,36,127,.06)}
-.score strong{display:block;font-size:34px;color:var(--plum-dark)}
-.hidden{display:none!important}
-.tiny{font-size:13px;color:var(--muted)}
-.pill{display:inline-block;border:1px solid #efc35d;border-radius:999px;padding:8px 14px;font-size:12px;color:#7e5313;background:linear-gradient(135deg,#fff8df,#ffe8aa);font-weight:900;letter-spacing:.06em;box-shadow:0 4px 10px rgba(242,197,92,.18)}
-.credits{margin:14px auto 18px;max-width:480px;font-size:18px;line-height:1.5;transition:opacity .15s}
-.creditlabel{font-size:11px;font-weight:900;letter-spacing:.16em;color:#8d5ba4;margin-bottom:4px}
+.pill{display:inline-block;border:1px solid rgba(203,150,48,.45);border-radius:999px;padding:7px 12px;font-size:11px;color:#7a5200;background:linear-gradient(135deg,#fff7d7,#ffe6a8);font-weight:900;letter-spacing:.08em;box-shadow:0 4px 10px rgba(242,197,92,.16)}
+.movie{font-size:clamp(24px,6.7vw,38px);line-height:1.1;font-weight:950;margin:12px 0;color:#421357;letter-spacing:-.03em;overflow-wrap:anywhere}
+.meta{color:#7d6987;font-size:14px}
+.credits{max-width:420px;margin:10px auto 12px;font-size:14px;line-height:1.45;color:#5d4470}
+.creditlabel{font-size:10px;font-weight:900;letter-spacing:.16em;color:#8a5ea1;margin-bottom:4px}
 .movie-card-hidden #movie{filter:blur(14px)}
 .movie-card-hidden #year,.movie-card-hidden #credits{visibility:hidden}
-#hide{margin-bottom:8px}
-#progress{margin:8px 0 14px}
+.controls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.controls>*{flex:1;min-width:120px}
+#hide{min-height:40px;font-size:13px;padding:8px 12px;margin:0}
+.action-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.action-row button{min-height:50px;font-size:15px;width:100%}.action-row.primary button{font-size:16px}
+.footer-action{margin-top:16px}.footer-action button{max-width:280px;margin:0 auto;display:block}
+.sep{height:1px;background:linear-gradient(90deg,transparent,#edd3aa,transparent);margin:12px 0}
+#progress{font-size:11px;margin:8px 0 2px;text-align:center}
+#roundStats,#status{text-align:center;font-size:12px;margin:9px 0;color:#6d5a78}
+#resetHistory{background:linear-gradient(180deg,#6f3b8f,#572b72);box-shadow:0 5px 0 #3c1b50,0 10px 16px rgba(60,27,80,.15)}
 .movie.shuffling{animation:reel .65s ease-in-out}
 @keyframes reel{0%{opacity:.2;transform:scale(.93) rotate(-1deg)}60%{opacity:1;transform:scale(1.05) rotate(1deg)}100%{transform:scale(1) rotate(0deg)}}
 @media(prefers-reduced-motion:reduce){.movie.shuffling{animation:none}}
-#resetHistory{background:linear-gradient(180deg,#82639c,#694d84);color:white;box-shadow:0 5px 0 #503a64}
-#status{font-weight:700}
-.sep{height:1px;background:linear-gradient(90deg,transparent,#eddcf2,transparent);margin:12px 0}
-
-.setup-grid{display:grid;grid-template-columns:1fr;gap:4px}
-.team-inputs{display:grid;grid-template-columns:1fr;gap:8px}
-.setup-actions{display:flex;flex-direction:column;gap:12px;margin-top:8px}
-.primary-cta{font-size:22px;min-height:62px;border-radius:22px;letter-spacing:-.01em}
-.subtle-note{margin-top:4px;text-align:center}
-.action-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
-.action-row button{width:100%;min-height:62px;font-size:18px}
-.action-row.primary button{font-size:20px}
-.footer-action{margin-top:18px}
-.footer-action button{max-width:280px;margin:0 auto;display:block}
-#hide{min-height:50px;font-size:16px;padding:14px 18px}
-#status,#roundStats{text-align:center}
-#turn{text-align:center;font-weight:800;font-size:15px;letter-spacing:.04em;text-transform:uppercase}
-#historyStatus{text-align:center}
-@media (min-width:640px){
-  .setup-grid{grid-template-columns:1fr 1fr}
-  .setup-grid .field.full{grid-column:1 / -1}
-}
 @media (max-width:520px){
-  main{padding:16px 14px 46px}
-  .hero{padding:18px 16px 16px}
-  .panel{padding:16px}
-  .movie-wrap{padding:24px 14px 18px}
+  main{padding:16px 14px 40px}
+  .hero{padding:18px 16px 16px;border-radius:24px}
   h1{font-size:clamp(34px,9vw,48px)}
   .hero p{font-size:16px}
+  .panel{padding:16px;border-radius:24px}
+  .setup-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .field span{font-size:12px}
+  .field select,.field input{padding:14px 14px;border-radius:16px}
 }
-
-/* v7 compact, iPhone-first movie-night interface */
-*{min-width:0}
-body{background:linear-gradient(155deg,#f8eaf7 0%,#f9e5ee 52%,#efe5fc 100%);font-size:15px}
-body::before{opacity:.28}
-main{width:100%;max-width:520px;padding:12px 14px calc(22px + env(safe-area-inset-bottom));}
-.hero{border-radius:20px;padding:14px 16px;margin:0 0 12px;box-shadow:0 5px 18px #773d8420;background:#fffafa}
-.eyebrow{padding:5px 9px;font-size:9px;letter-spacing:.12em}
-h1{font-size:clamp(29px,7.3vw,42px);margin:8px 0 4px;line-height:1.05}
-.hero p{font-size:12px;line-height:1.3}
-.mini-pill{font-size:10px;padding:5px 9px;background:#f2e7fb;border-color:#ead5f5;color:#70368b;box-shadow:none}
-.panel{padding:14px;border-radius:22px;margin-top:10px;box-shadow:0 7px 20px #682a7b17}
-.setup-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.setup-grid .field{margin:0;gap:5px;font-size:12px}
-.setup-grid .field select,.setup-grid .field input{padding:11px 12px;font-size:14px;min-height:46px;border:1px solid #e5cdea;border-radius:12px;box-shadow:none}
-.field select{appearance:auto}
-.setup-actions{margin-top:12px;gap:0}
-button{border-radius:13px;min-height:46px;padding:11px 14px;font-size:15px;box-shadow:0 3px 0 #922449,0 5px 12px #b02e5522}
-.primary-cta{min-height:52px;font-size:17px;border-radius:15px}
-#advanced{grid-column:1/-1}#advanced,.settings-more{margin-top:12px;border:1px solid #e8d7ef;border-radius:13px;background:#fffaff;overflow:hidden}
-#advanced summary,.settings-more summary{list-style:none;cursor:pointer;font-size:13px;font-weight:750;color:#69407e;padding:12px 13px;display:flex;align-items:center;justify-content:space-between}
-#advanced summary::-webkit-details-marker,.settings-more summary::-webkit-details-marker{display:none}
-#advanced summary::after,.settings-more summary::after{content:'⌄';font-size:16px}
-.advanced-content{padding:0 12px 12px;display:grid;gap:8px}
-.advanced-content .field{margin:0;gap:5px;font-size:12px}
-.team-inputs{grid-template-columns:1fr 1fr}
-.settings-more{margin-top:10px;background:transparent;border:0}
-.settings-more summary{font-weight:600;justify-content:center;padding:6px}
-.settings-more button{display:block;width:100%;margin-top:8px;font-size:13px;min-height:40px}
-.settings-more p{text-align:center;font-size:11px}
-.movie-wrap{padding:22px 12px 12px;margin-top:6px;border-radius:20px;border:2px solid #edc98d;background:#fffdfb}
-.movie-wrap::before{height:4px;top:9px}
-.movie{font-size:clamp(24px,6.7vw,38px);margin:11px 0;line-height:1.12}
-.credits{font-size:14px;margin:10px auto 12px}
-.creditlabel{font-size:10px}
-.timer{font-size:42px;margin:4px 0}
-.score{gap:8px;font-size:13px}
-.score>div{padding:7px;border-radius:14px}
-.score strong{font-size:25px}
-.action-row{gap:8px;margin-top:10px}
-.action-row button{min-height:50px;font-size:15px}
-.action-row.primary button{font-size:16px}
-#hide{min-height:40px;font-size:13px;margin:0;padding:8px 12px}
-#progress{font-size:11px;margin:8px 0 2px}
-#roundStats,#status{font-size:12px;margin:9px 0}
-.footer-action button{font-size:13px;min-height:40px}
-.advanced-ui{display:none!important}
-body.advanced-mode .advanced-ui{display:flex!important}
-body.advanced-mode .timer{display:block!important}
-body.advanced-mode #turn{display:block!important}
-body.advanced-mode .action-row{display:grid!important}
-@media(max-width:370px){.setup-grid{grid-template-columns:1fr}.hero-sub{gap:5px}.mini-pill{font-size:9px}}
-</style></head><body><main><section class="hero"><div class="eyebrow">LIGHTS • CAMERA • ACTION</div><h1>Dumb Charades</h1><div class="hero-sub"><p>Film glitz, glamour and a playful game-night vibe.</p><span class="mini-pill">292 movies · v7</span></div></section><section id="setup" class="panel"><div class="setup-grid"><div class="field"><span>Movie language</span><select id="language"><option value="all">Hindi + English</option><option value="hi">Hindi films</option><option value="en">English films</option></select></div><div class="field"><span>Release period</span><select id="period"><option value="all">All years</option><option value="1960">1960–1979</option><option value="1980">1980–1999</option><option value="2000">2000–today</option></select></div><details id="advanced"><summary>Optional: timer &amp; team scoring</summary><div class="advanced-content"><div class="field"><span>Round duration</span><select id="duration"><option value="60">60 seconds</option><option value="90" selected>90 seconds</option><option value="120">120 seconds</option><option value="180">3 minutes</option></select></div><div class="field full"><span>Players / teams (optional)</span><div class="team-inputs"><input id="teamA" value="Team A" maxlength="25"><input id="teamB" value="Team B" maxlength="25"></div></div></div></details></div><div class="setup-actions"><button id="start" class="primary-cta">✨ Start playing</button></div><details class="settings-more"><summary>History &amp; settings</summary><button class="secondary" type="button" id="resetHistory">Reset seen-movie history</button><p class="tiny" id="historyStatus"></p><p class="tiny subtle-note">Offline ready. Movies never repeat unless you reset history.</p></details></section><section id="game" class="hidden"><div class="panel"><div class="score advanced-ui"><div><span id="aName">Team A</span><strong id="aScore">0</strong></div><div><span id="bName">Team B</span><strong id="bScore">0</strong></div></div><p class="meta advanced-ui" id="turn">Team A's turn</p><div class="timer advanced-ui" id="clock">1:30</div><div class="movie-wrap"><div class="pill" id="filmType">HINDI FILM</div><div class="movie" id="movie">Ready?</div><p class="meta" id="year"></p><div class="credits" id="credits"><div class="creditlabel">MAIN CAST</div><div id="cast"></div><div class="creditlabel" style="margin-top:12px">DIRECTOR</div><div id="director"></div></div><div class="controls"><button class="secondary" id="hide">Hide movie &amp; details</button></div><p class="tiny" id="progress"></p></div><div class="action-row primary"><button class="good" id="correct">✓ Guessed it!</button><button class="secondary" id="skip">↻ Skip</button></div><div class="action-row advanced-ui"><button class="secondary" id="pause">Pause</button><button class="danger" id="end">End turn</button></div><div class="sep"></div><p class="tiny" id="roundStats">Guessed: 0 · Skipped: 0 · Rounds: 0</p><p class="tiny" id="status">Act without speaking. Your team guesses.</p></div><div class="footer-action"><button class="secondary" id="newGame">New game</button></div></section></main><script>
+</style></head><body><main><section class="hero"><div class="eyebrow">LIGHTS • CAMERA • ACTION</div><h1>Dumb Charades</h1><div class="hero-sub"><p>Movie-night energy, marquee glamour and competitive fun.</p><span class="mini-pill">292 movies · v7</span></div></section><section id="setup" class="panel"><div class="setup-grid"><div class="field"><span>Movie language</span><select id="language"><option value="all">Hindi + English</option><option value="hi">Hindi films</option><option value="en">English films</option></select></div><div class="field"><span>Release period</span><select id="period"><option value="all">All years</option><option value="1960">1960–1979</option><option value="1980">1980–1999</option><option value="2000">2000–today</option></select></div><details id="advanced"><summary>Optional: timer & team scoring</summary><div class="advanced-content"><div class="field"><span>Round duration</span><select id="duration"><option value="60">60 seconds</option><option value="90" selected>90 seconds</option><option value="120">120 seconds</option><option value="180">3 minutes</option></select></div><div class="field full"><span>Players / teams (optional)</span><div class="team-inputs"><input id="teamA" value="Team A" maxlength="25"><input id="teamB" value="Team B" maxlength="25"></div></div></div></details></div><div class="setup-actions"><button id="start" class="primary-cta">✨ Start playing</button></div><details class="settings-more"><summary>History &amp; settings</summary><button class="secondary" type="button" id="resetHistory">Reset seen-movie history</button><p class="tiny" id="historyStatus"></p><p class="tiny subtle-note">Offline ready. Movies never repeat unless you reset history.</p></details></section><section id="game" class="hidden"><div class="panel"><div class="score advanced-ui"><div><span id="aName">Team A</span><strong id="aScore">0</strong></div><div><span id="bName">Team B</span><strong id="bScore">0</strong></div></div><p class="meta advanced-ui" id="turn">Team A's turn</p><div class="timer advanced-ui" id="clock">1:30</div><div class="movie-wrap"><div class="pill" id="filmType">HINDI FILM</div><div class="movie" id="movie">Ready?</div><p class="meta" id="year"></p><div class="credits" id="credits"><div class="creditlabel">MAIN CAST</div><div id="cast"></div><div class="creditlabel" style="margin-top:12px">DIRECTOR</div><div id="director"></div></div><div class="controls"><button class="secondary" id="hide">Hide movie &amp; details</button></div><p class="tiny" id="progress"></p></div><div class="action-row primary"><button class="good" id="correct">✓ Guessed it!</button><button class="secondary" id="skip">↻ Skip</button></div><div class="action-row advanced-ui"><button class="secondary" id="pause">Pause</button><button class="danger" id="end">End turn</button></div><div class="sep"></div><p class="tiny" id="roundStats">Guessed: 0 · Skipped: 0 · Rounds: 0</p><p class="tiny" id="status">Act without speaking. Your team guesses.</p></div><div class="footer-action"><button class="secondary" id="newGame">New game</button></div></section></main><script>
 const films = [["Sholay", 1975, "hi", "Amitabh Bachchan, Dharmendra", "Ramesh Sippy"], ["Dilwale Dulhania Le Jayenge", 1995, "hi", "Shah Rukh Khan, Kajol", "Aditya Chopra"], ["Kabhi Khushi Kabhie Gham", 2001, "hi", "Shah Rukh Khan, Kajol", "Karan Johar"], ["3 Idiots", 2009, "hi", "Aamir Khan, R. Madhavan", "Rajkumar Hirani"], ["Lagaan", 2001, "hi", "Aamir Khan, Gracy Singh", "Ashutosh Gowariker"], ["Andaz Apna Apna", 1994, "hi", "Aamir Khan, Salman Khan", "Rajkumar Santoshi"], ["Hera Pheri", 2000, "hi", "Akshay Kumar, Suniel Shetty", "Priyadarshan"], ["Phir Hera Pheri", 2006, "hi", "Akshay Kumar, Suniel Shetty", "Neeraj Vora"], ["Munna Bhai M.B.B.S.", 2003, "hi", "Sanjay Dutt, Arshad Warsi", "Rajkumar Hirani"], ["Lage Raho Munna Bhai", 2006, "hi", "Sanjay Dutt, Arshad Warsi", "Rajkumar Hirani"], ["Jab We Met", 2007, "hi", "Shahid Kapoor, Kareena Kapoor", "Imtiaz Ali"], ["Zindagi Na Milegi Dobara", 2011, "hi", "Hrithik Roshan, Farhan Akhtar", "Zoya Akhtar"], ["Yeh Jawaani Hai Deewani", 2013, "hi", "Ranbir Kapoor, Deepika Padukone", "Ayan Mukerji"], ["Queen", 2014, "hi", "Kangana Ranaut, Rajkummar Rao", "Vikas Bahl"], ["Dangal", 2016, "hi", "Aamir Khan, Fatima Sana Shaikh", "Nitesh Tiwari"], ["PK", 2014, "hi", "Aamir Khan, Anushka Sharma", "Rajkumar Hirani"], ["Barfi!", 2012, "hi", "Ranbir Kapoor, Priyanka Chopra", "Anurag Basu"], ["Taare Zameen Par", 2007, "hi", "Darsheel Safary, Aamir Khan", "Aamir Khan"], ["Chak De! India", 2007, "hi", "Shah Rukh Khan, Vidya Malvade", "Shimit Amin"], ["Om Shanti Om", 2007, "hi", "Shah Rukh Khan, Deepika Padukone", "Farah Khan"], ["Bhool Bhulaiyaa", 2007, "hi", "Akshay Kumar, Vidya Balan", "Priyadarshan"], ["Welcome", 2007, "hi", "Akshay Kumar, Katrina Kaif", "Anees Bazmee"], ["Golmaal: Fun Unlimited", 2006, "hi", "Ajay Devgn, Arshad Warsi", "Rohit Shetty"], ["Dhamaal", 2007, "hi", "Sanjay Dutt, Riteish Deshmukh", "Indra Kumar"], ["Chup Chup Ke", 2006, "hi", "Shahid Kapoor, Kareena Kapoor", "Priyadarshan"], ["Khosla Ka Ghosla!", 2006, "hi", "Anupam Kher, Boman Irani", "Dibakar Banerjee"], ["Bheja Fry", 2007, "hi", "Vinay Pathak, Rajat Kapoor", "Sagar Ballary"], ["Kahaani", 2012, "hi", "Vidya Balan, Parambrata Chatterjee", "Sujoy Ghosh"], ["Drishyam", 2015, "hi", "Ajay Devgn, Shriya Saran", "Nishikant Kamat"], ["Badhaai Ho", 2018, "hi", "Ayushmann Khurrana, Neena Gupta", "Amit Ravindernath Sharma"], ["Stree", 2018, "hi", "Rajkummar Rao, Shraddha Kapoor", "Amar Kaushik"], ["Dream Girl", 2019, "hi", "Ayushmann Khurrana, Nushrratt Bharuccha", "Raaj Shaandilyaa"], ["Bala", 2019, "hi", "Ayushmann Khurrana, Bhumi Pednekar", "Amar Kaushik"], ["Bareilly Ki Barfi", 2017, "hi", "Kriti Sanon, Ayushmann Khurrana", "Ashwiny Iyer Tiwari"], ["Hindi Medium", 2017, "hi", "Irrfan Khan, Saba Qamar", "Saket Chaudhary"], ["English Vinglish", 2012, "hi", "Sridevi, Adil Hussain", "Gauri Shinde"], ["Piku", 2015, "hi", "Amitabh Bachchan, Deepika Padukone", "Shoojit Sircar"], ["Kapoor & Sons", 2016, "hi", "Sidharth Malhotra, Alia Bhatt", "Shakun Batra"], ["Rockstar", 2011, "hi", "Ranbir Kapoor, Nargis Fakhri", "Imtiaz Ali"], ["Tamasha", 2015, "hi", "Ranbir Kapoor, Deepika Padukone", "Imtiaz Ali"], ["Bajrangi Bhaijaan", 2015, "hi", "Salman Khan, Harshaali Malhotra", "Kabir Khan"], ["Sultan", 2016, "hi", "Salman Khan, Anushka Sharma", "Ali Abbas Zafar"], ["War", 2019, "hi", "Hrithik Roshan, Tiger Shroff", "Siddharth Anand"], ["Pathaan", 2023, "hi", "Shah Rukh Khan, Deepika Padukone", "Siddharth Anand"], ["Jawan", 2023, "hi", "Shah Rukh Khan, Nayanthara", "Atlee"], ["Animal", 2023, "hi", "Ranbir Kapoor, Rashmika Mandanna", "Sandeep Reddy Vanga"], ["12th Fail", 2023, "hi", "Vikrant Massey, Medha Shankr", "Vidhu Vinod Chopra"], ["Laapataa Ladies", 2024, "hi", "Nitanshi Goel, Pratibha Ranta", "Kiran Rao"], ["Crew", 2024, "hi", "Tabu, Kareena Kapoor Khan", "Rajesh A Krishnan"], ["Madgaon Express", 2024, "hi", "Divyenndu, Pratik Gandhi", "Kunal Kemmu"], ["Mimi", 2021, "hi", "Kriti Sanon, Pankaj Tripathi", "Laxman Utekar"], ["Ludo", 2020, "hi", "Abhishek Bachchan, Rajkummar Rao", "Anurag Basu"], ["Chhichhore", 2019, "hi", "Sushant Singh Rajput, Shraddha Kapoor", "Nitesh Tiwari"], ["Housefull", 2010, "hi", "Akshay Kumar, Riteish Deshmukh", "Sajid Khan"], ["Housefull 2", 2012, "hi", "Akshay Kumar, John Abraham", "Sajid Khan"], ["Housefull 3", 2016, "hi", "Akshay Kumar, Abhishek Bachchan", "Sajid-Farhad"], ["Singh Is Kinng", 2008, "hi", "Akshay Kumar, Katrina Kaif", "Anees Bazmee"], ["Ajab Prem Ki Ghazab Kahani", 2009, "hi", "Ranbir Kapoor, Katrina Kaif", "Rajkumar Santoshi"], ["Ek Tha Tiger", 2012, "hi", "Salman Khan, Katrina Kaif", "Kabir Khan"], ["Tiger Zinda Hai", 2017, "hi", "Salman Khan, Katrina Kaif", "Ali Abbas Zafar"], ["Kal Ho Naa Ho", 2003, "hi", "Shah Rukh Khan, Preity Zinta", "Nikkhil Advani"], ["Kuch Kuch Hota Hai", 1998, "hi", "Shah Rukh Khan, Kajol", "Karan Johar"], ["Mohabbatein", 2000, "hi", "Amitabh Bachchan, Shah Rukh Khan", "Aditya Chopra"], ["Devdas", 2002, "hi", "Shah Rukh Khan, Aishwarya Rai", "Sanjay Leela Bhansali"], ["Veer-Zaara", 2004, "hi", "Shah Rukh Khan, Preity Zinta", "Yash Chopra"], ["Rab Ne Bana Di Jodi", 2008, "hi", "Shah Rukh Khan, Anushka Sharma", "Aditya Chopra"], ["My Name Is Khan", 2010, "hi", "Shah Rukh Khan, Kajol", "Karan Johar"], ["Dil Chahta Hai", 2001, "hi", "Aamir Khan, Saif Ali Khan", "Farhan Akhtar"], ["Rang De Basanti", 2006, "hi", "Aamir Khan, Siddharth", "Rakeysh Omprakash Mehra"], ["Swades", 2004, "hi", "Shah Rukh Khan, Gayatri Joshi", "Ashutosh Gowariker"], ["Don", 2006, "hi", "Shah Rukh Khan, Priyanka Chopra", "Farhan Akhtar"], ["Dhoom", 2004, "hi", "Abhishek Bachchan, John Abraham", "Sanjay Gadhvi"], ["Dhoom 2", 2006, "hi", "Hrithik Roshan, Aishwarya Rai", "Sanjay Gadhvi"], ["Dhoom 3", 2013, "hi", "Aamir Khan, Abhishek Bachchan", "Vijay Krishna Acharya"], ["Krrish", 2006, "hi", "Hrithik Roshan, Priyanka Chopra", "Rakesh Roshan"], ["Koi... Mil Gaya", 2003, "hi", "Hrithik Roshan, Preity Zinta", "Rakesh Roshan"], ["Jodhaa Akbar", 2008, "hi", "Hrithik Roshan, Aishwarya Rai", "Ashutosh Gowariker"], ["Padmaavat", 2018, "hi", "Deepika Padukone, Ranveer Singh", "Sanjay Leela Bhansali"], ["Bajirao Mastani", 2015, "hi", "Ranveer Singh, Deepika Padukone", "Sanjay Leela Bhansali"], ["Gully Boy", 2019, "hi", "Ranveer Singh, Alia Bhatt", "Zoya Akhtar"], ["Rocky Aur Rani Kii Prem Kahaani", 2023, "hi", "Ranveer Singh, Alia Bhatt", "Karan Johar"], ["Satyaprem Ki Katha", 2023, "hi", "Kartik Aaryan, Kiara Advani", "Sameer Vidwans"], ["Tu Jhoothi Main Makkaar", 2023, "hi", "Ranbir Kapoor, Shraddha Kapoor", "Luv Ranjan"], ["Bhool Bhulaiyaa 2", 2022, "hi", "Kartik Aaryan, Kiara Advani", "Anees Bazmee"], ["Drishyam 2", 2022, "hi", "Ajay Devgn, Tabu", "Abhishek Pathak"], ["Bhediya", 2022, "hi", "Varun Dhawan, Kriti Sanon", "Amar Kaushik"], ["Brahmāstra: Part One – Shiva", 2022, "hi", "Ranbir Kapoor, Alia Bhatt", "Ayan Mukerji"], ["Gangubai Kathiawadi", 2022, "hi", "Alia Bhatt, Ajay Devgn", "Sanjay Leela Bhansali"], ["The Kashmir Files", 2022, "hi", "Anupam Kher, Mithun Chakraborty", "Vivek Agnihotri"], ["Article 15", 2019, "hi", "Ayushmann Khurrana, Isha Talwar", "Anubhav Sinha"], ["Andhadhun", 2018, "hi", "Ayushmann Khurrana, Tabu", "Sriram Raghavan"], ["Tumbbad", 2018, "hi", "Sohum Shah, Jyoti Malshe", "Rahi Anil Barve"], ["Titanic", 1997, "en", "Leonardo DiCaprio, Kate Winslet", "James Cameron"], ["The Lion King", 1994, "en", "Matthew Broderick, James Earl Jones", "Roger Allers, Rob Minkoff"], ["Jurassic Park", 1993, "en", "Sam Neill, Laura Dern", "Steven Spielberg"], ["Home Alone", 1990, "en", "Macaulay Culkin, Joe Pesci", "Chris Columbus"], ["The Dark Knight", 2008, "en", "Christian Bale, Heath Ledger", "Christopher Nolan"], ["Batman Begins", 2005, "en", "Christian Bale, Michael Caine", "Christopher Nolan"], ["Inception", 2010, "en", "Leonardo DiCaprio, Joseph Gordon-Levitt", "Christopher Nolan"], ["Interstellar", 2014, "en", "Matthew McConaughey, Anne Hathaway", "Christopher Nolan"], ["The Matrix", 1999, "en", "Keanu Reeves, Laurence Fishburne", "Lana Wachowski, Lilly Wachowski"], ["The Avengers", 2012, "en", "Robert Downey Jr., Chris Evans", "Joss Whedon"], ["Avengers: Endgame", 2019, "en", "Robert Downey Jr., Chris Evans", "Anthony Russo, Joe Russo"], ["Iron Man", 2008, "en", "Robert Downey Jr., Gwyneth Paltrow", "Jon Favreau"], ["Spider-Man", 2002, "en", "Tobey Maguire, Kirsten Dunst", "Sam Raimi"], ["Spider-Man: No Way Home", 2021, "en", "Tom Holland, Zendaya", "Jon Watts"], ["Black Panther", 2018, "en", "Chadwick Boseman, Michael B. Jordan", "Ryan Coogler"], ["Guardians of the Galaxy", 2014, "en", "Chris Pratt, Zoe Saldaña", "James Gunn"], ["Doctor Strange", 2016, "en", "Benedict Cumberbatch, Chiwetel Ejiofor", "Scott Derrickson"], ["Thor: Ragnarok", 2017, "en", "Chris Hemsworth, Tom Hiddleston", "Taika Waititi"], ["Captain America: Civil War", 2016, "en", "Chris Evans, Robert Downey Jr.", "Anthony Russo, Joe Russo"], ["The Incredible Hulk", 2008, "en", "Edward Norton, Liv Tyler", "Louis Leterrier"], ["Frozen", 2013, "en", "Kristen Bell, Idina Menzel", "Chris Buck, Jennifer Lee"], ["Moana", 2016, "en", "Auliʻi Cravalho, Dwayne Johnson", "Ron Clements, John Musker"], ["Toy Story", 1995, "en", "Tom Hanks, Tim Allen", "John Lasseter"], ["Finding Nemo", 2003, "en", "Albert Brooks, Ellen DeGeneres", "Andrew Stanton"], ["Inside Out", 2015, "en", "Amy Poehler, Phyllis Smith", "Pete Docter"], ["Up", 2009, "en", "Ed Asner, Jordan Nagai", "Pete Docter, Bob Peterson"], ["Coco", 2017, "en", "Anthony Gonzalez, Gael García Bernal", "Lee Unkrich, Adrian Molina"], ["Ratatouille", 2007, "en", "Patton Oswalt, Ian Holm", "Brad Bird"], ["Shrek", 2001, "en", "Mike Myers, Eddie Murphy", "Andrew Adamson, Vicky Jenson"], ["Kung Fu Panda", 2008, "en", "Jack Black, Dustin Hoffman", "Mark Osborne, John Stevenson"], ["Despicable Me", 2010, "en", "Steve Carell, Jason Segel", "Pierre Coffin, Chris Renaud"], ["Minions", 2015, "en", "Sandra Bullock, Jon Hamm", "Pierre Coffin, Kyle Balda"], ["The Super Mario Bros. Movie", 2023, "en", "Chris Pratt, Anya Taylor-Joy", "Aaron Horvath, Michael Jelenic"], ["Barbie", 2023, "en", "Margot Robbie, Ryan Gosling", "Greta Gerwig"], ["Oppenheimer", 2023, "en", "Cillian Murphy, Emily Blunt", "Christopher Nolan"], ["La La Land", 2016, "en", "Ryan Gosling, Emma Stone", "Damien Chazelle"], ["The Greatest Showman", 2017, "en", "Hugh Jackman, Zac Efron", "Michael Gracey"], ["The Notebook", 2004, "en", "Ryan Gosling, Rachel McAdams", "Nick Cassavetes"], ["Mean Girls", 2004, "en", "Lindsay Lohan, Rachel McAdams", "Mark Waters"], ["Legally Blonde", 2001, "en", "Reese Witherspoon, Luke Wilson", "Robert Luketic"], ["The Devil Wears Prada", 2006, "en", "Meryl Streep, Anne Hathaway", "David Frankel"], ["The Hangover", 2009, "en", "Bradley Cooper, Zach Galifianakis", "Todd Phillips"], ["Superbad", 2007, "en", "Jonah Hill, Michael Cera", "Greg Mottola"], ["Bridesmaids", 2011, "en", "Kristen Wiig, Maya Rudolph", "Paul Feig"], ["21 Jump Street", 2012, "en", "Jonah Hill, Channing Tatum", "Phil Lord, Christopher Miller"], ["The Mask", 1994, "en", "Jim Carrey, Cameron Diaz", "Chuck Russell"], ["Ace Ventura: Pet Detective", 1994, "en", "Jim Carrey, Courteney Cox", "Tom Shadyac"], ["Dumb and Dumber", 1994, "en", "Jim Carrey, Jeff Daniels", "Peter Farrelly"], ["Mrs. Doubtfire", 1993, "en", "Robin Williams, Sally Field", "Chris Columbus"], ["Jumanji", 1995, "en", "Robin Williams, Kirsten Dunst", "Joe Johnston"], ["Night at the Museum", 2006, "en", "Ben Stiller, Robin Williams", "Shawn Levy"], ["Pirates of the Caribbean: The Curse of the Black Pearl", 2003, "en", "Johnny Depp, Orlando Bloom", "Gore Verbinski"], ["Harry Potter and the Philosopher’s Stone", 2001, "en", "Daniel Radcliffe, Rupert Grint", "Chris Columbus"], ["Harry Potter and the Chamber of Secrets", 2002, "en", "Daniel Radcliffe, Emma Watson", "Chris Columbus"], ["The Lord of the Rings: The Fellowship of the Ring", 2001, "en", "Elijah Wood, Ian McKellen", "Peter Jackson"], ["The Hobbit: An Unexpected Journey", 2012, "en", "Martin Freeman, Ian McKellen", "Peter Jackson"], ["Star Wars", 1977, "en", "Mark Hamill, Harrison Ford", "George Lucas"], ["Back to the Future", 1985, "en", "Michael J. Fox, Christopher Lloyd", "Robert Zemeckis"], ["E.T. the Extra-Terrestrial", 1982, "en", "Henry Thomas, Drew Barrymore", "Steven Spielberg"], ["Ghostbusters", 1984, "en", "Bill Murray, Dan Aykroyd", "Ivan Reitman"], ["Rocky", 1976, "en", "Sylvester Stallone, Talia Shire", "John G. Avildsen"], ["The Karate Kid", 1984, "en", "Ralph Macchio, Pat Morita", "John G. Avildsen"], ["Top Gun", 1986, "en", "Tom Cruise, Kelly McGillis", "Tony Scott"], ["Top Gun: Maverick", 2022, "en", "Tom Cruise, Miles Teller", "Joseph Kosinski"], ["Mission: Impossible", 1996, "en", "Tom Cruise, Jon Voight", "Brian De Palma"], ["The Fast and the Furious", 2001, "en", "Vin Diesel, Paul Walker", "Rob Cohen"], ["Fast Five", 2011, "en", "Vin Diesel, Paul Walker", "Justin Lin"], ["John Wick", 2014, "en", "Keanu Reeves, Michael Nyqvist", "Chad Stahelski"], ["The Hunger Games", 2012, "en", "Jennifer Lawrence, Josh Hutcherson", "Gary Ross"], ["The Maze Runner", 2014, "en", "Dylan O'Brien, Kaya Scodelario", "Wes Ball"], ["The Fault in Our Stars", 2014, "en", "Shailene Woodley, Ansel Elgort", "Josh Boone"], ["Twilight", 2008, "en", "Kristen Stewart, Robert Pattinson", "Catherine Hardwicke"], ["The Princess Diaries", 2001, "en", "Anne Hathaway, Julie Andrews", "Garry Marshall"], ["The Parent Trap", 1998, "en", "Lindsay Lohan, Dennis Quaid", "Nancy Meyers"], ["Mamma Mia!", 2008, "en", "Meryl Streep, Amanda Seyfried", "Phyllida Lloyd"], ["The Sound of Music", 1965, "en", "Julie Andrews, Christopher Plummer", "Robert Wise"], ["The Godfather", 1972, "en", "Marlon Brando, Al Pacino", "Francis Ford Coppola"], ["Forrest Gump", 1994, "en", "Tom Hanks, Robin Wright", "Robert Zemeckis"], ["Cast Away", 2000, "en", "Tom Hanks, Helen Hunt", "Robert Zemeckis"], ["The Shawshank Redemption", 1994, "en", "Tim Robbins, Morgan Freeman", "Frank Darabont"], ["Catch Me If You Can", 2002, "en", "Leonardo DiCaprio, Tom Hanks", "Steven Spielberg"], ["The Truman Show", 1998, "en", "Jim Carrey, Laura Linney", "Peter Weir"], ["The Pursuit of Happyness", 2006, "en", "Will Smith, Jaden Smith", "Gabriele Muccino"], ["The Social Network", 2010, "en", "Jesse Eisenberg, Andrew Garfield", "David Fincher"], ["The Wolf of Wall Street", 2013, "en", "Leonardo DiCaprio, Jonah Hill", "Martin Scorsese"], ["Knives Out", 2019, "en", "Daniel Craig, Ana de Armas", "Rian Johnson"], ["Glass Onion: A Knives Out Mystery", 2022, "en", "Daniel Craig, Janelle Monáe", "Rian Johnson"], ["A Quiet Place", 2018, "en", "Emily Blunt, John Krasinski", "John Krasinski"], ["Get Out", 2017, "en", "Daniel Kaluuya, Allison Williams", "Jordan Peele"], ["Scream", 1996, "en", "Neve Campbell, Courteney Cox", "Wes Craven"], ["It", 2017, "en", "Bill Skarsgård, Jaeden Martell", "Andy Muschietti"], ["The Conjuring", 2013, "en", "Vera Farmiga, Patrick Wilson", "James Wan"], ["The Sixth Sense", 1999, "en", "Bruce Willis, Haley Joel Osment", "M. Night Shyamalan"], ["The Terminator", 1984, "en", "Arnold Schwarzenegger, Linda Hamilton", "James Cameron"], ["Avatar", 2009, "en", "Sam Worthington, Zoe Saldaña", "James Cameron"], ["Avatar: The Way of Water", 2022, "en", "Sam Worthington, Zoe Saldaña", "James Cameron"], ["Anand", 1971, "hi", "Rajesh Khanna, Amitabh Bachchan", "Hrishikesh Mukherjee"], ["Aradhana", 1969, "hi", "Rajesh Khanna, Sharmila Tagore", "Shakti Samanta"], ["Kati Patang", 1971, "hi", "Rajesh Khanna, Asha Parekh", "Shakti Samanta"], ["Amar Prem", 1972, "hi", "Rajesh Khanna, Sharmila Tagore", "Shakti Samanta"], ["Haathi Mere Saathi", 1971, "hi", "Rajesh Khanna, Tanuja", "M. A. Thirumugam"], ["Namak Haraam", 1973, "hi", "Rajesh Khanna, Amitabh Bachchan", "Hrishikesh Mukherjee"], ["Bawarchi", 1972, "hi", "Rajesh Khanna, Jaya Bhaduri", "Hrishikesh Mukherjee"], ["Aap Ki Kasam", 1974, "hi", "Rajesh Khanna, Mumtaz", "J. Om Prakash"], ["Safar", 1970, "hi", "Rajesh Khanna, Sharmila Tagore", "Asit Sen"], ["Do Raaste", 1969, "hi", "Rajesh Khanna, Mumtaz", "Raj Khosla"], ["Sachaa Jhutha", 1970, "hi", "Rajesh Khanna, Mumtaz", "Manmohan Desai"], ["Roti", 1974, "hi", "Rajesh Khanna, Mumtaz", "Manmohan Desai"], ["Teesri Manzil", 1966, "hi", "Shammi Kapoor, Asha Parekh", "Vijay Anand"], ["Brahmachari", 1968, "hi", "Shammi Kapoor, Rajshree", "Bhappi Sonie"], ["An Evening in Paris", 1967, "hi", "Shammi Kapoor, Sharmila Tagore", "Shakti Samanta"], ["Jewel Thief", 1967, "hi", "Dev Anand, Vyjayanthimala", "Vijay Anand"], ["Johny Mera Naam", 1970, "hi", "Dev Anand, Hema Malini", "Vijay Anand"], ["Hare Rama Hare Krishna", 1971, "hi", "Dev Anand, Zeenat Aman", "Dev Anand"], ["Des Pardes", 1978, "hi", "Dev Anand, Tina Munim", "Dev Anand"], ["Padosan", 1968, "hi", "Sunil Dutt, Saira Banu", "Jyoti Swaroop"], ["Sangam", 1964, "hi", "Raj Kapoor, Vyjayanthimala", "Raj Kapoor"], ["Mera Naam Joker", 1970, "hi", "Raj Kapoor, Simi Garewal", "Raj Kapoor"], ["Bobby", 1973, "hi", "Rishi Kapoor, Dimple Kapadia", "Raj Kapoor"], ["Satyam Shivam Sundaram", 1978, "hi", "Shashi Kapoor, Zeenat Aman", "Raj Kapoor"], ["Prem Rog", 1982, "hi", "Rishi Kapoor, Padmini Kolhapure", "Raj Kapoor"], ["Ram Teri Ganga Maili", 1985, "hi", "Rajiv Kapoor, Mandakini", "Raj Kapoor"], ["Deewaar", 1975, "hi", "Amitabh Bachchan, Shashi Kapoor", "Yash Chopra"], ["Kabhi Kabhie", 1976, "hi", "Amitabh Bachchan, Raakhee", "Yash Chopra"], ["Trishul", 1978, "hi", "Amitabh Bachchan, Shashi Kapoor", "Yash Chopra"], ["Kaala Patthar", 1979, "hi", "Amitabh Bachchan, Shashi Kapoor", "Yash Chopra"], ["Silsila", 1981, "hi", "Amitabh Bachchan, Rekha", "Yash Chopra"], ["Shakti", 1982, "hi", "Dilip Kumar, Amitabh Bachchan", "Ramesh Sippy"], ["Zanjeer", 1973, "hi", "Amitabh Bachchan, Jaya Bhaduri", "Prakash Mehra"], ["Muqaddar Ka Sikandar", 1978, "hi", "Amitabh Bachchan, Rekha", "Prakash Mehra"], ["Namak Halaal", 1982, "hi", "Amitabh Bachchan, Shashi Kapoor", "Prakash Mehra"], ["Sharaabi", 1984, "hi", "Amitabh Bachchan, Jaya Prada", "Prakash Mehra"], ["Coolie", 1983, "hi", "Amitabh Bachchan, Rishi Kapoor", "Manmohan Desai"], ["Amar Akbar Anthony", 1977, "hi", "Amitabh Bachchan, Rishi Kapoor", "Manmohan Desai"], ["Parvarish", 1977, "hi", "Amitabh Bachchan, Vinod Khanna", "Manmohan Desai"], ["Satte Pe Satta", 1982, "hi", "Amitabh Bachchan, Hema Malini", "Raj N. Sippy"], ["Chupke Chupke", 1975, "hi", "Dharmendra, Sharmila Tagore", "Hrishikesh Mukherjee"], ["Gol Maal", 1979, "hi", "Amol Palekar, Utpal Dutt", "Hrishikesh Mukherjee"], ["Chhoti Si Baat", 1976, "hi", "Amol Palekar, Vidya Sinha", "Basu Chatterjee"], ["Rajnigandha", 1974, "hi", "Amol Palekar, Vidya Sinha", "Basu Chatterjee"], ["Baton Baton Mein", 1979, "hi", "Amol Palekar, Tina Munim", "Basu Chatterjee"], ["Angoor", 1982, "hi", "Sanjeev Kumar, Deven Verma", "Gulzar"], ["Aandhi", 1975, "hi", "Sanjeev Kumar, Suchitra Sen", "Gulzar"], ["Mausam", 1975, "hi", "Sanjeev Kumar, Sharmila Tagore", "Gulzar"], ["Ijaazat", 1987, "hi", "Naseeruddin Shah, Rekha", "Gulzar"], ["Khilona", 1970, "hi", "Sanjeev Kumar, Mumtaz", "Chander Vohra"], ["Tezaab", 1988, "hi", "Anil Kapoor, Madhuri Dixit", "N. Chandra"], ["Ram Lakhan", 1989, "hi", "Anil Kapoor, Jackie Shroff", "Subhash Ghai"], ["Karz", 1980, "hi", "Rishi Kapoor, Tina Munim", "Subhash Ghai"], ["Hero", 1983, "hi", "Jackie Shroff, Meenakshi Seshadri", "Subhash Ghai"], ["Khalnayak", 1993, "hi", "Sanjay Dutt, Madhuri Dixit", "Subhash Ghai"], ["Pardes", 1997, "hi", "Shah Rukh Khan, Mahima Chaudhry", "Subhash Ghai"], ["Taal", 1999, "hi", "Anil Kapoor, Aishwarya Rai", "Subhash Ghai"], ["Qayamat Se Qayamat Tak", 1988, "hi", "Aamir Khan, Juhi Chawla", "Mansoor Khan"], ["Maine Pyar Kiya", 1989, "hi", "Salman Khan, Bhagyashree", "Sooraj Barjatya"], ["Hum Aapke Hain Koun..!", 1994, "hi", "Salman Khan, Madhuri Dixit", "Sooraj Barjatya"], ["Hum Saath-Saath Hain", 1999, "hi", "Salman Khan, Sonali Bendre", "Sooraj Barjatya"], ["Raja Hindustani", 1996, "hi", "Aamir Khan, Karisma Kapoor", "Dharmesh Darshan"], ["Ghulam", 1998, "hi", "Aamir Khan, Rani Mukerji", "Vikram Bhatt"], ["Sarfarosh", 1999, "hi", "Aamir Khan, Sonali Bendre", "John Mathew Matthan"], ["Rangeela", 1995, "hi", "Aamir Khan, Urmila Matondkar", "Ram Gopal Varma"], ["Satya", 1998, "hi", "Manoj Bajpayee, J. D. Chakravarthy", "Ram Gopal Varma"], ["Parinda", 1989, "hi", "Anil Kapoor, Jackie Shroff", "Vidhu Vinod Chopra"], ["1942: A Love Story", 1994, "hi", "Anil Kapoor, Manisha Koirala", "Vidhu Vinod Chopra"], ["Chandni", 1989, "hi", "Sridevi, Rishi Kapoor", "Yash Chopra"], ["Lamhe", 1991, "hi", "Sridevi, Anil Kapoor", "Yash Chopra"], ["Darr", 1993, "hi", "Shah Rukh Khan, Juhi Chawla", "Yash Chopra"], ["Dil To Pagal Hai", 1997, "hi", "Shah Rukh Khan, Madhuri Dixit", "Yash Chopra"], ["Sarkar", 2005, "hi", "Amitabh Bachchan, Abhishek Bachchan", "Ram Gopal Varma"], ["Black", 2005, "hi", "Amitabh Bachchan, Rani Mukerji", "Sanjay Leela Bhansali"], ["Wake Up Sid", 2009, "hi", "Ranbir Kapoor, Konkona Sen Sharma", "Ayan Mukerji"], ["Udaan", 2010, "hi", "Rajat Barmecha, Ronit Roy", "Vikramaditya Motwane"], ["Paa", 2009, "hi", "Amitabh Bachchan, Abhishek Bachchan", "R. Balki"], ["Delhi-6", 2009, "hi", "Abhishek Bachchan, Sonam Kapoor", "Rakeysh Omprakash Mehra"], ["Love Aaj Kal", 2009, "hi", "Saif Ali Khan, Deepika Padukone", "Imtiaz Ali"], ["Rocket Singh: Salesman of the Year", 2009, "hi", "Ranbir Kapoor, Shazahn Padamsee", "Shimit Amin"], ["Kaminey", 2009, "hi", "Shahid Kapoor, Priyanka Chopra", "Vishal Bhardwaj"], ["Firaaq", 2008, "hi", "Naseeruddin Shah, Paresh Rawal", "Nandita Das"], ["Luck by Chance", 2009, "hi", "Farhan Akhtar, Konkona Sen Sharma", "Zoya Akhtar"], ["Jab Tak Hai Jaan", 2012, "hi", "Shah Rukh Khan, Katrina Kaif", "Yash Chopra"], ["Ek Villain", 2014, "hi", "Sidharth Malhotra, Shraddha Kapoor", "Mohit Suri"], ["Haider", 2014, "hi", "Shahid Kapoor, Tabu", "Vishal Bhardwaj"], ["Paan Singh Tomar", 2012, "hi", "Irrfan Khan, Mahie Gill", "Tigmanshu Dhulia"], ["Bhaag Milkha Bhaag", 2013, "hi", "Farhan Akhtar, Sonam Kapoor", "Rakeysh Omprakash Mehra"], ["Aashiqui 2", 2013, "hi", "Aditya Roy Kapur, Shraddha Kapoor", "Mohit Suri"], ["Badlapur", 2015, "hi", "Varun Dhawan, Nawazuddin Siddiqui", "Sriram Raghavan"], ["Pink", 2016, "hi", "Amitabh Bachchan, Taapsee Pannu", "Aniruddha Roy Chowdhury"], ["Neerja", 2016, "hi", "Sonam Kapoor, Shabana Azmi", "Ram Madhvani"], ["Raazi", 2018, "hi", "Alia Bhatt, Vicky Kaushal", "Meghna Gulzar"], ["Simmba", 2018, "hi", "Ranveer Singh, Sara Ali Khan", "Rohit Shetty"], ["Uri: The Surgical Strike", 2019, "hi", "Vicky Kaushal, Yami Gautam", "Aditya Dhar"], ["Kesari", 2019, "hi", "Akshay Kumar, Parineeti Chopra", "Anurag Singh"], ["Super 30", 2019, "hi", "Hrithik Roshan, Mrunal Thakur", "Vikas Bahl"], ["Shershaah", 2021, "hi", "Sidharth Malhotra, Kiara Advani", "Vishnuvardhan"], ["Jersey", 2022, "hi", "Shahid Kapoor, Mrunal Thakur", "Gowtam Tinnanuri"], ["Sam Bahadur", 2023, "hi", "Vicky Kaushal, Sanya Malhotra", "Meghna Gulzar"], ["Merry Christmas", 2024, "hi", "Katrina Kaif, Vijay Sethupathi", "Sriram Raghavan"], ["Munjya", 2024, "hi", "Sharvari, Abhay Verma", "Aditya Sarpotdar"], ["Stree 2", 2024, "hi", "Rajkummar Rao, Shraddha Kapoor", "Amar Kaushik"], ["Bhool Bhulaiyaa 3", 2024, "hi", "Kartik Aaryan, Vidya Balan", "Anees Bazmee"]];
 const $ = id => document.getElementById(id);
 const storageKey='dumb-charades-party-seen-v1';
