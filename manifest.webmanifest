@@ -1,21 +1,21 @@
 {
-  "name": "Dumb Charades \u2014 Movie Generator",
-  "short_name": "Charades",
+  "name": "Dumb Charades",
+  "short_name": "Dumb Charades",
   "description": "Hindi and English movie charades without repeats",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#fff7ec",
-  "theme_color": "#fff2db",
+  "background_color": "#2b083d",
+  "theme_color": "#3a1435",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "./icon.png?v=19",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "apple-touch-icon.png",
+      "src": "./apple-touch-icon.png?v=19",
       "sizes": "180x180",
       "type": "image/png",
       "purpose": "any"
