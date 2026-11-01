@@ -1,1 +1,1 @@
-Dumb Charades v9 – 292 movies. Upload contents of ZIP to GitHub Pages root.
+Dumb Charades v11 — 292 movies. Upload extracted files to the root of GitHub Pages. The count is generated from films.length. Optional timer cues at 30s, 10s, and zero. Sound playback depends on iOS audio settings.
