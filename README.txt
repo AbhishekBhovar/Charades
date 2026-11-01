@@ -1,9 +1,5 @@
-DUMB CHARADES — PARTY EDITION (REPAIRED)
-
-Open index.html in a browser, no server or internet required.
-188 movies: 92 Hindi and 96 English. All records include title, year, at least two principal cast names and director.
-The playable catalogue is embedded from movies.csv, so it runs offline.
-Select language, release period, team names and timer. Guess/Skip, hide/reveal, round counters and team scoring are supported.
-Shown films are remembered in browser localStorage and will not repeat, even after reopening on the same browser, until you deliberately reset seen history.
-Note: browser storage may be removed when browser data is cleared. Different browser origins have separate histories.
-Corrected Queen to its 2014 theatrical-release year. All other metadata retained from supplied source.
+Dumb Charades — Expanded cinema palette
+292 total films: 196 Hindi, 96 English.
+Open index.html directly; movie data embedded for offline use. movies.csv is the editable catalogue.
+Filmfare winners archive https://www.filmfare.com/awards/filmfare-awards/winners used for identifying film candidates, supplemented by classic actors filmographies. Metadata curated rather than independently audited title-by-title.
+Preserves no-repeat localStorage key and timer/team gameplay.
