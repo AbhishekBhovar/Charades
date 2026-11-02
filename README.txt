@@ -1,20 +1,9 @@
-DUMB CHARADES — COMPLETE GITHUB PAGES RELEASE (v19)
+DUMB CHARADES — PARTY-READY COMPLETE RELEASE v23
 
-This folder is the full deployable website, not a patch.
+Upload the CONTENTS of this folder to the ROOT of GitHub repo AbhishekBhovar/Charades, main branch (not the folder itself). Replace matching files.
 
-DEPLOYMENT
-1. Unzip DC_v19_COMPLETE.zip.
-2. Upload all files INSIDE DC_v19_COMPLETE to the root of your GitHub Charades repository (main branch). Do not upload the outer folder as a subfolder.
-3. Replace older files with the same names. Remove older, obsolete root files if desired.
-4. Wait for GitHub Pages to publish. In Safari, reload the site and use Share > Add to Home Screen. Delete an older installed shortcut before adding the updated one.
+Includes 594 films (217 Hindi, 377 English), latest v23 round controls, optional 30-second-to-10-minute timer, team switches, illustrated opening, PWA icons and offline assets.
 
-CONTENTS
-index.html — app and embedded 594-film catalogue
-movies.csv / movies.json — matching export catalogues
-marquee.webp — cinema banner
-admit-one.webp — illustrated opening screen
-icon.png / apple-touch-icon.png — Home Screen icons
-manifest.webmanifest — PWA identity
-sw.js — service worker / offline cache
+For iPhone: reload after Pages publishes; if installed Home Screen version remains stale, remove the old icon then use Safari > Share > Add to Home Screen again.
 
-594 films: 217 Hindi, 377 English. Movie metadata is curated and not independently audited film-by-film.
+Movie credits are curated and are not independently verified film-by-film. Audio loudness depends on iOS hardware/output settings.

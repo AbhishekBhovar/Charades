@@ -1,4 +1,4 @@
-const CACHE = 'dc-v19-cinema';
+const CACHE = 'dc-v23-party-ready';
 const ASSETS = ['./index.html', './marquee.webp', './admit-one.webp', './icon.png', './apple-touch-icon.png', './movies.csv', './movies.json', './manifest.webmanifest'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
