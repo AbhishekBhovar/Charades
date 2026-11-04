@@ -1,0 +1,9 @@
+Dumb Charades v37 targeted 2025 Hindi release expansion
+
+Baseline: 1911; proposed: 28; added: 28; duplicates: 0; final: 1939
+Scope: Only newly added Hindi films. Existing v36 films are unchanged and not independently audited.
+Source for film list, director, cast: https://en.wikipedia.org/wiki/List_of_Hindi_films_of_2025
+Cross-reference for major theatrical releases: https://www.bollywoodhungama.com/box-office-collections/worldwide/2025/
+Excluded because already present: 
+Known scope limit: Film-year list is a collaboratively maintained reference and box office list does not verify each director or actor. Rows are source-traceable, not certified against two independent cast-credit databases.
+No modifications to interaction, timers, sounds, teams, or artwork.
