@@ -1,1510 +1,6 @@
 [
   {
     "id": "hindi-1",
-    "title": "Sholay",
-    "year": 1975,
-    "cast": "Amitabh Bachchan, Dharmendra",
-    "director": "Ramesh Sippy",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-2",
-    "title": "Dilwale Dulhania Le Jayenge",
-    "year": 1995,
-    "cast": "Shah Rukh Khan, Kajol",
-    "director": "Aditya Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-3",
-    "title": "Kabhi Khushi Kabhie Gham",
-    "year": 2001,
-    "cast": "Shah Rukh Khan, Kajol",
-    "director": "Karan Johar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-4",
-    "title": "3 Idiots",
-    "year": 2009,
-    "cast": "Aamir Khan, R. Madhavan",
-    "director": "Rajkumar Hirani",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-5",
-    "title": "Lagaan",
-    "year": 2001,
-    "cast": "Aamir Khan, Gracy Singh",
-    "director": "Ashutosh Gowariker",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-6",
-    "title": "Andaz Apna Apna",
-    "year": 1994,
-    "cast": "Aamir Khan, Salman Khan",
-    "director": "Rajkumar Santoshi",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-7",
-    "title": "Hera Pheri",
-    "year": 2000,
-    "cast": "Akshay Kumar, Suniel Shetty",
-    "director": "Priyadarshan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-8",
-    "title": "Phir Hera Pheri",
-    "year": 2006,
-    "cast": "Akshay Kumar, Suniel Shetty",
-    "director": "Neeraj Vora",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-9",
-    "title": "Munna Bhai M.B.B.S.",
-    "year": 2003,
-    "cast": "Sanjay Dutt, Arshad Warsi",
-    "director": "Rajkumar Hirani",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-10",
-    "title": "Lage Raho Munna Bhai",
-    "year": 2006,
-    "cast": "Sanjay Dutt, Arshad Warsi",
-    "director": "Rajkumar Hirani",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-11",
-    "title": "Jab We Met",
-    "year": 2007,
-    "cast": "Shahid Kapoor, Kareena Kapoor",
-    "director": "Imtiaz Ali",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-12",
-    "title": "Zindagi Na Milegi Dobara",
-    "year": 2011,
-    "cast": "Hrithik Roshan, Farhan Akhtar",
-    "director": "Zoya Akhtar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-13",
-    "title": "Yeh Jawaani Hai Deewani",
-    "year": 2013,
-    "cast": "Ranbir Kapoor, Deepika Padukone",
-    "director": "Ayan Mukerji",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-14",
-    "title": "Queen",
-    "year": 2014,
-    "cast": "Kangana Ranaut, Rajkummar Rao",
-    "director": "Vikas Bahl",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-15",
-    "title": "Dangal",
-    "year": 2016,
-    "cast": "Aamir Khan, Fatima Sana Shaikh",
-    "director": "Nitesh Tiwari",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-16",
-    "title": "PK",
-    "year": 2014,
-    "cast": "Aamir Khan, Anushka Sharma",
-    "director": "Rajkumar Hirani",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-17",
-    "title": "Barfi!",
-    "year": 2012,
-    "cast": "Ranbir Kapoor, Priyanka Chopra",
-    "director": "Anurag Basu",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-18",
-    "title": "Taare Zameen Par",
-    "year": 2007,
-    "cast": "Darsheel Safary, Aamir Khan",
-    "director": "Aamir Khan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-19",
-    "title": "Chak De! India",
-    "year": 2007,
-    "cast": "Shah Rukh Khan, Vidya Malvade",
-    "director": "Shimit Amin",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-20",
-    "title": "Om Shanti Om",
-    "year": 2007,
-    "cast": "Shah Rukh Khan, Deepika Padukone",
-    "director": "Farah Khan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-21",
-    "title": "Bhool Bhulaiyaa",
-    "year": 2007,
-    "cast": "Akshay Kumar, Vidya Balan",
-    "director": "Priyadarshan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-22",
-    "title": "Welcome",
-    "year": 2007,
-    "cast": "Akshay Kumar, Katrina Kaif",
-    "director": "Anees Bazmee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-23",
-    "title": "Golmaal: Fun Unlimited",
-    "year": 2006,
-    "cast": "Ajay Devgn, Arshad Warsi",
-    "director": "Rohit Shetty",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-24",
-    "title": "Dhamaal",
-    "year": 2007,
-    "cast": "Sanjay Dutt, Riteish Deshmukh",
-    "director": "Indra Kumar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-25",
-    "title": "Chup Chup Ke",
-    "year": 2006,
-    "cast": "Shahid Kapoor, Kareena Kapoor",
-    "director": "Priyadarshan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-26",
-    "title": "Khosla Ka Ghosla!",
-    "year": 2006,
-    "cast": "Anupam Kher, Boman Irani",
-    "director": "Dibakar Banerjee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-27",
-    "title": "Bheja Fry",
-    "year": 2007,
-    "cast": "Vinay Pathak, Rajat Kapoor",
-    "director": "Sagar Ballary",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-28",
-    "title": "Kahaani",
-    "year": 2012,
-    "cast": "Vidya Balan, Parambrata Chatterjee",
-    "director": "Sujoy Ghosh",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-29",
-    "title": "Drishyam",
-    "year": 2015,
-    "cast": "Ajay Devgn, Shriya Saran",
-    "director": "Nishikant Kamat",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-30",
-    "title": "Badhaai Ho",
-    "year": 2018,
-    "cast": "Ayushmann Khurrana, Neena Gupta",
-    "director": "Amit Ravindernath Sharma",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-31",
-    "title": "Stree",
-    "year": 2018,
-    "cast": "Rajkummar Rao, Shraddha Kapoor",
-    "director": "Amar Kaushik",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-32",
-    "title": "Dream Girl",
-    "year": 2019,
-    "cast": "Ayushmann Khurrana, Nushrratt Bharuccha",
-    "director": "Raaj Shaandilyaa",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-33",
-    "title": "Bala",
-    "year": 2019,
-    "cast": "Ayushmann Khurrana, Bhumi Pednekar",
-    "director": "Amar Kaushik",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-34",
-    "title": "Bareilly Ki Barfi",
-    "year": 2017,
-    "cast": "Kriti Sanon, Ayushmann Khurrana",
-    "director": "Ashwiny Iyer Tiwari",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-35",
-    "title": "Hindi Medium",
-    "year": 2017,
-    "cast": "Irrfan Khan, Saba Qamar",
-    "director": "Saket Chaudhary",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-36",
-    "title": "English Vinglish",
-    "year": 2012,
-    "cast": "Sridevi, Adil Hussain",
-    "director": "Gauri Shinde",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-37",
-    "title": "Piku",
-    "year": 2015,
-    "cast": "Amitabh Bachchan, Deepika Padukone",
-    "director": "Shoojit Sircar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-38",
-    "title": "Kapoor & Sons",
-    "year": 2016,
-    "cast": "Sidharth Malhotra, Alia Bhatt",
-    "director": "Shakun Batra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-39",
-    "title": "Rockstar",
-    "year": 2011,
-    "cast": "Ranbir Kapoor, Nargis Fakhri",
-    "director": "Imtiaz Ali",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-40",
-    "title": "Tamasha",
-    "year": 2015,
-    "cast": "Ranbir Kapoor, Deepika Padukone",
-    "director": "Imtiaz Ali",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-41",
-    "title": "Bajrangi Bhaijaan",
-    "year": 2015,
-    "cast": "Salman Khan, Harshaali Malhotra",
-    "director": "Kabir Khan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-42",
-    "title": "Sultan",
-    "year": 2016,
-    "cast": "Salman Khan, Anushka Sharma",
-    "director": "Ali Abbas Zafar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-43",
-    "title": "War",
-    "year": 2019,
-    "cast": "Hrithik Roshan, Tiger Shroff",
-    "director": "Siddharth Anand",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-44",
-    "title": "Pathaan",
-    "year": 2023,
-    "cast": "Shah Rukh Khan, Deepika Padukone",
-    "director": "Siddharth Anand",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-45",
-    "title": "Jawan",
-    "year": 2023,
-    "cast": "Shah Rukh Khan, Nayanthara",
-    "director": "Atlee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-46",
-    "title": "Animal",
-    "year": 2023,
-    "cast": "Ranbir Kapoor, Rashmika Mandanna",
-    "director": "Sandeep Reddy Vanga",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-47",
-    "title": "12th Fail",
-    "year": 2023,
-    "cast": "Vikrant Massey, Medha Shankr",
-    "director": "Vidhu Vinod Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-48",
-    "title": "Laapataa Ladies",
-    "year": 2024,
-    "cast": "Nitanshi Goel, Pratibha Ranta",
-    "director": "Kiran Rao",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-49",
-    "title": "Crew",
-    "year": 2024,
-    "cast": "Tabu, Kareena Kapoor Khan",
-    "director": "Rajesh A Krishnan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-50",
-    "title": "Madgaon Express",
-    "year": 2024,
-    "cast": "Divyenndu, Pratik Gandhi",
-    "director": "Kunal Kemmu",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-51",
-    "title": "Mimi",
-    "year": 2021,
-    "cast": "Kriti Sanon, Pankaj Tripathi",
-    "director": "Laxman Utekar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-52",
-    "title": "Ludo",
-    "year": 2020,
-    "cast": "Abhishek Bachchan, Rajkummar Rao",
-    "director": "Anurag Basu",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-53",
-    "title": "Chhichhore",
-    "year": 2019,
-    "cast": "Sushant Singh Rajput, Shraddha Kapoor",
-    "director": "Nitesh Tiwari",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-54",
-    "title": "Housefull",
-    "year": 2010,
-    "cast": "Akshay Kumar, Riteish Deshmukh",
-    "director": "Sajid Khan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-55",
-    "title": "Housefull 2",
-    "year": 2012,
-    "cast": "Akshay Kumar, John Abraham",
-    "director": "Sajid Khan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-56",
-    "title": "Housefull 3",
-    "year": 2016,
-    "cast": "Akshay Kumar, Abhishek Bachchan",
-    "director": "Sajid-Farhad",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-57",
-    "title": "Singh Is Kinng",
-    "year": 2008,
-    "cast": "Akshay Kumar, Katrina Kaif",
-    "director": "Anees Bazmee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-58",
-    "title": "Ajab Prem Ki Ghazab Kahani",
-    "year": 2009,
-    "cast": "Ranbir Kapoor, Katrina Kaif",
-    "director": "Rajkumar Santoshi",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-59",
-    "title": "Ek Tha Tiger",
-    "year": 2012,
-    "cast": "Salman Khan, Katrina Kaif",
-    "director": "Kabir Khan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-60",
-    "title": "Tiger Zinda Hai",
-    "year": 2017,
-    "cast": "Salman Khan, Katrina Kaif",
-    "director": "Ali Abbas Zafar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-61",
-    "title": "Kal Ho Naa Ho",
-    "year": 2003,
-    "cast": "Shah Rukh Khan, Preity Zinta",
-    "director": "Nikkhil Advani",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-62",
-    "title": "Kuch Kuch Hota Hai",
-    "year": 1998,
-    "cast": "Shah Rukh Khan, Kajol",
-    "director": "Karan Johar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-63",
-    "title": "Mohabbatein",
-    "year": 2000,
-    "cast": "Amitabh Bachchan, Shah Rukh Khan",
-    "director": "Aditya Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-64",
-    "title": "Devdas",
-    "year": 2002,
-    "cast": "Shah Rukh Khan, Aishwarya Rai",
-    "director": "Sanjay Leela Bhansali",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-65",
-    "title": "Veer-Zaara",
-    "year": 2004,
-    "cast": "Shah Rukh Khan, Preity Zinta",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-66",
-    "title": "Rab Ne Bana Di Jodi",
-    "year": 2008,
-    "cast": "Shah Rukh Khan, Anushka Sharma",
-    "director": "Aditya Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-67",
-    "title": "My Name Is Khan",
-    "year": 2010,
-    "cast": "Shah Rukh Khan, Kajol",
-    "director": "Karan Johar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-68",
-    "title": "Dil Chahta Hai",
-    "year": 2001,
-    "cast": "Aamir Khan, Saif Ali Khan",
-    "director": "Farhan Akhtar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-69",
-    "title": "Rang De Basanti",
-    "year": 2006,
-    "cast": "Aamir Khan, Siddharth",
-    "director": "Rakeysh Omprakash Mehra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-70",
-    "title": "Swades",
-    "year": 2004,
-    "cast": "Shah Rukh Khan, Gayatri Joshi",
-    "director": "Ashutosh Gowariker",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-71",
-    "title": "Don",
-    "year": 2006,
-    "cast": "Shah Rukh Khan, Priyanka Chopra",
-    "director": "Farhan Akhtar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-72",
-    "title": "Dhoom",
-    "year": 2004,
-    "cast": "Abhishek Bachchan, John Abraham",
-    "director": "Sanjay Gadhvi",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-73",
-    "title": "Dhoom 2",
-    "year": 2006,
-    "cast": "Hrithik Roshan, Aishwarya Rai",
-    "director": "Sanjay Gadhvi",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-74",
-    "title": "Dhoom 3",
-    "year": 2013,
-    "cast": "Aamir Khan, Abhishek Bachchan",
-    "director": "Vijay Krishna Acharya",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-75",
-    "title": "Krrish",
-    "year": 2006,
-    "cast": "Hrithik Roshan, Priyanka Chopra",
-    "director": "Rakesh Roshan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-76",
-    "title": "Koi... Mil Gaya",
-    "year": 2003,
-    "cast": "Hrithik Roshan, Preity Zinta",
-    "director": "Rakesh Roshan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-77",
-    "title": "Jodhaa Akbar",
-    "year": 2008,
-    "cast": "Hrithik Roshan, Aishwarya Rai",
-    "director": "Ashutosh Gowariker",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-78",
-    "title": "Padmaavat",
-    "year": 2018,
-    "cast": "Deepika Padukone, Ranveer Singh",
-    "director": "Sanjay Leela Bhansali",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-79",
-    "title": "Bajirao Mastani",
-    "year": 2015,
-    "cast": "Ranveer Singh, Deepika Padukone",
-    "director": "Sanjay Leela Bhansali",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-80",
-    "title": "Gully Boy",
-    "year": 2019,
-    "cast": "Ranveer Singh, Alia Bhatt",
-    "director": "Zoya Akhtar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-81",
-    "title": "Rocky Aur Rani Kii Prem Kahaani",
-    "year": 2023,
-    "cast": "Ranveer Singh, Alia Bhatt",
-    "director": "Karan Johar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-82",
-    "title": "Satyaprem Ki Katha",
-    "year": 2023,
-    "cast": "Kartik Aaryan, Kiara Advani",
-    "director": "Sameer Vidwans",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-83",
-    "title": "Tu Jhoothi Main Makkaar",
-    "year": 2023,
-    "cast": "Ranbir Kapoor, Shraddha Kapoor",
-    "director": "Luv Ranjan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-84",
-    "title": "Bhool Bhulaiyaa 2",
-    "year": 2022,
-    "cast": "Kartik Aaryan, Kiara Advani",
-    "director": "Anees Bazmee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-85",
-    "title": "Drishyam 2",
-    "year": 2022,
-    "cast": "Ajay Devgn, Tabu",
-    "director": "Abhishek Pathak",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-86",
-    "title": "Bhediya",
-    "year": 2022,
-    "cast": "Varun Dhawan, Kriti Sanon",
-    "director": "Amar Kaushik",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-87",
-    "title": "Brahmāstra: Part One – Shiva",
-    "year": 2022,
-    "cast": "Ranbir Kapoor, Alia Bhatt",
-    "director": "Ayan Mukerji",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-88",
-    "title": "Gangubai Kathiawadi",
-    "year": 2022,
-    "cast": "Alia Bhatt, Ajay Devgn",
-    "director": "Sanjay Leela Bhansali",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-89",
-    "title": "The Kashmir Files",
-    "year": 2022,
-    "cast": "Anupam Kher, Mithun Chakraborty",
-    "director": "Vivek Agnihotri",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-90",
-    "title": "Article 15",
-    "year": 2019,
-    "cast": "Ayushmann Khurrana, Isha Talwar",
-    "director": "Anubhav Sinha",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-91",
-    "title": "Andhadhun",
-    "year": 2018,
-    "cast": "Ayushmann Khurrana, Tabu",
-    "director": "Sriram Raghavan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-92",
-    "title": "Tumbbad",
-    "year": 2018,
-    "cast": "Sohum Shah, Jyoti Malshe",
-    "director": "Rahi Anil Barve",
-    "language": "hindi"
-  },
-  {
-    "id": "english-93",
-    "title": "Titanic",
-    "year": 1997,
-    "cast": "Leonardo DiCaprio, Kate Winslet",
-    "director": "James Cameron",
-    "language": "english"
-  },
-  {
-    "id": "english-94",
-    "title": "The Lion King",
-    "year": 1994,
-    "cast": "Matthew Broderick, James Earl Jones",
-    "director": "Roger Allers, Rob Minkoff",
-    "language": "english"
-  },
-  {
-    "id": "english-95",
-    "title": "Jurassic Park",
-    "year": 1993,
-    "cast": "Sam Neill, Laura Dern",
-    "director": "Steven Spielberg",
-    "language": "english"
-  },
-  {
-    "id": "english-96",
-    "title": "Home Alone",
-    "year": 1990,
-    "cast": "Macaulay Culkin, Joe Pesci",
-    "director": "Chris Columbus",
-    "language": "english"
-  },
-  {
-    "id": "english-97",
-    "title": "The Dark Knight",
-    "year": 2008,
-    "cast": "Christian Bale, Heath Ledger",
-    "director": "Christopher Nolan",
-    "language": "english"
-  },
-  {
-    "id": "english-98",
-    "title": "Batman Begins",
-    "year": 2005,
-    "cast": "Christian Bale, Michael Caine",
-    "director": "Christopher Nolan",
-    "language": "english"
-  },
-  {
-    "id": "english-99",
-    "title": "Inception",
-    "year": 2010,
-    "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt",
-    "director": "Christopher Nolan",
-    "language": "english"
-  },
-  {
-    "id": "english-100",
-    "title": "Interstellar",
-    "year": 2014,
-    "cast": "Matthew McConaughey, Anne Hathaway",
-    "director": "Christopher Nolan",
-    "language": "english"
-  },
-  {
-    "id": "english-101",
-    "title": "The Matrix",
-    "year": 1999,
-    "cast": "Keanu Reeves, Laurence Fishburne",
-    "director": "Lana Wachowski, Lilly Wachowski",
-    "language": "english"
-  },
-  {
-    "id": "english-102",
-    "title": "The Avengers",
-    "year": 2012,
-    "cast": "Robert Downey Jr., Chris Evans",
-    "director": "Joss Whedon",
-    "language": "english"
-  },
-  {
-    "id": "english-103",
-    "title": "Avengers: Endgame",
-    "year": 2019,
-    "cast": "Robert Downey Jr., Chris Evans",
-    "director": "Anthony Russo, Joe Russo",
-    "language": "english"
-  },
-  {
-    "id": "english-104",
-    "title": "Iron Man",
-    "year": 2008,
-    "cast": "Robert Downey Jr., Gwyneth Paltrow",
-    "director": "Jon Favreau",
-    "language": "english"
-  },
-  {
-    "id": "english-105",
-    "title": "Spider-Man",
-    "year": 2002,
-    "cast": "Tobey Maguire, Kirsten Dunst",
-    "director": "Sam Raimi",
-    "language": "english"
-  },
-  {
-    "id": "english-106",
-    "title": "Spider-Man: No Way Home",
-    "year": 2021,
-    "cast": "Tom Holland, Zendaya",
-    "director": "Jon Watts",
-    "language": "english"
-  },
-  {
-    "id": "english-107",
-    "title": "Black Panther",
-    "year": 2018,
-    "cast": "Chadwick Boseman, Michael B. Jordan",
-    "director": "Ryan Coogler",
-    "language": "english"
-  },
-  {
-    "id": "english-108",
-    "title": "Guardians of the Galaxy",
-    "year": 2014,
-    "cast": "Chris Pratt, Zoe Saldaña",
-    "director": "James Gunn",
-    "language": "english"
-  },
-  {
-    "id": "english-109",
-    "title": "Doctor Strange",
-    "year": 2016,
-    "cast": "Benedict Cumberbatch, Chiwetel Ejiofor",
-    "director": "Scott Derrickson",
-    "language": "english"
-  },
-  {
-    "id": "english-110",
-    "title": "Thor: Ragnarok",
-    "year": 2017,
-    "cast": "Chris Hemsworth, Tom Hiddleston",
-    "director": "Taika Waititi",
-    "language": "english"
-  },
-  {
-    "id": "english-111",
-    "title": "Captain America: Civil War",
-    "year": 2016,
-    "cast": "Chris Evans, Robert Downey Jr.",
-    "director": "Anthony Russo, Joe Russo",
-    "language": "english"
-  },
-  {
-    "id": "english-112",
-    "title": "The Incredible Hulk",
-    "year": 2008,
-    "cast": "Edward Norton, Liv Tyler",
-    "director": "Louis Leterrier",
-    "language": "english"
-  },
-  {
-    "id": "english-113",
-    "title": "Frozen",
-    "year": 2013,
-    "cast": "Kristen Bell, Idina Menzel",
-    "director": "Chris Buck, Jennifer Lee",
-    "language": "english"
-  },
-  {
-    "id": "english-114",
-    "title": "Moana",
-    "year": 2016,
-    "cast": "Auliʻi Cravalho, Dwayne Johnson",
-    "director": "Ron Clements, John Musker",
-    "language": "english"
-  },
-  {
-    "id": "english-115",
-    "title": "Toy Story",
-    "year": 1995,
-    "cast": "Tom Hanks, Tim Allen",
-    "director": "John Lasseter",
-    "language": "english"
-  },
-  {
-    "id": "english-116",
-    "title": "Finding Nemo",
-    "year": 2003,
-    "cast": "Albert Brooks, Ellen DeGeneres",
-    "director": "Andrew Stanton",
-    "language": "english"
-  },
-  {
-    "id": "english-117",
-    "title": "Inside Out",
-    "year": 2015,
-    "cast": "Amy Poehler, Phyllis Smith",
-    "director": "Pete Docter",
-    "language": "english"
-  },
-  {
-    "id": "english-118",
-    "title": "Up",
-    "year": 2009,
-    "cast": "Ed Asner, Jordan Nagai",
-    "director": "Pete Docter, Bob Peterson",
-    "language": "english"
-  },
-  {
-    "id": "english-119",
-    "title": "Coco",
-    "year": 2017,
-    "cast": "Anthony Gonzalez, Gael García Bernal",
-    "director": "Lee Unkrich, Adrian Molina",
-    "language": "english"
-  },
-  {
-    "id": "english-120",
-    "title": "Ratatouille",
-    "year": 2007,
-    "cast": "Patton Oswalt, Ian Holm",
-    "director": "Brad Bird",
-    "language": "english"
-  },
-  {
-    "id": "english-121",
-    "title": "Shrek",
-    "year": 2001,
-    "cast": "Mike Myers, Eddie Murphy",
-    "director": "Andrew Adamson, Vicky Jenson",
-    "language": "english"
-  },
-  {
-    "id": "english-122",
-    "title": "Kung Fu Panda",
-    "year": 2008,
-    "cast": "Jack Black, Dustin Hoffman",
-    "director": "Mark Osborne, John Stevenson",
-    "language": "english"
-  },
-  {
-    "id": "english-123",
-    "title": "Despicable Me",
-    "year": 2010,
-    "cast": "Steve Carell, Jason Segel",
-    "director": "Pierre Coffin, Chris Renaud",
-    "language": "english"
-  },
-  {
-    "id": "english-124",
-    "title": "Minions",
-    "year": 2015,
-    "cast": "Sandra Bullock, Jon Hamm",
-    "director": "Pierre Coffin, Kyle Balda",
-    "language": "english"
-  },
-  {
-    "id": "english-125",
-    "title": "The Super Mario Bros. Movie",
-    "year": 2023,
-    "cast": "Chris Pratt, Anya Taylor-Joy",
-    "director": "Aaron Horvath, Michael Jelenic",
-    "language": "english"
-  },
-  {
-    "id": "english-126",
-    "title": "Barbie",
-    "year": 2023,
-    "cast": "Margot Robbie, Ryan Gosling",
-    "director": "Greta Gerwig",
-    "language": "english"
-  },
-  {
-    "id": "english-127",
-    "title": "Oppenheimer",
-    "year": 2023,
-    "cast": "Cillian Murphy, Emily Blunt",
-    "director": "Christopher Nolan",
-    "language": "english"
-  },
-  {
-    "id": "english-128",
-    "title": "La La Land",
-    "year": 2016,
-    "cast": "Ryan Gosling, Emma Stone",
-    "director": "Damien Chazelle",
-    "language": "english"
-  },
-  {
-    "id": "english-129",
-    "title": "The Greatest Showman",
-    "year": 2017,
-    "cast": "Hugh Jackman, Zac Efron",
-    "director": "Michael Gracey",
-    "language": "english"
-  },
-  {
-    "id": "english-130",
-    "title": "The Notebook",
-    "year": 2004,
-    "cast": "Ryan Gosling, Rachel McAdams",
-    "director": "Nick Cassavetes",
-    "language": "english"
-  },
-  {
-    "id": "english-131",
-    "title": "Mean Girls",
-    "year": 2004,
-    "cast": "Lindsay Lohan, Rachel McAdams",
-    "director": "Mark Waters",
-    "language": "english"
-  },
-  {
-    "id": "english-132",
-    "title": "Legally Blonde",
-    "year": 2001,
-    "cast": "Reese Witherspoon, Luke Wilson",
-    "director": "Robert Luketic",
-    "language": "english"
-  },
-  {
-    "id": "english-133",
-    "title": "The Devil Wears Prada",
-    "year": 2006,
-    "cast": "Meryl Streep, Anne Hathaway",
-    "director": "David Frankel",
-    "language": "english"
-  },
-  {
-    "id": "english-134",
-    "title": "The Hangover",
-    "year": 2009,
-    "cast": "Bradley Cooper, Zach Galifianakis",
-    "director": "Todd Phillips",
-    "language": "english"
-  },
-  {
-    "id": "english-135",
-    "title": "Superbad",
-    "year": 2007,
-    "cast": "Jonah Hill, Michael Cera",
-    "director": "Greg Mottola",
-    "language": "english"
-  },
-  {
-    "id": "english-136",
-    "title": "Bridesmaids",
-    "year": 2011,
-    "cast": "Kristen Wiig, Maya Rudolph",
-    "director": "Paul Feig",
-    "language": "english"
-  },
-  {
-    "id": "english-137",
-    "title": "21 Jump Street",
-    "year": 2012,
-    "cast": "Jonah Hill, Channing Tatum",
-    "director": "Phil Lord, Christopher Miller",
-    "language": "english"
-  },
-  {
-    "id": "english-138",
-    "title": "The Mask",
-    "year": 1994,
-    "cast": "Jim Carrey, Cameron Diaz",
-    "director": "Chuck Russell",
-    "language": "english"
-  },
-  {
-    "id": "english-139",
-    "title": "Ace Ventura: Pet Detective",
-    "year": 1994,
-    "cast": "Jim Carrey, Courteney Cox",
-    "director": "Tom Shadyac",
-    "language": "english"
-  },
-  {
-    "id": "english-140",
-    "title": "Dumb and Dumber",
-    "year": 1994,
-    "cast": "Jim Carrey, Jeff Daniels",
-    "director": "Peter Farrelly",
-    "language": "english"
-  },
-  {
-    "id": "english-141",
-    "title": "Mrs. Doubtfire",
-    "year": 1993,
-    "cast": "Robin Williams, Sally Field",
-    "director": "Chris Columbus",
-    "language": "english"
-  },
-  {
-    "id": "english-142",
-    "title": "Jumanji",
-    "year": 1995,
-    "cast": "Robin Williams, Kirsten Dunst",
-    "director": "Joe Johnston",
-    "language": "english"
-  },
-  {
-    "id": "english-143",
-    "title": "Night at the Museum",
-    "year": 2006,
-    "cast": "Ben Stiller, Robin Williams",
-    "director": "Shawn Levy",
-    "language": "english"
-  },
-  {
-    "id": "english-144",
-    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-    "year": 2003,
-    "cast": "Johnny Depp, Orlando Bloom",
-    "director": "Gore Verbinski",
-    "language": "english"
-  },
-  {
-    "id": "english-145",
-    "title": "Harry Potter and the Philosopher’s Stone",
-    "year": 2001,
-    "cast": "Daniel Radcliffe, Rupert Grint",
-    "director": "Chris Columbus",
-    "language": "english"
-  },
-  {
-    "id": "english-146",
-    "title": "Harry Potter and the Chamber of Secrets",
-    "year": 2002,
-    "cast": "Daniel Radcliffe, Emma Watson",
-    "director": "Chris Columbus",
-    "language": "english"
-  },
-  {
-    "id": "english-147",
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "year": 2001,
-    "cast": "Elijah Wood, Ian McKellen",
-    "director": "Peter Jackson",
-    "language": "english"
-  },
-  {
-    "id": "english-148",
-    "title": "The Hobbit: An Unexpected Journey",
-    "year": 2012,
-    "cast": "Martin Freeman, Ian McKellen",
-    "director": "Peter Jackson",
-    "language": "english"
-  },
-  {
-    "id": "english-149",
-    "title": "Star Wars",
-    "year": 1977,
-    "cast": "Mark Hamill, Harrison Ford",
-    "director": "George Lucas",
-    "language": "english"
-  },
-  {
-    "id": "english-150",
-    "title": "Back to the Future",
-    "year": 1985,
-    "cast": "Michael J. Fox, Christopher Lloyd",
-    "director": "Robert Zemeckis",
-    "language": "english"
-  },
-  {
-    "id": "english-151",
-    "title": "E.T. the Extra-Terrestrial",
-    "year": 1982,
-    "cast": "Henry Thomas, Drew Barrymore",
-    "director": "Steven Spielberg",
-    "language": "english"
-  },
-  {
-    "id": "english-152",
-    "title": "Ghostbusters",
-    "year": 1984,
-    "cast": "Bill Murray, Dan Aykroyd",
-    "director": "Ivan Reitman",
-    "language": "english"
-  },
-  {
-    "id": "english-153",
-    "title": "Rocky",
-    "year": 1976,
-    "cast": "Sylvester Stallone, Talia Shire",
-    "director": "John G. Avildsen",
-    "language": "english"
-  },
-  {
-    "id": "english-154",
-    "title": "The Karate Kid",
-    "year": 1984,
-    "cast": "Ralph Macchio, Pat Morita",
-    "director": "John G. Avildsen",
-    "language": "english"
-  },
-  {
-    "id": "english-155",
-    "title": "Top Gun",
-    "year": 1986,
-    "cast": "Tom Cruise, Kelly McGillis",
-    "director": "Tony Scott",
-    "language": "english"
-  },
-  {
-    "id": "english-156",
-    "title": "Top Gun: Maverick",
-    "year": 2022,
-    "cast": "Tom Cruise, Miles Teller",
-    "director": "Joseph Kosinski",
-    "language": "english"
-  },
-  {
-    "id": "english-157",
-    "title": "Mission: Impossible",
-    "year": 1996,
-    "cast": "Tom Cruise, Jon Voight",
-    "director": "Brian De Palma",
-    "language": "english"
-  },
-  {
-    "id": "english-158",
-    "title": "The Fast and the Furious",
-    "year": 2001,
-    "cast": "Vin Diesel, Paul Walker",
-    "director": "Rob Cohen",
-    "language": "english"
-  },
-  {
-    "id": "english-159",
-    "title": "Fast Five",
-    "year": 2011,
-    "cast": "Vin Diesel, Paul Walker",
-    "director": "Justin Lin",
-    "language": "english"
-  },
-  {
-    "id": "english-160",
-    "title": "John Wick",
-    "year": 2014,
-    "cast": "Keanu Reeves, Michael Nyqvist",
-    "director": "Chad Stahelski",
-    "language": "english"
-  },
-  {
-    "id": "english-161",
-    "title": "The Hunger Games",
-    "year": 2012,
-    "cast": "Jennifer Lawrence, Josh Hutcherson",
-    "director": "Gary Ross",
-    "language": "english"
-  },
-  {
-    "id": "english-162",
-    "title": "The Maze Runner",
-    "year": 2014,
-    "cast": "Dylan O'Brien, Kaya Scodelario",
-    "director": "Wes Ball",
-    "language": "english"
-  },
-  {
-    "id": "english-163",
-    "title": "The Fault in Our Stars",
-    "year": 2014,
-    "cast": "Shailene Woodley, Ansel Elgort",
-    "director": "Josh Boone",
-    "language": "english"
-  },
-  {
-    "id": "english-164",
-    "title": "Twilight",
-    "year": 2008,
-    "cast": "Kristen Stewart, Robert Pattinson",
-    "director": "Catherine Hardwicke",
-    "language": "english"
-  },
-  {
-    "id": "english-165",
-    "title": "The Princess Diaries",
-    "year": 2001,
-    "cast": "Anne Hathaway, Julie Andrews",
-    "director": "Garry Marshall",
-    "language": "english"
-  },
-  {
-    "id": "english-166",
-    "title": "The Parent Trap",
-    "year": 1998,
-    "cast": "Lindsay Lohan, Dennis Quaid",
-    "director": "Nancy Meyers",
-    "language": "english"
-  },
-  {
-    "id": "english-167",
-    "title": "Mamma Mia!",
-    "year": 2008,
-    "cast": "Meryl Streep, Amanda Seyfried",
-    "director": "Phyllida Lloyd",
-    "language": "english"
-  },
-  {
-    "id": "english-168",
-    "title": "The Sound of Music",
-    "year": 1965,
-    "cast": "Julie Andrews, Christopher Plummer",
-    "director": "Robert Wise",
-    "language": "english"
-  },
-  {
-    "id": "english-169",
-    "title": "The Godfather",
-    "year": 1972,
-    "cast": "Marlon Brando, Al Pacino",
-    "director": "Francis Ford Coppola",
-    "language": "english"
-  },
-  {
-    "id": "english-170",
-    "title": "Forrest Gump",
-    "year": 1994,
-    "cast": "Tom Hanks, Robin Wright",
-    "director": "Robert Zemeckis",
-    "language": "english"
-  },
-  {
-    "id": "english-171",
-    "title": "Cast Away",
-    "year": 2000,
-    "cast": "Tom Hanks, Helen Hunt",
-    "director": "Robert Zemeckis",
-    "language": "english"
-  },
-  {
-    "id": "english-172",
-    "title": "The Shawshank Redemption",
-    "year": 1994,
-    "cast": "Tim Robbins, Morgan Freeman",
-    "director": "Frank Darabont",
-    "language": "english"
-  },
-  {
-    "id": "english-173",
-    "title": "Catch Me If You Can",
-    "year": 2002,
-    "cast": "Leonardo DiCaprio, Tom Hanks",
-    "director": "Steven Spielberg",
-    "language": "english"
-  },
-  {
-    "id": "english-174",
-    "title": "The Truman Show",
-    "year": 1998,
-    "cast": "Jim Carrey, Laura Linney",
-    "director": "Peter Weir",
-    "language": "english"
-  },
-  {
-    "id": "english-175",
-    "title": "The Pursuit of Happyness",
-    "year": 2006,
-    "cast": "Will Smith, Jaden Smith",
-    "director": "Gabriele Muccino",
-    "language": "english"
-  },
-  {
-    "id": "english-176",
-    "title": "The Social Network",
-    "year": 2010,
-    "cast": "Jesse Eisenberg, Andrew Garfield",
-    "director": "David Fincher",
-    "language": "english"
-  },
-  {
-    "id": "english-177",
-    "title": "The Wolf of Wall Street",
-    "year": 2013,
-    "cast": "Leonardo DiCaprio, Jonah Hill",
-    "director": "Martin Scorsese",
-    "language": "english"
-  },
-  {
-    "id": "english-178",
-    "title": "Knives Out",
-    "year": 2019,
-    "cast": "Daniel Craig, Ana de Armas",
-    "director": "Rian Johnson",
-    "language": "english"
-  },
-  {
-    "id": "english-179",
-    "title": "Glass Onion: A Knives Out Mystery",
-    "year": 2022,
-    "cast": "Daniel Craig, Janelle Monáe",
-    "director": "Rian Johnson",
-    "language": "english"
-  },
-  {
-    "id": "english-180",
-    "title": "A Quiet Place",
-    "year": 2018,
-    "cast": "Emily Blunt, John Krasinski",
-    "director": "John Krasinski",
-    "language": "english"
-  },
-  {
-    "id": "english-181",
-    "title": "Get Out",
-    "year": 2017,
-    "cast": "Daniel Kaluuya, Allison Williams",
-    "director": "Jordan Peele",
-    "language": "english"
-  },
-  {
-    "id": "english-182",
-    "title": "Scream",
-    "year": 1996,
-    "cast": "Neve Campbell, Courteney Cox",
-    "director": "Wes Craven",
-    "language": "english"
-  },
-  {
-    "id": "english-183",
-    "title": "It",
-    "year": 2017,
-    "cast": "Bill Skarsgård, Jaeden Martell",
-    "director": "Andy Muschietti",
-    "language": "english"
-  },
-  {
-    "id": "english-184",
-    "title": "The Conjuring",
-    "year": 2013,
-    "cast": "Vera Farmiga, Patrick Wilson",
-    "director": "James Wan",
-    "language": "english"
-  },
-  {
-    "id": "english-185",
-    "title": "The Sixth Sense",
-    "year": 1999,
-    "cast": "Bruce Willis, Haley Joel Osment",
-    "director": "M. Night Shyamalan",
-    "language": "english"
-  },
-  {
-    "id": "english-186",
-    "title": "The Terminator",
-    "year": 1984,
-    "cast": "Arnold Schwarzenegger, Linda Hamilton",
-    "director": "James Cameron",
-    "language": "english"
-  },
-  {
-    "id": "english-187",
-    "title": "Avatar",
-    "year": 2009,
-    "cast": "Sam Worthington, Zoe Saldaña",
-    "director": "James Cameron",
-    "language": "english"
-  },
-  {
-    "id": "english-188",
-    "title": "Avatar: The Way of Water",
-    "year": 2022,
-    "cast": "Sam Worthington, Zoe Saldaña",
-    "director": "James Cameron",
-    "language": "english"
-  },
-  {
-    "id": "hindi-189",
     "title": "Anand",
     "year": 1971,
     "cast": "Rajesh Khanna, Amitabh Bachchan",
@@ -1512,175 +8,15 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-190",
-    "title": "Aradhana",
-    "year": 1969,
-    "cast": "Rajesh Khanna, Sharmila Tagore",
-    "director": "Shakti Samanta",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-191",
-    "title": "Kati Patang",
-    "year": 1971,
-    "cast": "Rajesh Khanna, Asha Parekh",
-    "director": "Shakti Samanta",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-192",
-    "title": "Amar Prem",
+    "id": "hindi-2",
+    "title": "Pakeezah",
     "year": 1972,
-    "cast": "Rajesh Khanna, Sharmila Tagore",
-    "director": "Shakti Samanta",
+    "cast": "Meena Kumari, Raaj Kumar",
+    "director": "Kamal Amrohi",
     "language": "hindi"
   },
   {
-    "id": "hindi-193",
-    "title": "Haathi Mere Saathi",
-    "year": 1971,
-    "cast": "Rajesh Khanna, Tanuja",
-    "director": "M. A. Thirumugam",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-194",
-    "title": "Namak Haraam",
-    "year": 1973,
-    "cast": "Rajesh Khanna, Amitabh Bachchan",
-    "director": "Hrishikesh Mukherjee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-195",
-    "title": "Bawarchi",
-    "year": 1972,
-    "cast": "Rajesh Khanna, Jaya Bhaduri",
-    "director": "Hrishikesh Mukherjee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-196",
-    "title": "Aap Ki Kasam",
-    "year": 1974,
-    "cast": "Rajesh Khanna, Mumtaz",
-    "director": "J. Om Prakash",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-197",
-    "title": "Safar",
-    "year": 1970,
-    "cast": "Rajesh Khanna, Sharmila Tagore",
-    "director": "Asit Sen",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-198",
-    "title": "Do Raaste",
-    "year": 1969,
-    "cast": "Rajesh Khanna, Mumtaz",
-    "director": "Raj Khosla",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-199",
-    "title": "Sachaa Jhutha",
-    "year": 1970,
-    "cast": "Rajesh Khanna, Mumtaz",
-    "director": "Manmohan Desai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-200",
-    "title": "Roti",
-    "year": 1974,
-    "cast": "Rajesh Khanna, Mumtaz",
-    "director": "Manmohan Desai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-201",
-    "title": "Teesri Manzil",
-    "year": 1966,
-    "cast": "Shammi Kapoor, Asha Parekh",
-    "director": "Vijay Anand",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-202",
-    "title": "Brahmachari",
-    "year": 1968,
-    "cast": "Shammi Kapoor, Rajshree",
-    "director": "Bhappi Sonie",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-203",
-    "title": "An Evening in Paris",
-    "year": 1967,
-    "cast": "Shammi Kapoor, Sharmila Tagore",
-    "director": "Shakti Samanta",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-204",
-    "title": "Jewel Thief",
-    "year": 1967,
-    "cast": "Dev Anand, Vyjayanthimala",
-    "director": "Vijay Anand",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-205",
-    "title": "Johny Mera Naam",
-    "year": 1970,
-    "cast": "Dev Anand, Hema Malini",
-    "director": "Vijay Anand",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-206",
-    "title": "Hare Rama Hare Krishna",
-    "year": 1971,
-    "cast": "Dev Anand, Zeenat Aman",
-    "director": "Dev Anand",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-207",
-    "title": "Des Pardes",
-    "year": 1978,
-    "cast": "Dev Anand, Tina Munim",
-    "director": "Dev Anand",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-208",
-    "title": "Padosan",
-    "year": 1968,
-    "cast": "Sunil Dutt, Saira Banu",
-    "director": "Jyoti Swaroop",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-209",
-    "title": "Sangam",
-    "year": 1964,
-    "cast": "Raj Kapoor, Vyjayanthimala",
-    "director": "Raj Kapoor",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-210",
-    "title": "Mera Naam Joker",
-    "year": 1970,
-    "cast": "Raj Kapoor, Simi Garewal",
-    "director": "Raj Kapoor",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-211",
+    "id": "hindi-3",
     "title": "Bobby",
     "year": 1973,
     "cast": "Rishi Kapoor, Dimple Kapadia",
@@ -1688,31 +24,15 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-212",
-    "title": "Satyam Shivam Sundaram",
-    "year": 1978,
-    "cast": "Shashi Kapoor, Zeenat Aman",
-    "director": "Raj Kapoor",
+    "id": "hindi-4",
+    "title": "Sholay",
+    "year": 1975,
+    "cast": "Dharmendra, Amitabh Bachchan, Hema Malini",
+    "director": "Ramesh Sippy",
     "language": "hindi"
   },
   {
-    "id": "hindi-213",
-    "title": "Prem Rog",
-    "year": 1982,
-    "cast": "Rishi Kapoor, Padmini Kolhapure",
-    "director": "Raj Kapoor",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-214",
-    "title": "Ram Teri Ganga Maili",
-    "year": 1985,
-    "cast": "Rajiv Kapoor, Mandakini",
-    "director": "Raj Kapoor",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-215",
+    "id": "hindi-5",
     "title": "Deewaar",
     "year": 1975,
     "cast": "Amitabh Bachchan, Shashi Kapoor",
@@ -1720,119 +40,31 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-216",
-    "title": "Kabhi Kabhie",
-    "year": 1976,
-    "cast": "Amitabh Bachchan, Raakhee",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-217",
-    "title": "Trishul",
-    "year": 1978,
-    "cast": "Amitabh Bachchan, Shashi Kapoor",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-218",
-    "title": "Kaala Patthar",
-    "year": 1979,
-    "cast": "Amitabh Bachchan, Shashi Kapoor",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-219",
-    "title": "Silsila",
-    "year": 1981,
-    "cast": "Amitabh Bachchan, Rekha",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-220",
-    "title": "Shakti",
-    "year": 1982,
-    "cast": "Dilip Kumar, Amitabh Bachchan",
-    "director": "Ramesh Sippy",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-221",
-    "title": "Zanjeer",
-    "year": 1973,
-    "cast": "Amitabh Bachchan, Jaya Bhaduri",
-    "director": "Prakash Mehra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-222",
-    "title": "Muqaddar Ka Sikandar",
-    "year": 1978,
-    "cast": "Amitabh Bachchan, Rekha",
-    "director": "Prakash Mehra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-223",
-    "title": "Namak Halaal",
-    "year": 1982,
-    "cast": "Amitabh Bachchan, Shashi Kapoor",
-    "director": "Prakash Mehra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-224",
-    "title": "Sharaabi",
-    "year": 1984,
-    "cast": "Amitabh Bachchan, Jaya Prada",
-    "director": "Prakash Mehra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-225",
-    "title": "Coolie",
-    "year": 1983,
-    "cast": "Amitabh Bachchan, Rishi Kapoor",
-    "director": "Manmohan Desai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-226",
-    "title": "Amar Akbar Anthony",
-    "year": 1977,
-    "cast": "Amitabh Bachchan, Rishi Kapoor",
-    "director": "Manmohan Desai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-227",
-    "title": "Parvarish",
-    "year": 1977,
-    "cast": "Amitabh Bachchan, Vinod Khanna",
-    "director": "Manmohan Desai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-228",
-    "title": "Satte Pe Satta",
-    "year": 1982,
-    "cast": "Amitabh Bachchan, Hema Malini",
-    "director": "Raj N. Sippy",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-229",
+    "id": "hindi-6",
     "title": "Chupke Chupke",
     "year": 1975,
-    "cast": "Dharmendra, Sharmila Tagore",
+    "cast": "Dharmendra, Amitabh Bachchan, Sharmila Tagore",
     "director": "Hrishikesh Mukherjee",
     "language": "hindi"
   },
   {
-    "id": "hindi-230",
+    "id": "hindi-7",
+    "title": "Amar Akbar Anthony",
+    "year": 1977,
+    "cast": "Amitabh Bachchan, Vinod Khanna, Rishi Kapoor",
+    "director": "Manmohan Desai",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-8",
+    "title": "Don",
+    "year": 1978,
+    "cast": "Amitabh Bachchan, Zeenat Aman",
+    "director": "Chandra Barot",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-9",
     "title": "Gol Maal",
     "year": 1979,
     "cast": "Amol Palekar, Utpal Dutt",
@@ -1840,127 +72,15 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-231",
-    "title": "Chhoti Si Baat",
-    "year": 1976,
-    "cast": "Amol Palekar, Vidya Sinha",
-    "director": "Basu Chatterjee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-232",
-    "title": "Rajnigandha",
-    "year": 1974,
-    "cast": "Amol Palekar, Vidya Sinha",
-    "director": "Basu Chatterjee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-233",
-    "title": "Baton Baton Mein",
-    "year": 1979,
-    "cast": "Amol Palekar, Tina Munim",
-    "director": "Basu Chatterjee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-234",
-    "title": "Angoor",
-    "year": 1982,
-    "cast": "Sanjeev Kumar, Deven Verma",
-    "director": "Gulzar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-235",
-    "title": "Aandhi",
-    "year": 1975,
-    "cast": "Sanjeev Kumar, Suchitra Sen",
-    "director": "Gulzar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-236",
-    "title": "Mausam",
-    "year": 1975,
-    "cast": "Sanjeev Kumar, Sharmila Tagore",
-    "director": "Gulzar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-237",
-    "title": "Ijaazat",
+    "id": "hindi-10",
+    "title": "Mr. India",
     "year": 1987,
-    "cast": "Naseeruddin Shah, Rekha",
-    "director": "Gulzar",
+    "cast": "Anil Kapoor, Sridevi, Amrish Puri",
+    "director": "Shekhar Kapur",
     "language": "hindi"
   },
   {
-    "id": "hindi-238",
-    "title": "Khilona",
-    "year": 1970,
-    "cast": "Sanjeev Kumar, Mumtaz",
-    "director": "Chander Vohra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-239",
-    "title": "Tezaab",
-    "year": 1988,
-    "cast": "Anil Kapoor, Madhuri Dixit",
-    "director": "N. Chandra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-240",
-    "title": "Ram Lakhan",
-    "year": 1989,
-    "cast": "Anil Kapoor, Jackie Shroff",
-    "director": "Subhash Ghai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-241",
-    "title": "Karz",
-    "year": 1980,
-    "cast": "Rishi Kapoor, Tina Munim",
-    "director": "Subhash Ghai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-242",
-    "title": "Hero",
-    "year": 1983,
-    "cast": "Jackie Shroff, Meenakshi Seshadri",
-    "director": "Subhash Ghai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-243",
-    "title": "Khalnayak",
-    "year": 1993,
-    "cast": "Sanjay Dutt, Madhuri Dixit",
-    "director": "Subhash Ghai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-244",
-    "title": "Pardes",
-    "year": 1997,
-    "cast": "Shah Rukh Khan, Mahima Chaudhry",
-    "director": "Subhash Ghai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-245",
-    "title": "Taal",
-    "year": 1999,
-    "cast": "Anil Kapoor, Aishwarya Rai",
-    "director": "Subhash Ghai",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-246",
+    "id": "hindi-11",
     "title": "Qayamat Se Qayamat Tak",
     "year": 1988,
     "cast": "Aamir Khan, Juhi Chawla",
@@ -1968,7 +88,7 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-247",
+    "id": "hindi-12",
     "title": "Maine Pyar Kiya",
     "year": 1989,
     "cast": "Salman Khan, Bhagyashree",
@@ -1976,7 +96,23 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-248",
+    "id": "hindi-13",
+    "title": "Chandni",
+    "year": 1989,
+    "cast": "Sridevi, Rishi Kapoor, Vinod Khanna",
+    "director": "Yash Chopra",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-14",
+    "title": "Agneepath",
+    "year": 1990,
+    "cast": "Amitabh Bachchan, Mithun Chakraborty",
+    "director": "Mukul S. Anand",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-15",
     "title": "Hum Aapke Hain Koun..!",
     "year": 1994,
     "cast": "Salman Khan, Madhuri Dixit",
@@ -1984,15 +120,31 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-249",
-    "title": "Hum Saath-Saath Hain",
-    "year": 1999,
-    "cast": "Salman Khan, Sonali Bendre",
-    "director": "Sooraj Barjatya",
+    "id": "hindi-16",
+    "title": "Andaz Apna Apna",
+    "year": 1994,
+    "cast": "Aamir Khan, Salman Khan, Raveena Tandon, Karisma Kapoor",
+    "director": "Rajkumar Santoshi",
     "language": "hindi"
   },
   {
-    "id": "hindi-250",
+    "id": "hindi-17",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "year": 1995,
+    "cast": "Shah Rukh Khan, Kajol",
+    "director": "Aditya Chopra",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-18",
+    "title": "Rangeela",
+    "year": 1995,
+    "cast": "Aamir Khan, Urmila Matondkar, Jackie Shroff",
+    "director": "Ram Gopal Varma",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-19",
     "title": "Raja Hindustani",
     "year": 1996,
     "cast": "Aamir Khan, Karisma Kapoor",
@@ -2000,375 +152,215 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-251",
-    "title": "Ghulam",
-    "year": 1998,
-    "cast": "Aamir Khan, Rani Mukerji",
-    "director": "Vikram Bhatt",
+    "id": "hindi-20",
+    "title": "Border",
+    "year": 1997,
+    "cast": "Sunny Deol, Suniel Shetty, Akshaye Khanna",
+    "director": "J. P. Dutta",
     "language": "hindi"
   },
   {
-    "id": "hindi-252",
-    "title": "Sarfarosh",
-    "year": 1999,
-    "cast": "Aamir Khan, Sonali Bendre",
-    "director": "John Mathew Matthan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-253",
-    "title": "Rangeela",
-    "year": 1995,
-    "cast": "Aamir Khan, Urmila Matondkar",
-    "director": "Ram Gopal Varma",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-254",
-    "title": "Satya",
-    "year": 1998,
-    "cast": "Manoj Bajpayee, J. D. Chakravarthy",
-    "director": "Ram Gopal Varma",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-255",
-    "title": "Parinda",
-    "year": 1989,
-    "cast": "Anil Kapoor, Jackie Shroff",
-    "director": "Vidhu Vinod Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-256",
-    "title": "1942: A Love Story",
-    "year": 1994,
-    "cast": "Anil Kapoor, Manisha Koirala",
-    "director": "Vidhu Vinod Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-257",
-    "title": "Chandni",
-    "year": 1989,
-    "cast": "Sridevi, Rishi Kapoor",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-258",
-    "title": "Lamhe",
-    "year": 1991,
-    "cast": "Sridevi, Anil Kapoor",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-259",
-    "title": "Darr",
-    "year": 1993,
-    "cast": "Shah Rukh Khan, Juhi Chawla",
-    "director": "Yash Chopra",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-260",
+    "id": "hindi-21",
     "title": "Dil To Pagal Hai",
     "year": 1997,
-    "cast": "Shah Rukh Khan, Madhuri Dixit",
+    "cast": "Shah Rukh Khan, Madhuri Dixit, Karisma Kapoor",
     "director": "Yash Chopra",
     "language": "hindi"
   },
   {
-    "id": "hindi-261",
-    "title": "Sarkar",
-    "year": 2005,
-    "cast": "Amitabh Bachchan, Abhishek Bachchan",
+    "id": "hindi-22",
+    "title": "Kuch Kuch Hota Hai",
+    "year": 1998,
+    "cast": "Shah Rukh Khan, Kajol, Rani Mukerji",
+    "director": "Karan Johar",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-23",
+    "title": "Satya",
+    "year": 1998,
+    "cast": "J. D. Chakravarthy, Manoj Bajpayee",
     "director": "Ram Gopal Varma",
     "language": "hindi"
   },
   {
-    "id": "hindi-262",
-    "title": "Black",
-    "year": 2005,
-    "cast": "Amitabh Bachchan, Rani Mukerji",
+    "id": "hindi-24",
+    "title": "Hum Dil De Chuke Sanam",
+    "year": 1999,
+    "cast": "Salman Khan, Aishwarya Rai, Ajay Devgn",
     "director": "Sanjay Leela Bhansali",
     "language": "hindi"
   },
   {
-    "id": "hindi-263",
-    "title": "Wake Up Sid",
-    "year": 2009,
-    "cast": "Ranbir Kapoor, Konkona Sen Sharma",
-    "director": "Ayan Mukerji",
+    "id": "hindi-25",
+    "title": "Hera Pheri",
+    "year": 2000,
+    "cast": "Akshay Kumar, Suniel Shetty, Paresh Rawal",
+    "director": "Priyadarshan",
     "language": "hindi"
   },
   {
-    "id": "hindi-264",
-    "title": "Udaan",
-    "year": 2010,
-    "cast": "Rajat Barmecha, Ronit Roy",
-    "director": "Vikramaditya Motwane",
+    "id": "hindi-26",
+    "title": "Kaho Naa... Pyaar Hai",
+    "year": 2000,
+    "cast": "Hrithik Roshan, Ameesha Patel",
+    "director": "Rakesh Roshan",
     "language": "hindi"
   },
   {
-    "id": "hindi-265",
-    "title": "Paa",
-    "year": 2009,
-    "cast": "Amitabh Bachchan, Abhishek Bachchan",
-    "director": "R. Balki",
+    "id": "hindi-27",
+    "title": "Mohabbatein",
+    "year": 2000,
+    "cast": "Amitabh Bachchan, Shah Rukh Khan, Aishwarya Rai",
+    "director": "Aditya Chopra",
     "language": "hindi"
   },
   {
-    "id": "hindi-266",
-    "title": "Delhi-6",
-    "year": 2009,
-    "cast": "Abhishek Bachchan, Sonam Kapoor",
-    "director": "Rakeysh Omprakash Mehra",
+    "id": "hindi-28",
+    "title": "Lagaan",
+    "year": 2001,
+    "cast": "Aamir Khan, Gracy Singh",
+    "director": "Ashutosh Gowariker",
     "language": "hindi"
   },
   {
-    "id": "hindi-267",
-    "title": "Love Aaj Kal",
-    "year": 2009,
-    "cast": "Saif Ali Khan, Deepika Padukone",
-    "director": "Imtiaz Ali",
+    "id": "hindi-29",
+    "title": "Dil Chahta Hai",
+    "year": 2001,
+    "cast": "Aamir Khan, Saif Ali Khan, Akshaye Khanna",
+    "director": "Farhan Akhtar",
     "language": "hindi"
   },
   {
-    "id": "hindi-268",
-    "title": "Rocket Singh: Salesman of the Year",
-    "year": 2009,
-    "cast": "Ranbir Kapoor, Shazahn Padamsee",
-    "director": "Shimit Amin",
+    "id": "hindi-30",
+    "title": "Kabhi Khushi Kabhie Gham",
+    "year": 2001,
+    "cast": "Amitabh Bachchan, Shah Rukh Khan, Kajol",
+    "director": "Karan Johar",
     "language": "hindi"
   },
   {
-    "id": "hindi-269",
-    "title": "Kaminey",
-    "year": 2009,
-    "cast": "Shahid Kapoor, Priyanka Chopra",
-    "director": "Vishal Bhardwaj",
+    "id": "hindi-31",
+    "title": "Devdas",
+    "year": 2002,
+    "cast": "Shah Rukh Khan, Aishwarya Rai, Madhuri Dixit",
+    "director": "Sanjay Leela Bhansali",
     "language": "hindi"
   },
   {
-    "id": "hindi-270",
-    "title": "Firaaq",
-    "year": 2008,
-    "cast": "Naseeruddin Shah, Paresh Rawal",
-    "director": "Nandita Das",
+    "id": "hindi-32",
+    "title": "Kal Ho Naa Ho",
+    "year": 2003,
+    "cast": "Shah Rukh Khan, Preity Zinta, Saif Ali Khan",
+    "director": "Nikkhil Advani",
     "language": "hindi"
   },
   {
-    "id": "hindi-271",
-    "title": "Luck by Chance",
-    "year": 2009,
-    "cast": "Farhan Akhtar, Konkona Sen Sharma",
-    "director": "Zoya Akhtar",
+    "id": "hindi-33",
+    "title": "Munna Bhai M.B.B.S.",
+    "year": 2003,
+    "cast": "Sanjay Dutt, Arshad Warsi",
+    "director": "Rajkumar Hirani",
     "language": "hindi"
   },
   {
-    "id": "hindi-272",
-    "title": "Jab Tak Hai Jaan",
-    "year": 2012,
-    "cast": "Shah Rukh Khan, Katrina Kaif",
+    "id": "hindi-34",
+    "title": "Koi... Mil Gaya",
+    "year": 2003,
+    "cast": "Hrithik Roshan, Preity Zinta, Rekha",
+    "director": "Rakesh Roshan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-35",
+    "title": "Veer-Zaara",
+    "year": 2004,
+    "cast": "Shah Rukh Khan, Preity Zinta, Rani Mukerji",
     "director": "Yash Chopra",
     "language": "hindi"
   },
   {
-    "id": "hindi-273",
-    "title": "Ek Villain",
-    "year": 2014,
-    "cast": "Sidharth Malhotra, Shraddha Kapoor",
-    "director": "Mohit Suri",
+    "id": "hindi-36",
+    "title": "Swades",
+    "year": 2004,
+    "cast": "Shah Rukh Khan, Gayatri Joshi",
+    "director": "Ashutosh Gowariker",
     "language": "hindi"
   },
   {
-    "id": "hindi-274",
-    "title": "Haider",
-    "year": 2014,
-    "cast": "Shahid Kapoor, Tabu",
-    "director": "Vishal Bhardwaj",
+    "id": "hindi-37",
+    "title": "Dhoom",
+    "year": 2004,
+    "cast": "Abhishek Bachchan, John Abraham, Uday Chopra",
+    "director": "Sanjay Gadhvi",
     "language": "hindi"
   },
   {
-    "id": "hindi-275",
-    "title": "Paan Singh Tomar",
-    "year": 2012,
-    "cast": "Irrfan Khan, Mahie Gill",
-    "director": "Tigmanshu Dhulia",
+    "id": "hindi-38",
+    "title": "Bunty Aur Babli",
+    "year": 2005,
+    "cast": "Abhishek Bachchan, Rani Mukerji",
+    "director": "Shaad Ali",
     "language": "hindi"
   },
   {
-    "id": "hindi-276",
-    "title": "Bhaag Milkha Bhaag",
-    "year": 2013,
-    "cast": "Farhan Akhtar, Sonam Kapoor",
+    "id": "hindi-39",
+    "title": "Rang De Basanti",
+    "year": 2006,
+    "cast": "Aamir Khan, Siddharth, Soha Ali Khan",
     "director": "Rakeysh Omprakash Mehra",
     "language": "hindi"
   },
   {
-    "id": "hindi-277",
-    "title": "Aashiqui 2",
-    "year": 2013,
-    "cast": "Aditya Roy Kapur, Shraddha Kapoor",
-    "director": "Mohit Suri",
+    "id": "hindi-40",
+    "title": "Lage Raho Munna Bhai",
+    "year": 2006,
+    "cast": "Sanjay Dutt, Arshad Warsi, Vidya Balan",
+    "director": "Rajkumar Hirani",
     "language": "hindi"
   },
   {
-    "id": "hindi-278",
-    "title": "Badlapur",
-    "year": 2015,
-    "cast": "Varun Dhawan, Nawazuddin Siddiqui",
-    "director": "Sriram Raghavan",
+    "id": "hindi-41",
+    "title": "Om Shanti Om",
+    "year": 2007,
+    "cast": "Shah Rukh Khan, Deepika Padukone",
+    "director": "Farah Khan",
     "language": "hindi"
   },
   {
-    "id": "hindi-279",
-    "title": "Pink",
-    "year": 2016,
-    "cast": "Amitabh Bachchan, Taapsee Pannu",
-    "director": "Aniruddha Roy Chowdhury",
+    "id": "hindi-42",
+    "title": "Jab We Met",
+    "year": 2007,
+    "cast": "Shahid Kapoor, Kareena Kapoor",
+    "director": "Imtiaz Ali",
     "language": "hindi"
   },
   {
-    "id": "hindi-280",
-    "title": "Neerja",
-    "year": 2016,
-    "cast": "Sonam Kapoor, Shabana Azmi",
-    "director": "Ram Madhvani",
+    "id": "hindi-43",
+    "title": "Taare Zameen Par",
+    "year": 2007,
+    "cast": "Darsheel Safary, Aamir Khan",
+    "director": "Aamir Khan",
     "language": "hindi"
   },
   {
-    "id": "hindi-281",
-    "title": "Raazi",
-    "year": 2018,
-    "cast": "Alia Bhatt, Vicky Kaushal",
-    "director": "Meghna Gulzar",
+    "id": "hindi-44",
+    "title": "Ghajini",
+    "year": 2008,
+    "cast": "Aamir Khan, Asin, Jiah Khan",
+    "director": "A. R. Murugadoss",
     "language": "hindi"
   },
   {
-    "id": "hindi-282",
-    "title": "Simmba",
-    "year": 2018,
-    "cast": "Ranveer Singh, Sara Ali Khan",
-    "director": "Rohit Shetty",
+    "id": "hindi-45",
+    "title": "3 Idiots",
+    "year": 2009,
+    "cast": "Aamir Khan, R. Madhavan, Sharman Joshi",
+    "director": "Rajkumar Hirani",
     "language": "hindi"
   },
   {
-    "id": "hindi-283",
-    "title": "Uri: The Surgical Strike",
-    "year": 2019,
-    "cast": "Vicky Kaushal, Yami Gautam",
-    "director": "Aditya Dhar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-284",
-    "title": "Kesari",
-    "year": 2019,
-    "cast": "Akshay Kumar, Parineeti Chopra",
-    "director": "Anurag Singh",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-285",
-    "title": "Super 30",
-    "year": 2019,
-    "cast": "Hrithik Roshan, Mrunal Thakur",
-    "director": "Vikas Bahl",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-286",
-    "title": "Shershaah",
-    "year": 2021,
-    "cast": "Sidharth Malhotra, Kiara Advani",
-    "director": "Vishnuvardhan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-287",
-    "title": "Jersey",
-    "year": 2022,
-    "cast": "Shahid Kapoor, Mrunal Thakur",
-    "director": "Gowtam Tinnanuri",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-288",
-    "title": "Sam Bahadur",
-    "year": 2023,
-    "cast": "Vicky Kaushal, Sanya Malhotra",
-    "director": "Meghna Gulzar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-289",
-    "title": "Merry Christmas",
-    "year": 2024,
-    "cast": "Katrina Kaif, Vijay Sethupathi",
-    "director": "Sriram Raghavan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-290",
-    "title": "Munjya",
-    "year": 2024,
-    "cast": "Sharvari, Abhay Verma",
-    "director": "Aditya Sarpotdar",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-291",
-    "title": "Stree 2",
-    "year": 2024,
-    "cast": "Rajkummar Rao, Shraddha Kapoor",
-    "director": "Amar Kaushik",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-292",
-    "title": "Bhool Bhulaiyaa 3",
-    "year": 2024,
-    "cast": "Kartik Aaryan, Vidya Balan",
-    "director": "Anees Bazmee",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-293",
-    "title": "Ardh Satya",
-    "year": 1983,
-    "cast": "Om Puri, Smita Patil",
-    "director": "Govind Nihalani",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-294",
-    "title": "Dhobi Ghat",
-    "year": 2011,
-    "cast": "Aamir Khan, Monica Dogra",
-    "director": "Kiran Rao",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-295",
-    "title": "Gangs of Wasseypur – Part 1",
-    "year": 2012,
-    "cast": "Manoj Bajpayee, Nawazuddin Siddiqui",
-    "director": "Anurag Kashyap",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-296",
-    "title": "Arth",
-    "year": 1982,
-    "cast": "Shabana Azmi, Smita Patil",
-    "director": "Mahesh Bhatt",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-297",
+    "id": "hindi-46",
     "title": "Dabangg",
     "year": 2010,
     "cast": "Salman Khan, Sonakshi Sinha",
@@ -2376,1263 +368,599 @@
     "language": "hindi"
   },
   {
-    "id": "hindi-298",
-    "title": "Zubeidaa",
-    "year": 2001,
-    "cast": "Karisma Kapoor, Rekha",
-    "director": "Shyam Benegal",
+    "id": "hindi-47",
+    "title": "My Name Is Khan",
+    "year": 2010,
+    "cast": "Shah Rukh Khan, Kajol",
+    "director": "Karan Johar",
     "language": "hindi"
   },
   {
-    "id": "hindi-299",
-    "title": "Teesri Kasam",
-    "year": 1966,
-    "cast": "Raj Kapoor, Waheeda Rehman",
-    "director": "Basu Bhattacharya",
+    "id": "hindi-48",
+    "title": "Zindagi Na Milegi Dobara",
+    "year": 2011,
+    "cast": "Hrithik Roshan, Farhan Akhtar, Abhay Deol",
+    "director": "Zoya Akhtar",
     "language": "hindi"
   },
   {
-    "id": "hindi-300",
-    "title": "Naseeb",
-    "year": 1981,
-    "cast": "Amitabh Bachchan, Shatrughan Sinha",
-    "director": "Manmohan Desai",
+    "id": "hindi-49",
+    "title": "Rockstar",
+    "year": 2011,
+    "cast": "Ranbir Kapoor, Nargis Fakhri",
+    "director": "Imtiaz Ali",
     "language": "hindi"
   },
   {
-    "id": "hindi-301",
-    "title": "Omkara",
-    "year": 2006,
-    "cast": "Ajay Devgn, Kareena Kapoor",
+    "id": "hindi-50",
+    "title": "Barfi!",
+    "year": 2012,
+    "cast": "Ranbir Kapoor, Priyanka Chopra, Ileana D'Cruz",
+    "director": "Anurag Basu",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-51",
+    "title": "Kahaani",
+    "year": 2012,
+    "cast": "Vidya Balan, Parambrata Chatterjee",
+    "director": "Sujoy Ghosh",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-52",
+    "title": "English Vinglish",
+    "year": 2012,
+    "cast": "Sridevi, Adil Hussain",
+    "director": "Gauri Shinde",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-53",
+    "title": "Chennai Express",
+    "year": 2013,
+    "cast": "Shah Rukh Khan, Deepika Padukone",
+    "director": "Rohit Shetty",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-54",
+    "title": "Yeh Jawaani Hai Deewani",
+    "year": 2013,
+    "cast": "Ranbir Kapoor, Deepika Padukone",
+    "director": "Ayan Mukerji",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-55",
+    "title": "Bhaag Milkha Bhaag",
+    "year": 2013,
+    "cast": "Farhan Akhtar, Sonam Kapoor",
+    "director": "Rakeysh Omprakash Mehra",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-56",
+    "title": "Queen",
+    "year": 2014,
+    "cast": "Kangana Ranaut, Rajkummar Rao",
+    "director": "Vikas Bahl",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-57",
+    "title": "PK",
+    "year": 2014,
+    "cast": "Aamir Khan, Anushka Sharma",
+    "director": "Rajkumar Hirani",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-58",
+    "title": "Haider",
+    "year": 2014,
+    "cast": "Shahid Kapoor, Tabu, Shraddha Kapoor",
     "director": "Vishal Bhardwaj",
     "language": "hindi"
   },
   {
-    "id": "hindi-302",
-    "title": "Sharmeelee",
-    "year": 1971,
-    "cast": "Shashi Kapoor, Raakhee",
-    "director": "Samir Ganguli",
+    "id": "hindi-59",
+    "title": "Bajrangi Bhaijaan",
+    "year": 2015,
+    "cast": "Salman Khan, Harshaali Malhotra, Kareena Kapoor",
+    "director": "Kabir Khan",
     "language": "hindi"
   },
   {
-    "id": "hindi-303",
-    "title": "Lootera",
-    "year": 2013,
-    "cast": "Ranveer Singh, Sonakshi Sinha",
-    "director": "Vikramaditya Motwane",
+    "id": "hindi-60",
+    "title": "Piku",
+    "year": 2015,
+    "cast": "Deepika Padukone, Amitabh Bachchan, Irrfan Khan",
+    "director": "Shoojit Sircar",
     "language": "hindi"
   },
   {
-    "id": "hindi-304",
-    "title": "Sahib Bibi Aur Ghulam",
-    "year": 1962,
-    "cast": "Meena Kumari, Guru Dutt",
-    "director": "Abrar Alvi",
+    "id": "hindi-61",
+    "title": "Tamasha",
+    "year": 2015,
+    "cast": "Ranbir Kapoor, Deepika Padukone",
+    "director": "Imtiaz Ali",
     "language": "hindi"
   },
   {
-    "id": "hindi-305",
-    "title": "Ankur",
-    "year": 1974,
-    "cast": "Shabana Azmi, Anant Nag",
-    "director": "Shyam Benegal",
+    "id": "hindi-62",
+    "title": "Dangal",
+    "year": 2016,
+    "cast": "Aamir Khan, Fatima Sana Shaikh, Sanya Malhotra",
+    "director": "Nitesh Tiwari",
     "language": "hindi"
   },
   {
-    "id": "hindi-306",
-    "title": "Shaan",
-    "year": 1980,
-    "cast": "Amitabh Bachchan, Shashi Kapoor",
-    "director": "Ramesh Sippy",
+    "id": "hindi-63",
+    "title": "Pink",
+    "year": 2016,
+    "cast": "Amitabh Bachchan, Taapsee Pannu",
+    "director": "Aniruddha Roy Chowdhury",
     "language": "hindi"
   },
   {
-    "id": "hindi-307",
-    "title": "Mr. India",
-    "year": 1987,
-    "cast": "Anil Kapoor, Sridevi",
-    "director": "Shekhar Kapur",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-308",
-    "title": "Secret Superstar",
+    "id": "hindi-64",
+    "title": "Hindi Medium",
     "year": 2017,
-    "cast": "Zaira Wasim, Meher Vij",
-    "director": "Advait Chandan",
+    "cast": "Irrfan Khan, Saba Qamar",
+    "director": "Saket Chaudhary",
     "language": "hindi"
   },
   {
-    "id": "hindi-309",
-    "title": "The Lunchbox",
+    "id": "hindi-65",
+    "title": "Bareilly Ki Barfi",
+    "year": 2017,
+    "cast": "Ayushmann Khurrana, Kriti Sanon, Rajkummar Rao",
+    "director": "Ashwiny Iyer Tiwari",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-66",
+    "title": "Toilet: Ek Prem Katha",
+    "year": 2017,
+    "cast": "Akshay Kumar, Bhumi Pednekar",
+    "director": "Shree Narayan Singh",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-67",
+    "title": "Andhadhun",
+    "year": 2018,
+    "cast": "Ayushmann Khurrana, Tabu, Radhika Apte",
+    "director": "Sriram Raghavan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-68",
+    "title": "Stree",
+    "year": 2018,
+    "cast": "Rajkummar Rao, Shraddha Kapoor",
+    "director": "Amar Kaushik",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-69",
+    "title": "Badhaai Ho",
+    "year": 2018,
+    "cast": "Ayushmann Khurrana, Neena Gupta, Gajraj Rao",
+    "director": "Amit Ravindernath Sharma",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-70",
+    "title": "Gully Boy",
+    "year": 2019,
+    "cast": "Ranveer Singh, Alia Bhatt",
+    "director": "Zoya Akhtar",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-71",
+    "title": "Chhichhore",
+    "year": 2019,
+    "cast": "Sushant Singh Rajput, Shraddha Kapoor",
+    "director": "Nitesh Tiwari",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-72",
+    "title": "Dream Girl",
+    "year": 2019,
+    "cast": "Ayushmann Khurrana, Nushrratt Bharuccha",
+    "director": "Raaj Shaandilyaa",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-73",
+    "title": "Ludo",
+    "year": 2020,
+    "cast": "Abhishek Bachchan, Rajkummar Rao, Pankaj Tripathi",
+    "director": "Anurag Basu",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-74",
+    "title": "Shershaah",
+    "year": 2021,
+    "cast": "Sidharth Malhotra, Kiara Advani",
+    "director": "Vishnuvardhan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-75",
+    "title": "Gangubai Kathiawadi",
+    "year": 2022,
+    "cast": "Alia Bhatt, Shantanu Maheshwari",
+    "director": "Sanjay Leela Bhansali",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-76",
+    "title": "Bhool Bhulaiyaa 2",
+    "year": 2022,
+    "cast": "Kartik Aaryan, Kiara Advani, Tabu",
+    "director": "Anees Bazmee",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-77",
+    "title": "Drishyam 2",
+    "year": 2022,
+    "cast": "Ajay Devgn, Tabu, Akshaye Khanna",
+    "director": "Abhishek Pathak",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-78",
+    "title": "Pathaan",
+    "year": 2023,
+    "cast": "Shah Rukh Khan, Deepika Padukone, John Abraham",
+    "director": "Siddharth Anand",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-79",
+    "title": "Jawan",
+    "year": 2023,
+    "cast": "Shah Rukh Khan, Nayanthara, Vijay Sethupathi",
+    "director": "Atlee",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-80",
+    "title": "Animal",
+    "year": 2023,
+    "cast": "Ranbir Kapoor, Rashmika Mandanna, Anil Kapoor",
+    "director": "Sandeep Reddy Vanga",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-81",
+    "title": "12th Fail",
+    "year": 2023,
+    "cast": "Vikrant Massey, Medha Shankr",
+    "director": "Vidhu Vinod Chopra",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-82",
+    "title": "Dunki",
+    "year": 2023,
+    "cast": "Shah Rukh Khan, Taapsee Pannu",
+    "director": "Rajkumar Hirani",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-83",
+    "title": "Laapataa Ladies",
+    "year": 2024,
+    "cast": "Nitanshi Goel, Pratibha Ranta, Sparsh Shrivastava",
+    "director": "Kiran Rao",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-84",
+    "title": "Crew",
+    "year": 2024,
+    "cast": "Tabu, Kareena Kapoor Khan, Kriti Sanon",
+    "director": "Rajesh A. Krishnan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-85",
+    "title": "Stree 2",
+    "year": 2024,
+    "cast": "Rajkummar Rao, Shraddha Kapoor",
+    "director": "Amar Kaushik",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-86",
+    "title": "Bhool Bhulaiyaa 3",
+    "year": 2024,
+    "cast": "Kartik Aaryan, Vidya Balan, Madhuri Dixit",
+    "director": "Anees Bazmee",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-87",
+    "title": "Munjya",
+    "year": 2024,
+    "cast": "Sharvari, Abhay Verma, Mona Singh",
+    "director": "Aditya Sarpotdar",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-88",
+    "title": "Madgaon Express",
+    "year": 2024,
+    "cast": "Divyenndu, Pratik Gandhi, Avinash Tiwary",
+    "director": "Kunal Kemmu",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-89",
+    "title": "Fukrey",
     "year": 2013,
-    "cast": "Irrfan Khan, Nimrat Kaur",
-    "director": "Ritesh Batra",
+    "cast": "Pulkit Samrat, Varun Sharma, Richa Chadha",
+    "director": "Mrighdeep Singh Lamba",
     "language": "hindi"
   },
   {
-    "id": "hindi-310",
-    "title": "Dil Se..",
-    "year": 1998,
-    "cast": "Shah Rukh Khan, Manisha Koirala",
-    "director": "Mani Ratnam",
+    "id": "hindi-90",
+    "title": "Go Goa Gone",
+    "year": 2013,
+    "cast": "Saif Ali Khan, Kunal Kemmu, Vir Das",
+    "director": "Raj and D.K.",
     "language": "hindi"
   },
   {
-    "id": "hindi-311",
-    "title": "Ghajini",
-    "year": 2008,
-    "cast": "Aamir Khan, Asin",
-    "director": "A. R. Murugadoss",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-312",
-    "title": "Main Hoon Na",
-    "year": 2004,
-    "cast": "Shah Rukh Khan, Sushmita Sen",
-    "director": "Farah Khan",
-    "language": "hindi"
-  },
-  {
-    "id": "hindi-313",
-    "title": "Khakee",
-    "year": 2004,
-    "cast": "Amitabh Bachchan, Akshay Kumar",
-    "director": "Rajkumar Santoshi",
-    "language": "hindi"
-  },
-  {
-    "id": "english-314",
-    "title": "Airplane!",
-    "year": 1980,
-    "cast": "Robert Hays, Julie Hagerty",
-    "director": "Jim Abrahams, David Zucker, Jerry Zucker",
-    "language": "english"
-  },
-  {
-    "id": "english-315",
-    "title": "The Naked Gun: From the Files of Police Squad!",
-    "year": 1988,
-    "cast": "Leslie Nielsen, Priscilla Presley",
-    "director": "David Zucker",
-    "language": "english"
-  },
-  {
-    "id": "english-316",
-    "title": "The Naked Gun 2½: The Smell of Fear",
-    "year": 1991,
-    "cast": "Leslie Nielsen, Priscilla Presley",
-    "director": "David Zucker",
-    "language": "english"
-  },
-  {
-    "id": "english-317",
-    "title": "Naked Gun 33⅓: The Final Insult",
-    "year": 1994,
-    "cast": "Leslie Nielsen, Priscilla Presley",
-    "director": "Peter Segal",
-    "language": "english"
-  },
-  {
-    "id": "english-318",
-    "title": "The Pink Panther",
+    "id": "hindi-91",
+    "title": "Khosla Ka Ghosla!",
     "year": 2006,
-    "cast": "Steve Martin, Kevin Kline",
-    "director": "Shawn Levy",
+    "cast": "Anupam Kher, Boman Irani, Parvin Dabas",
+    "director": "Dibakar Banerjee",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-92",
+    "title": "Oye Lucky! Lucky Oye!",
+    "year": 2008,
+    "cast": "Abhay Deol, Paresh Rawal",
+    "director": "Dibakar Banerjee",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-93",
+    "title": "Mard Ko Dard Nahi Hota",
+    "year": 2018,
+    "cast": "Abhimanyu Dassani, Radhika Madan",
+    "director": "Vasan Bala",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-94",
+    "title": "Matru Ki Bijlee Ka Mandola",
+    "year": 2013,
+    "cast": "Imran Khan, Anushka Sharma, Pankaj Kapur",
+    "director": "Vishal Bhardwaj",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-95",
+    "title": "Hasee Toh Phasee",
+    "year": 2014,
+    "cast": "Sidharth Malhotra, Parineeti Chopra",
+    "director": "Vinil Mathew",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-96",
+    "title": "Bheja Fry",
+    "year": 2007,
+    "cast": "Vinay Pathak, Rajat Kapoor",
+    "director": "Sagar Ballary",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-97",
+    "title": "Atithi Tum Kab Jaoge?",
+    "year": 2010,
+    "cast": "Ajay Devgn, Konkona Sen Sharma, Paresh Rawal",
+    "director": "Ashwni Dhir",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-98",
+    "title": "Welcome",
+    "year": 2007,
+    "cast": "Akshay Kumar, Katrina Kaif, Nana Patekar",
+    "director": "Anees Bazmee",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-99",
+    "title": "Dhamaal",
+    "year": 2007,
+    "cast": "Sanjay Dutt, Riteish Deshmukh, Arshad Warsi",
+    "director": "Indra Kumar",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-100",
+    "title": "Bhagam Bhag",
+    "year": 2006,
+    "cast": "Akshay Kumar, Govinda, Paresh Rawal",
+    "director": "Priyadarshan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-101",
+    "title": "Garam Masala",
+    "year": 2005,
+    "cast": "Akshay Kumar, John Abraham, Paresh Rawal",
+    "director": "Priyadarshan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-102",
+    "title": "Golmaal: Fun Unlimited",
+    "year": 2006,
+    "cast": "Ajay Devgn, Arshad Warsi, Tusshar Kapoor",
+    "director": "Rohit Shetty",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-103",
+    "title": "Housefull",
+    "year": 2010,
+    "cast": "Akshay Kumar, Riteish Deshmukh, Deepika Padukone",
+    "director": "Sajid Khan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-104",
+    "title": "Fukrey Returns",
+    "year": 2017,
+    "cast": "Pulkit Samrat, Varun Sharma, Richa Chadha",
+    "director": "Mrighdeep Singh Lamba",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-105",
+    "title": "Pyaar Ka Punchnama",
+    "year": 2011,
+    "cast": "Kartik Aaryan, Nushrratt Bharuccha, Divyenndu",
+    "director": "Luv Ranjan",
+    "language": "hindi"
+  },
+  {
+    "id": "hindi-106",
+    "title": "Sonu Ke Titu Ki Sweety",
+    "year": 2018,
+    "cast": "Kartik Aaryan, Nushrratt Bharuccha, Sunny Singh",
+    "director": "Luv Ranjan",
+    "language": "hindi"
+  },
+  {
+    "id": "english-1",
+    "title": "The Godfather",
+    "year": 1972,
+    "cast": "Marlon Brando, Al Pacino, James Caan",
+    "director": "Francis Ford Coppola",
     "language": "english"
   },
   {
-    "id": "english-319",
-    "title": "The Pink Panther 2",
-    "year": 2009,
-    "cast": "Steve Martin, Jean Reno",
-    "director": "Harald Zwart",
+    "id": "english-2",
+    "title": "Jaws",
+    "year": 1975,
+    "cast": "Roy Scheider, Robert Shaw, Richard Dreyfuss",
+    "director": "Steven Spielberg",
     "language": "english"
   },
   {
-    "id": "english-320",
-    "title": "Caddyshack",
+    "id": "english-3",
+    "title": "Star Wars",
+    "year": 1977,
+    "cast": "Mark Hamill, Harrison Ford, Carrie Fisher",
+    "director": "George Lucas",
+    "language": "english"
+  },
+  {
+    "id": "english-4",
+    "title": "Rocky",
+    "year": 1976,
+    "cast": "Sylvester Stallone, Talia Shire",
+    "director": "John G. Avildsen",
+    "language": "english"
+  },
+  {
+    "id": "english-5",
+    "title": "Grease",
+    "year": 1978,
+    "cast": "John Travolta, Olivia Newton-John",
+    "director": "Randal Kleiser",
+    "language": "english"
+  },
+  {
+    "id": "english-6",
+    "title": "Alien",
+    "year": 1979,
+    "cast": "Sigourney Weaver, Tom Skerritt",
+    "director": "Ridley Scott",
+    "language": "english"
+  },
+  {
+    "id": "english-7",
+    "title": "The Shining",
     "year": 1980,
-    "cast": "Chevy Chase, Rodney Dangerfield",
-    "director": "Harold Ramis",
+    "cast": "Jack Nicholson, Shelley Duvall",
+    "director": "Stanley Kubrick",
     "language": "english"
   },
   {
-    "id": "english-321",
-    "title": "National Lampoon's Vacation",
-    "year": 1983,
-    "cast": "Chevy Chase, Beverly D'Angelo",
-    "director": "Harold Ramis",
+    "id": "english-8",
+    "title": "E.T. the Extra-Terrestrial",
+    "year": 1982,
+    "cast": "Henry Thomas, Drew Barrymore",
+    "director": "Steven Spielberg",
     "language": "english"
   },
   {
-    "id": "english-322",
-    "title": "National Lampoon's Christmas Vacation",
-    "year": 1989,
-    "cast": "Chevy Chase, Beverly D'Angelo",
-    "director": "Jeremiah S. Chechik",
-    "language": "english"
-  },
-  {
-    "id": "english-323",
-    "title": "Trading Places",
-    "year": 1983,
-    "cast": "Eddie Murphy, Dan Aykroyd",
-    "director": "John Landis",
-    "language": "english"
-  },
-  {
-    "id": "english-324",
-    "title": "Coming to America",
-    "year": 1988,
-    "cast": "Eddie Murphy, Arsenio Hall",
-    "director": "John Landis",
-    "language": "english"
-  },
-  {
-    "id": "english-325",
-    "title": "Beverly Hills Cop",
+    "id": "english-9",
+    "title": "Ghostbusters",
     "year": 1984,
-    "cast": "Eddie Murphy, Judge Reinhold",
-    "director": "Martin Brest",
+    "cast": "Bill Murray, Dan Aykroyd, Harold Ramis",
+    "director": "Ivan Reitman",
     "language": "english"
   },
   {
-    "id": "english-326",
-    "title": "Beverly Hills Cop II",
-    "year": 1987,
-    "cast": "Eddie Murphy, Judge Reinhold",
+    "id": "english-10",
+    "title": "Back to the Future",
+    "year": 1985,
+    "cast": "Michael J. Fox, Christopher Lloyd",
+    "director": "Robert Zemeckis",
+    "language": "english"
+  },
+  {
+    "id": "english-11",
+    "title": "Top Gun",
+    "year": 1986,
+    "cast": "Tom Cruise, Kelly McGillis, Val Kilmer",
     "director": "Tony Scott",
     "language": "english"
   },
   {
-    "id": "english-327",
-    "title": "The Nutty Professor",
-    "year": 1996,
-    "cast": "Eddie Murphy, Jada Pinkett Smith",
-    "director": "Tom Shadyac",
+    "id": "english-12",
+    "title": "Dirty Dancing",
+    "year": 1987,
+    "cast": "Patrick Swayze, Jennifer Grey",
+    "director": "Emile Ardolino",
     "language": "english"
   },
   {
-    "id": "english-328",
-    "title": "Dr. Dolittle",
-    "year": 1998,
-    "cast": "Eddie Murphy, Ossie Davis",
-    "director": "Betty Thomas",
+    "id": "english-13",
+    "title": "Die Hard",
+    "year": 1988,
+    "cast": "Bruce Willis, Alan Rickman",
+    "director": "John McTiernan",
     "language": "english"
   },
   {
-    "id": "english-329",
-    "title": "Bowfinger",
-    "year": 1999,
-    "cast": "Steve Martin, Eddie Murphy",
-    "director": "Frank Oz",
+    "id": "english-14",
+    "title": "Home Alone",
+    "year": 1990,
+    "cast": "Macaulay Culkin, Joe Pesci",
+    "director": "Chris Columbus",
     "language": "english"
   },
   {
-    "id": "english-330",
-    "title": "Ace Ventura: When Nature Calls",
-    "year": 1995,
-    "cast": "Jim Carrey, Ian McNeice",
-    "director": "Steve Oedekerk",
-    "language": "english"
-  },
-  {
-    "id": "english-331",
-    "title": "Liar Liar",
-    "year": 1997,
-    "cast": "Jim Carrey, Maura Tierney",
-    "director": "Tom Shadyac",
-    "language": "english"
-  },
-  {
-    "id": "english-332",
-    "title": "Bruce Almighty",
-    "year": 2003,
-    "cast": "Jim Carrey, Jennifer Aniston",
-    "director": "Tom Shadyac",
-    "language": "english"
-  },
-  {
-    "id": "english-333",
-    "title": "Yes Man",
-    "year": 2008,
-    "cast": "Jim Carrey, Zooey Deschanel",
-    "director": "Peyton Reed",
-    "language": "english"
-  },
-  {
-    "id": "english-334",
-    "title": "The Cable Guy",
-    "year": 1996,
-    "cast": "Jim Carrey, Matthew Broderick",
-    "director": "Ben Stiller",
-    "language": "english"
-  },
-  {
-    "id": "english-335",
-    "title": "Me, Myself & Irene",
-    "year": 2000,
-    "cast": "Jim Carrey, Renée Zellweger",
-    "director": "Peter Farrelly, Bobby Farrelly",
-    "language": "english"
-  },
-  {
-    "id": "english-336",
-    "title": "Fun with Dick and Jane",
-    "year": 2005,
-    "cast": "Jim Carrey, Téa Leoni",
-    "director": "Dean Parisot",
-    "language": "english"
-  },
-  {
-    "id": "english-337",
-    "title": "How the Grinch Stole Christmas",
-    "year": 2000,
-    "cast": "Jim Carrey, Taylor Momsen",
-    "director": "Ron Howard",
-    "language": "english"
-  },
-  {
-    "id": "english-338",
-    "title": "Eternal Sunshine of the Spotless Mind",
-    "year": 2004,
-    "cast": "Jim Carrey, Kate Winslet",
-    "director": "Michel Gondry",
-    "language": "english"
-  },
-  {
-    "id": "english-339",
-    "title": "Billy Madison",
-    "year": 1995,
-    "cast": "Adam Sandler, Bradley Whitford",
-    "director": "Tamra Davis",
-    "language": "english"
-  },
-  {
-    "id": "english-340",
-    "title": "Happy Gilmore",
-    "year": 1996,
-    "cast": "Adam Sandler, Christopher McDonald",
-    "director": "Dennis Dugan",
-    "language": "english"
-  },
-  {
-    "id": "english-341",
-    "title": "The Wedding Singer",
-    "year": 1998,
-    "cast": "Adam Sandler, Drew Barrymore",
-    "director": "Frank Coraci",
-    "language": "english"
-  },
-  {
-    "id": "english-342",
-    "title": "Big Daddy",
-    "year": 1999,
-    "cast": "Adam Sandler, Joey Lauren Adams",
-    "director": "Dennis Dugan",
-    "language": "english"
-  },
-  {
-    "id": "english-343",
-    "title": "Mr. Deeds",
-    "year": 2002,
-    "cast": "Adam Sandler, Winona Ryder",
-    "director": "Steven Brill",
-    "language": "english"
-  },
-  {
-    "id": "english-344",
-    "title": "50 First Dates",
-    "year": 2004,
-    "cast": "Adam Sandler, Drew Barrymore",
-    "director": "Peter Segal",
-    "language": "english"
-  },
-  {
-    "id": "english-345",
-    "title": "Click",
-    "year": 2006,
-    "cast": "Adam Sandler, Kate Beckinsale",
-    "director": "Frank Coraci",
-    "language": "english"
-  },
-  {
-    "id": "english-346",
-    "title": "Grown Ups",
-    "year": 2010,
-    "cast": "Adam Sandler, Kevin James",
-    "director": "Dennis Dugan",
-    "language": "english"
-  },
-  {
-    "id": "english-347",
-    "title": "Grown Ups 2",
-    "year": 2013,
-    "cast": "Adam Sandler, Kevin James",
-    "director": "Dennis Dugan",
-    "language": "english"
-  },
-  {
-    "id": "english-348",
-    "title": "Just Go with It",
-    "year": 2011,
-    "cast": "Adam Sandler, Jennifer Aniston",
-    "director": "Dennis Dugan",
-    "language": "english"
-  },
-  {
-    "id": "english-349",
-    "title": "Blended",
-    "year": 2014,
-    "cast": "Adam Sandler, Drew Barrymore",
-    "director": "Frank Coraci",
-    "language": "english"
-  },
-  {
-    "id": "english-350",
-    "title": "The Waterboy",
-    "year": 1998,
-    "cast": "Adam Sandler, Kathy Bates",
-    "director": "Frank Coraci",
-    "language": "english"
-  },
-  {
-    "id": "english-351",
-    "title": "Anger Management",
-    "year": 2003,
-    "cast": "Adam Sandler, Jack Nicholson",
-    "director": "Peter Segal",
-    "language": "english"
-  },
-  {
-    "id": "english-352",
-    "title": "Little Nicky",
-    "year": 2000,
-    "cast": "Adam Sandler, Patricia Arquette",
-    "director": "Steven Brill",
-    "language": "english"
-  },
-  {
-    "id": "english-353",
-    "title": "Uncut Gems",
-    "year": 2019,
-    "cast": "Adam Sandler, Lakeith Stanfield",
-    "director": "Josh Safdie, Benny Safdie",
-    "language": "english"
-  },
-  {
-    "id": "english-354",
-    "title": "Meet the Parents",
-    "year": 2000,
-    "cast": "Ben Stiller, Robert De Niro",
-    "director": "Jay Roach",
-    "language": "english"
-  },
-  {
-    "id": "english-355",
-    "title": "Meet the Fockers",
-    "year": 2004,
-    "cast": "Ben Stiller, Robert De Niro",
-    "director": "Jay Roach",
-    "language": "english"
-  },
-  {
-    "id": "english-356",
-    "title": "Little Fockers",
-    "year": 2010,
-    "cast": "Ben Stiller, Robert De Niro",
-    "director": "Paul Weitz",
-    "language": "english"
-  },
-  {
-    "id": "english-357",
-    "title": "Zoolander",
-    "year": 2001,
-    "cast": "Ben Stiller, Owen Wilson",
-    "director": "Ben Stiller",
-    "language": "english"
-  },
-  {
-    "id": "english-358",
-    "title": "Zoolander 2",
-    "year": 2016,
-    "cast": "Ben Stiller, Owen Wilson",
-    "director": "Ben Stiller",
-    "language": "english"
-  },
-  {
-    "id": "english-359",
-    "title": "Dodgeball: A True Underdog Story",
-    "year": 2004,
-    "cast": "Vince Vaughn, Ben Stiller",
-    "director": "Rawson Marshall Thurber",
-    "language": "english"
-  },
-  {
-    "id": "english-360",
-    "title": "Tropic Thunder",
-    "year": 2008,
-    "cast": "Ben Stiller, Robert Downey Jr.",
-    "director": "Ben Stiller",
-    "language": "english"
-  },
-  {
-    "id": "english-361",
-    "title": "Along Came Polly",
-    "year": 2004,
-    "cast": "Ben Stiller, Jennifer Aniston",
-    "director": "John Hamburg",
-    "language": "english"
-  },
-  {
-    "id": "english-362",
-    "title": "There's Something About Mary",
-    "year": 1998,
-    "cast": "Cameron Diaz, Ben Stiller",
-    "director": "Peter Farrelly, Bobby Farrelly",
-    "language": "english"
-  },
-  {
-    "id": "english-363",
-    "title": "The Secret Life of Walter Mitty",
-    "year": 2013,
-    "cast": "Ben Stiller, Kristen Wiig",
-    "director": "Ben Stiller",
-    "language": "english"
-  },
-  {
-    "id": "english-364",
-    "title": "Starsky & Hutch",
-    "year": 2004,
-    "cast": "Ben Stiller, Owen Wilson",
-    "director": "Todd Phillips",
-    "language": "english"
-  },
-  {
-    "id": "english-365",
-    "title": "Anchorman: The Legend of Ron Burgundy",
-    "year": 2004,
-    "cast": "Will Ferrell, Christina Applegate",
-    "director": "Adam McKay",
-    "language": "english"
-  },
-  {
-    "id": "english-366",
-    "title": "Anchorman 2: The Legend Continues",
-    "year": 2013,
-    "cast": "Will Ferrell, Christina Applegate",
-    "director": "Adam McKay",
-    "language": "english"
-  },
-  {
-    "id": "english-367",
-    "title": "Elf",
-    "year": 2003,
-    "cast": "Will Ferrell, James Caan",
-    "director": "Jon Favreau",
-    "language": "english"
-  },
-  {
-    "id": "english-368",
-    "title": "Step Brothers",
-    "year": 2008,
-    "cast": "Will Ferrell, John C. Reilly",
-    "director": "Adam McKay",
-    "language": "english"
-  },
-  {
-    "id": "english-369",
-    "title": "Talladega Nights: The Ballad of Ricky Bobby",
-    "year": 2006,
-    "cast": "Will Ferrell, John C. Reilly",
-    "director": "Adam McKay",
-    "language": "english"
-  },
-  {
-    "id": "english-370",
-    "title": "The Other Guys",
-    "year": 2010,
-    "cast": "Will Ferrell, Mark Wahlberg",
-    "director": "Adam McKay",
-    "language": "english"
-  },
-  {
-    "id": "english-371",
-    "title": "Blades of Glory",
-    "year": 2007,
-    "cast": "Will Ferrell, Jon Heder",
-    "director": "Will Speck, Josh Gordon",
-    "language": "english"
-  },
-  {
-    "id": "english-372",
-    "title": "Old School",
-    "year": 2003,
-    "cast": "Luke Wilson, Vince Vaughn",
-    "director": "Todd Phillips",
-    "language": "english"
-  },
-  {
-    "id": "english-373",
-    "title": "Semi-Pro",
-    "year": 2008,
-    "cast": "Will Ferrell, Woody Harrelson",
-    "director": "Kent Alterman",
-    "language": "english"
-  },
-  {
-    "id": "english-374",
-    "title": "Get Hard",
-    "year": 2015,
-    "cast": "Will Ferrell, Kevin Hart",
-    "director": "Etan Cohen",
-    "language": "english"
-  },
-  {
-    "id": "english-375",
-    "title": "Daddy's Home",
-    "year": 2015,
-    "cast": "Will Ferrell, Mark Wahlberg",
-    "director": "Sean Anders",
-    "language": "english"
-  },
-  {
-    "id": "english-376",
-    "title": "Daddy's Home 2",
-    "year": 2017,
-    "cast": "Will Ferrell, Mark Wahlberg",
-    "director": "Sean Anders",
-    "language": "english"
-  },
-  {
-    "id": "english-377",
-    "title": "The 40-Year-Old Virgin",
-    "year": 2005,
-    "cast": "Steve Carell, Catherine Keener",
-    "director": "Judd Apatow",
-    "language": "english"
-  },
-  {
-    "id": "english-378",
-    "title": "Crazy, Stupid, Love.",
-    "year": 2011,
-    "cast": "Steve Carell, Ryan Gosling",
-    "director": "Glenn Ficarra, John Requa",
-    "language": "english"
-  },
-  {
-    "id": "english-379",
-    "title": "Date Night",
-    "year": 2010,
-    "cast": "Steve Carell, Tina Fey",
-    "director": "Shawn Levy",
-    "language": "english"
-  },
-  {
-    "id": "english-380",
-    "title": "Dinner for Schmucks",
-    "year": 2010,
-    "cast": "Steve Carell, Paul Rudd",
-    "director": "Jay Roach",
-    "language": "english"
-  },
-  {
-    "id": "english-381",
-    "title": "Evan Almighty",
-    "year": 2007,
-    "cast": "Steve Carell, Morgan Freeman",
-    "director": "Tom Shadyac",
-    "language": "english"
-  },
-  {
-    "id": "english-382",
-    "title": "Get Smart",
-    "year": 2008,
-    "cast": "Steve Carell, Anne Hathaway",
-    "director": "Peter Segal",
-    "language": "english"
-  },
-  {
-    "id": "english-383",
-    "title": "The Big Short",
-    "year": 2015,
-    "cast": "Christian Bale, Steve Carell",
-    "director": "Adam McKay",
-    "language": "english"
-  },
-  {
-    "id": "english-384",
-    "title": "Knocked Up",
-    "year": 2007,
-    "cast": "Seth Rogen, Katherine Heigl",
-    "director": "Judd Apatow",
-    "language": "english"
-  },
-  {
-    "id": "english-385",
-    "title": "Pineapple Express",
-    "year": 2008,
-    "cast": "Seth Rogen, James Franco",
-    "director": "David Gordon Green",
-    "language": "english"
-  },
-  {
-    "id": "english-386",
-    "title": "This Is the End",
-    "year": 2013,
-    "cast": "James Franco, Jonah Hill",
-    "director": "Seth Rogen, Evan Goldberg",
-    "language": "english"
-  },
-  {
-    "id": "english-387",
-    "title": "The Interview",
-    "year": 2014,
-    "cast": "James Franco, Seth Rogen",
-    "director": "Seth Rogen, Evan Goldberg",
-    "language": "english"
-  },
-  {
-    "id": "english-388",
-    "title": "Neighbors",
-    "year": 2014,
-    "cast": "Seth Rogen, Zac Efron",
-    "director": "Nicholas Stoller",
-    "language": "english"
-  },
-  {
-    "id": "english-389",
-    "title": "Neighbors 2: Sorority Rising",
-    "year": 2016,
-    "cast": "Seth Rogen, Zac Efron",
-    "director": "Nicholas Stoller",
-    "language": "english"
-  },
-  {
-    "id": "english-390",
-    "title": "The Green Hornet",
-    "year": 2011,
-    "cast": "Seth Rogen, Jay Chou",
-    "director": "Michel Gondry",
-    "language": "english"
-  },
-  {
-    "id": "english-391",
-    "title": "Forgetting Sarah Marshall",
-    "year": 2008,
-    "cast": "Jason Segel, Kristen Bell",
-    "director": "Nicholas Stoller",
-    "language": "english"
-  },
-  {
-    "id": "english-392",
-    "title": "I Love You, Man",
-    "year": 2009,
-    "cast": "Paul Rudd, Jason Segel",
-    "director": "John Hamburg",
-    "language": "english"
-  },
-  {
-    "id": "english-393",
-    "title": "Role Models",
-    "year": 2008,
-    "cast": "Paul Rudd, Seann William Scott",
-    "director": "David Wain",
-    "language": "english"
-  },
-  {
-    "id": "english-394",
-    "title": "The Five-Year Engagement",
-    "year": 2012,
-    "cast": "Jason Segel, Emily Blunt",
-    "director": "Nicholas Stoller",
-    "language": "english"
-  },
-  {
-    "id": "english-395",
-    "title": "The Muppets",
-    "year": 2011,
-    "cast": "Jason Segel, Amy Adams",
-    "director": "James Bobin",
-    "language": "english"
-  },
-  {
-    "id": "english-396",
-    "title": "American Pie",
-    "year": 1999,
-    "cast": "Jason Biggs, Chris Klein",
-    "director": "Paul Weitz, Chris Weitz",
-    "language": "english"
-  },
-  {
-    "id": "english-397",
-    "title": "American Pie 2",
-    "year": 2001,
-    "cast": "Jason Biggs, Seann William Scott",
-    "director": "J. B. Rogers",
-    "language": "english"
-  },
-  {
-    "id": "english-398",
-    "title": "American Wedding",
-    "year": 2003,
-    "cast": "Jason Biggs, Alyson Hannigan",
-    "director": "Jesse Dylan",
-    "language": "english"
-  },
-  {
-    "id": "english-399",
-    "title": "American Reunion",
-    "year": 2012,
-    "cast": "Jason Biggs, Alyson Hannigan",
-    "director": "Jon Hurwitz, Hayden Schlossberg",
-    "language": "english"
-  },
-  {
-    "id": "english-400",
-    "title": "EuroTrip",
-    "year": 2004,
-    "cast": "Scott Mechlowicz, Jacob Pitts",
-    "director": "Jeff Schaffer",
-    "language": "english"
-  },
-  {
-    "id": "english-401",
-    "title": "Road Trip",
-    "year": 2000,
-    "cast": "Breckin Meyer, Seann William Scott",
-    "director": "Todd Phillips",
-    "language": "english"
-  },
-  {
-    "id": "english-402",
-    "title": "The Girl Next Door",
-    "year": 2004,
-    "cast": "Emile Hirsch, Elisha Cuthbert",
-    "director": "Luke Greenfield",
-    "language": "english"
-  },
-  {
-    "id": "english-403",
-    "title": "Project X",
-    "year": 2012,
-    "cast": "Thomas Mann, Oliver Cooper",
-    "director": "Nima Nourizadeh",
-    "language": "english"
-  },
-  {
-    "id": "english-404",
-    "title": "Booksmart",
-    "year": 2019,
-    "cast": "Beanie Feldstein, Kaitlyn Dever",
-    "director": "Olivia Wilde",
-    "language": "english"
-  },
-  {
-    "id": "english-405",
-    "title": "Easy A",
-    "year": 2010,
-    "cast": "Emma Stone, Penn Badgley",
-    "director": "Will Gluck",
-    "language": "english"
-  },
-  {
-    "id": "english-406",
-    "title": "10 Things I Hate About You",
-    "year": 1999,
-    "cast": "Heath Ledger, Julia Stiles",
-    "director": "Gil Junger",
-    "language": "english"
-  },
-  {
-    "id": "english-407",
-    "title": "She's the Man",
-    "year": 2006,
-    "cast": "Amanda Bynes, Channing Tatum",
-    "director": "Andy Fickman",
-    "language": "english"
-  },
-  {
-    "id": "english-408",
-    "title": "Clueless",
-    "year": 1995,
-    "cast": "Alicia Silverstone, Stacey Dash",
-    "director": "Amy Heckerling",
-    "language": "english"
-  },
-  {
-    "id": "english-409",
-    "title": "The DUFF",
-    "year": 2015,
-    "cast": "Mae Whitman, Robbie Amell",
-    "director": "Ari Sandel",
-    "language": "english"
-  },
-  {
-    "id": "english-410",
-    "title": "The House Bunny",
-    "year": 2008,
-    "cast": "Anna Faris, Emma Stone",
-    "director": "Fred Wolf",
-    "language": "english"
-  },
-  {
-    "id": "english-411",
-    "title": "The Hot Chick",
-    "year": 2002,
-    "cast": "Rob Schneider, Anna Faris",
-    "director": "Tom Brady",
-    "language": "english"
-  },
-  {
-    "id": "english-412",
-    "title": "Deuce Bigalow: Male Gigolo",
-    "year": 1999,
-    "cast": "Rob Schneider, William Forsythe",
-    "director": "Mike Mitchell",
-    "language": "english"
-  },
-  {
-    "id": "english-413",
-    "title": "The Benchwarmers",
-    "year": 2006,
-    "cast": "Rob Schneider, David Spade",
-    "director": "Dennis Dugan",
-    "language": "english"
-  },
-  {
-    "id": "english-414",
-    "title": "White Chicks",
-    "year": 2004,
-    "cast": "Shawn Wayans, Marlon Wayans",
-    "director": "Keenen Ivory Wayans",
-    "language": "english"
-  },
-  {
-    "id": "english-415",
-    "title": "Little Man",
-    "year": 2006,
-    "cast": "Marlon Wayans, Shawn Wayans",
-    "director": "Keenen Ivory Wayans",
-    "language": "english"
-  },
-  {
-    "id": "english-416",
-    "title": "Scary Movie",
-    "year": 2000,
-    "cast": "Anna Faris, Regina Hall",
-    "director": "Keenen Ivory Wayans",
-    "language": "english"
-  },
-  {
-    "id": "english-417",
-    "title": "Scary Movie 2",
-    "year": 2001,
-    "cast": "Anna Faris, Regina Hall",
-    "director": "Keenen Ivory Wayans",
-    "language": "english"
-  },
-  {
-    "id": "english-418",
-    "title": "Scary Movie 3",
-    "year": 2003,
-    "cast": "Anna Faris, Charlie Sheen",
-    "director": "David Zucker",
-    "language": "english"
-  },
-  {
-    "id": "english-419",
-    "title": "Scary Movie 4",
-    "year": 2006,
-    "cast": "Anna Faris, Regina Hall",
-    "director": "David Zucker",
-    "language": "english"
-  },
-  {
-    "id": "english-420",
-    "title": "Shaun of the Dead",
-    "year": 2004,
-    "cast": "Simon Pegg, Nick Frost",
-    "director": "Edgar Wright",
-    "language": "english"
-  },
-  {
-    "id": "english-421",
-    "title": "Hot Fuzz",
-    "year": 2007,
-    "cast": "Simon Pegg, Nick Frost",
-    "director": "Edgar Wright",
-    "language": "english"
-  },
-  {
-    "id": "english-422",
-    "title": "The World's End",
-    "year": 2013,
-    "cast": "Simon Pegg, Nick Frost",
-    "director": "Edgar Wright",
-    "language": "english"
-  },
-  {
-    "id": "english-423",
-    "title": "Paul",
-    "year": 2011,
-    "cast": "Simon Pegg, Nick Frost",
-    "director": "Greg Mottola",
-    "language": "english"
-  },
-  {
-    "id": "english-424",
-    "title": "Johnny English",
-    "year": 2003,
-    "cast": "Rowan Atkinson, Natalie Imbruglia",
-    "director": "Peter Howitt",
-    "language": "english"
-  },
-  {
-    "id": "english-425",
-    "title": "Johnny English Reborn",
-    "year": 2011,
-    "cast": "Rowan Atkinson, Rosamund Pike",
-    "director": "Oliver Parker",
-    "language": "english"
-  },
-  {
-    "id": "english-426",
-    "title": "Johnny English Strikes Again",
-    "year": 2018,
-    "cast": "Rowan Atkinson, Ben Miller",
-    "director": "David Kerr",
-    "language": "english"
-  },
-  {
-    "id": "english-427",
-    "title": "Bean",
-    "year": 1997,
-    "cast": "Rowan Atkinson, Peter MacNicol",
-    "director": "Mel Smith",
-    "language": "english"
-  },
-  {
-    "id": "english-428",
-    "title": "Mr. Bean's Holiday",
-    "year": 2007,
-    "cast": "Rowan Atkinson, Willem Dafoe",
-    "director": "Steve Bendelack",
-    "language": "english"
-  },
-  {
-    "id": "english-429",
-    "title": "Rat Race",
-    "year": 2001,
-    "cast": "Rowan Atkinson, Whoopi Goldberg",
-    "director": "Jerry Zucker",
-    "language": "english"
-  },
-  {
-    "id": "english-430",
-    "title": "Rush Hour",
-    "year": 1998,
-    "cast": "Jackie Chan, Chris Tucker",
-    "director": "Brett Ratner",
-    "language": "english"
-  },
-  {
-    "id": "english-431",
-    "title": "Rush Hour 2",
-    "year": 2001,
-    "cast": "Jackie Chan, Chris Tucker",
-    "director": "Brett Ratner",
-    "language": "english"
-  },
-  {
-    "id": "english-432",
-    "title": "Rush Hour 3",
-    "year": 2007,
-    "cast": "Jackie Chan, Chris Tucker",
-    "director": "Brett Ratner",
-    "language": "english"
-  },
-  {
-    "id": "english-433",
-    "title": "Shanghai Noon",
-    "year": 2000,
-    "cast": "Jackie Chan, Owen Wilson",
-    "director": "Tom Dey",
-    "language": "english"
-  },
-  {
-    "id": "english-434",
-    "title": "Shanghai Knights",
-    "year": 2003,
-    "cast": "Jackie Chan, Owen Wilson",
-    "director": "David Dobkin",
-    "language": "english"
-  },
-  {
-    "id": "english-435",
-    "title": "The Spy Next Door",
-    "year": 2010,
-    "cast": "Jackie Chan, Amber Valletta",
-    "director": "Brian Levant",
-    "language": "english"
-  },
-  {
-    "id": "english-436",
-    "title": "The Tuxedo",
-    "year": 2002,
-    "cast": "Jackie Chan, Jennifer Love Hewitt",
-    "director": "Kevin Donovan",
-    "language": "english"
-  },
-  {
-    "id": "english-437",
-    "title": "The Hangover Part II",
-    "year": 2011,
-    "cast": "Bradley Cooper, Ed Helms",
-    "director": "Todd Phillips",
-    "language": "english"
-  },
-  {
-    "id": "english-438",
-    "title": "The Hangover Part III",
-    "year": 2013,
-    "cast": "Bradley Cooper, Ed Helms",
-    "director": "Todd Phillips",
-    "language": "english"
-  },
-  {
-    "id": "english-439",
-    "title": "22 Jump Street",
-    "year": 2014,
-    "cast": "Jonah Hill, Channing Tatum",
-    "director": "Phil Lord, Christopher Miller",
-    "language": "english"
-  },
-  {
-    "id": "english-440",
-    "title": "Game Night",
-    "year": 2018,
-    "cast": "Jason Bateman, Rachel McAdams",
-    "director": "John Francis Daley, Jonathan Goldstein",
-    "language": "english"
-  },
-  {
-    "id": "english-441",
-    "title": "Horrible Bosses",
-    "year": 2011,
-    "cast": "Jason Bateman, Charlie Day",
-    "director": "Seth Gordon",
-    "language": "english"
-  },
-  {
-    "id": "english-442",
-    "title": "Horrible Bosses 2",
-    "year": 2014,
-    "cast": "Jason Bateman, Jason Sudeikis",
-    "director": "Sean Anders",
-    "language": "english"
-  },
-  {
-    "id": "english-443",
-    "title": "Identity Thief",
-    "year": 2013,
-    "cast": "Jason Bateman, Melissa McCarthy",
-    "director": "Seth Gordon",
-    "language": "english"
-  },
-  {
-    "id": "english-444",
-    "title": "The Heat",
-    "year": 2013,
-    "cast": "Sandra Bullock, Melissa McCarthy",
-    "director": "Paul Feig",
-    "language": "english"
-  },
-  {
-    "id": "english-445",
-    "title": "Spy",
-    "year": 2015,
-    "cast": "Melissa McCarthy, Jason Statham",
-    "director": "Paul Feig",
-    "language": "english"
-  },
-  {
-    "id": "english-446",
-    "title": "The Boss",
-    "year": 2016,
-    "cast": "Melissa McCarthy, Kristen Bell",
-    "director": "Ben Falcone",
-    "language": "english"
-  },
-  {
-    "id": "english-447",
-    "title": "Tammy",
-    "year": 2014,
-    "cast": "Melissa McCarthy, Susan Sarandon",
-    "director": "Ben Falcone",
-    "language": "english"
-  },
-  {
-    "id": "english-448",
-    "title": "Life of the Party",
-    "year": 2018,
-    "cast": "Melissa McCarthy, Molly Gordon",
-    "director": "Ben Falcone",
-    "language": "english"
-  },
-  {
-    "id": "english-449",
-    "title": "The Proposal",
-    "year": 2009,
-    "cast": "Sandra Bullock, Ryan Reynolds",
-    "director": "Anne Fletcher",
-    "language": "english"
-  },
-  {
-    "id": "english-450",
-    "title": "Miss Congeniality",
-    "year": 2000,
-    "cast": "Sandra Bullock, Michael Caine",
-    "director": "Donald Petrie",
-    "language": "english"
-  },
-  {
-    "id": "english-451",
-    "title": "Miss Congeniality 2: Armed and Fabulous",
-    "year": 2005,
-    "cast": "Sandra Bullock, Regina King",
-    "director": "John Pasquin",
-    "language": "english"
-  },
-  {
-    "id": "english-452",
-    "title": "While You Were Sleeping",
-    "year": 1995,
-    "cast": "Sandra Bullock, Bill Pullman",
-    "director": "Jon Turteltaub",
-    "language": "english"
-  },
-  {
-    "id": "english-453",
-    "title": "Two Weeks Notice",
-    "year": 2002,
-    "cast": "Sandra Bullock, Hugh Grant",
-    "director": "Marc Lawrence",
-    "language": "english"
-  },
-  {
-    "id": "english-454",
-    "title": "The Lost City",
-    "year": 2022,
-    "cast": "Sandra Bullock, Channing Tatum",
-    "director": "Aaron Nee, Adam Nee",
-    "language": "english"
-  },
-  {
-    "id": "english-455",
+    "id": "english-15",
     "title": "Pretty Woman",
     "year": 1990,
     "cast": "Julia Roberts, Richard Gere",
@@ -3640,895 +968,463 @@
     "language": "english"
   },
   {
-    "id": "english-456",
-    "title": "Notting Hill",
-    "year": 1999,
-    "cast": "Julia Roberts, Hugh Grant",
-    "director": "Roger Michell",
-    "language": "english"
-  },
-  {
-    "id": "english-457",
-    "title": "My Best Friend's Wedding",
-    "year": 1997,
-    "cast": "Julia Roberts, Dermot Mulroney",
-    "director": "P. J. Hogan",
-    "language": "english"
-  },
-  {
-    "id": "english-458",
-    "title": "Runaway Bride",
-    "year": 1999,
-    "cast": "Julia Roberts, Richard Gere",
-    "director": "Garry Marshall",
-    "language": "english"
-  },
-  {
-    "id": "english-459",
-    "title": "Bridget Jones's Diary",
-    "year": 2001,
-    "cast": "Renée Zellweger, Colin Firth",
-    "director": "Sharon Maguire",
-    "language": "english"
-  },
-  {
-    "id": "english-460",
-    "title": "Bridget Jones: The Edge of Reason",
-    "year": 2004,
-    "cast": "Renée Zellweger, Hugh Grant",
-    "director": "Beeban Kidron",
-    "language": "english"
-  },
-  {
-    "id": "english-461",
-    "title": "Love Actually",
-    "year": 2003,
-    "cast": "Hugh Grant, Emma Thompson",
-    "director": "Richard Curtis",
-    "language": "english"
-  },
-  {
-    "id": "english-462",
-    "title": "Four Weddings and a Funeral",
-    "year": 1994,
-    "cast": "Hugh Grant, Andie MacDowell",
-    "director": "Mike Newell",
-    "language": "english"
-  },
-  {
-    "id": "english-463",
-    "title": "About a Boy",
-    "year": 2002,
-    "cast": "Hugh Grant, Nicholas Hoult",
-    "director": "Chris Weitz, Paul Weitz",
-    "language": "english"
-  },
-  {
-    "id": "english-464",
-    "title": "Music and Lyrics",
-    "year": 2007,
-    "cast": "Hugh Grant, Drew Barrymore",
-    "director": "Marc Lawrence",
-    "language": "english"
-  },
-  {
-    "id": "english-465",
-    "title": "13 Going on 30",
-    "year": 2004,
-    "cast": "Jennifer Garner, Mark Ruffalo",
-    "director": "Gary Winick",
-    "language": "english"
-  },
-  {
-    "id": "english-466",
-    "title": "27 Dresses",
-    "year": 2008,
-    "cast": "Katherine Heigl, James Marsden",
-    "director": "Anne Fletcher",
-    "language": "english"
-  },
-  {
-    "id": "english-467",
-    "title": "The Ugly Truth",
-    "year": 2009,
-    "cast": "Katherine Heigl, Gerard Butler",
-    "director": "Robert Luketic",
-    "language": "english"
-  },
-  {
-    "id": "english-468",
-    "title": "The Holiday",
-    "year": 2006,
-    "cast": "Cameron Diaz, Kate Winslet",
-    "director": "Nancy Meyers",
-    "language": "english"
-  },
-  {
-    "id": "english-469",
-    "title": "What Happens in Vegas",
-    "year": 2008,
-    "cast": "Cameron Diaz, Ashton Kutcher",
-    "director": "Tom Vaughan",
-    "language": "english"
-  },
-  {
-    "id": "english-470",
-    "title": "How to Lose a Guy in 10 Days",
-    "year": 2003,
-    "cast": "Kate Hudson, Matthew McConaughey",
-    "director": "Donald Petrie",
-    "language": "english"
-  },
-  {
-    "id": "english-471",
-    "title": "Fool's Gold",
-    "year": 2008,
-    "cast": "Matthew McConaughey, Kate Hudson",
-    "director": "Andy Tennant",
-    "language": "english"
-  },
-  {
-    "id": "english-472",
-    "title": "Failure to Launch",
-    "year": 2006,
-    "cast": "Matthew McConaughey, Sarah Jessica Parker",
-    "director": "Tom Dey",
-    "language": "english"
-  },
-  {
-    "id": "english-473",
-    "title": "The Wedding Planner",
-    "year": 2001,
-    "cast": "Jennifer Lopez, Matthew McConaughey",
-    "director": "Adam Shankman",
-    "language": "english"
-  },
-  {
-    "id": "english-474",
-    "title": "Maid in Manhattan",
-    "year": 2002,
-    "cast": "Jennifer Lopez, Ralph Fiennes",
-    "director": "Wayne Wang",
-    "language": "english"
-  },
-  {
-    "id": "english-475",
-    "title": "Monster-in-Law",
-    "year": 2005,
-    "cast": "Jennifer Lopez, Jane Fonda",
-    "director": "Robert Luketic",
-    "language": "english"
-  },
-  {
-    "id": "english-476",
-    "title": "Hitch",
-    "year": 2005,
-    "cast": "Will Smith, Eva Mendes",
-    "director": "Andy Tennant",
-    "language": "english"
-  },
-  {
-    "id": "english-477",
-    "title": "Crazy Rich Asians",
-    "year": 2018,
-    "cast": "Constance Wu, Henry Golding",
-    "director": "Jon M. Chu",
-    "language": "english"
-  },
-  {
-    "id": "english-478",
-    "title": "The Big Sick",
-    "year": 2017,
-    "cast": "Kumail Nanjiani, Zoe Kazan",
-    "director": "Michael Showalter",
-    "language": "english"
-  },
-  {
-    "id": "english-479",
-    "title": "Palm Springs",
-    "year": 2020,
-    "cast": "Andy Samberg, Cristin Milioti",
-    "director": "Max Barbakow",
-    "language": "english"
-  },
-  {
-    "id": "english-480",
-    "title": "The Intern",
-    "year": 2015,
-    "cast": "Robert De Niro, Anne Hathaway",
-    "director": "Nancy Meyers",
-    "language": "english"
-  },
-  {
-    "id": "english-481",
-    "title": "What Women Want",
-    "year": 2000,
-    "cast": "Mel Gibson, Helen Hunt",
-    "director": "Nancy Meyers",
-    "language": "english"
-  },
-  {
-    "id": "english-482",
-    "title": "Something's Gotta Give",
-    "year": 2003,
-    "cast": "Jack Nicholson, Diane Keaton",
-    "director": "Nancy Meyers",
-    "language": "english"
-  },
-  {
-    "id": "english-483",
-    "title": "It's Complicated",
-    "year": 2009,
-    "cast": "Meryl Streep, Alec Baldwin",
-    "director": "Nancy Meyers",
-    "language": "english"
-  },
-  {
-    "id": "english-484",
-    "title": "Father of the Bride",
+    "id": "english-16",
+    "title": "Terminator 2: Judgment Day",
     "year": 1991,
-    "cast": "Steve Martin, Diane Keaton",
-    "director": "Charles Shyer",
+    "cast": "Arnold Schwarzenegger, Linda Hamilton",
+    "director": "James Cameron",
     "language": "english"
   },
   {
-    "id": "english-485",
-    "title": "Father of the Bride Part II",
-    "year": 1995,
-    "cast": "Steve Martin, Diane Keaton",
-    "director": "Charles Shyer",
-    "language": "english"
-  },
-  {
-    "id": "english-486",
-    "title": "Cheaper by the Dozen",
-    "year": 2003,
-    "cast": "Steve Martin, Bonnie Hunt",
-    "director": "Shawn Levy",
-    "language": "english"
-  },
-  {
-    "id": "english-487",
-    "title": "Cheaper by the Dozen 2",
-    "year": 2005,
-    "cast": "Steve Martin, Bonnie Hunt",
-    "director": "Adam Shankman",
-    "language": "english"
-  },
-  {
-    "id": "english-488",
-    "title": "The Jerk",
-    "year": 1979,
-    "cast": "Steve Martin, Bernadette Peters",
-    "director": "Carl Reiner",
-    "language": "english"
-  },
-  {
-    "id": "english-489",
-    "title": "Roxanne",
-    "year": 1987,
-    "cast": "Steve Martin, Daryl Hannah",
-    "director": "Fred Schepisi",
-    "language": "english"
-  },
-  {
-    "id": "english-490",
-    "title": "Planes, Trains and Automobiles",
-    "year": 1987,
-    "cast": "Steve Martin, John Candy",
-    "director": "John Hughes",
-    "language": "english"
-  },
-  {
-    "id": "english-491",
-    "title": "Uncle Buck",
-    "year": 1989,
-    "cast": "John Candy, Macaulay Culkin",
-    "director": "John Hughes",
-    "language": "english"
-  },
-  {
-    "id": "english-492",
-    "title": "Cool Runnings",
+    "id": "english-17",
+    "title": "Jurassic Park",
     "year": 1993,
-    "cast": "Leon Robinson, Doug E. Doug",
-    "director": "Jon Turteltaub",
+    "cast": "Sam Neill, Laura Dern, Jeff Goldblum",
+    "director": "Steven Spielberg",
     "language": "english"
   },
   {
-    "id": "english-493",
-    "title": "Space Jam",
-    "year": 1996,
-    "cast": "Michael Jordan, Wayne Knight",
-    "director": "Joe Pytka",
+    "id": "english-18",
+    "title": "The Lion King",
+    "year": 1994,
+    "cast": "Matthew Broderick, Jeremy Irons",
+    "director": "Roger Allers, Rob Minkoff",
     "language": "english"
   },
   {
-    "id": "english-494",
-    "title": "Space Jam: A New Legacy",
-    "year": 2021,
-    "cast": "LeBron James, Don Cheadle",
-    "director": "Malcolm D. Lee",
+    "id": "english-19",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "cast": "Tom Hanks, Robin Wright",
+    "director": "Robert Zemeckis",
     "language": "english"
   },
   {
-    "id": "english-495",
-    "title": "The Lego Movie",
-    "year": 2014,
-    "cast": "Chris Pratt, Elizabeth Banks",
-    "director": "Phil Lord, Christopher Miller",
+    "id": "english-20",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "cast": "Tim Robbins, Morgan Freeman",
+    "director": "Frank Darabont",
     "language": "english"
   },
   {
-    "id": "english-496",
-    "title": "The Lego Batman Movie",
-    "year": 2017,
-    "cast": "Will Arnett, Michael Cera",
-    "director": "Chris McKay",
+    "id": "english-21",
+    "title": "Toy Story",
+    "year": 1995,
+    "cast": "Tom Hanks, Tim Allen",
+    "director": "John Lasseter",
     "language": "english"
   },
   {
-    "id": "english-497",
-    "title": "Madagascar",
-    "year": 2005,
-    "cast": "Ben Stiller, Chris Rock",
-    "director": "Eric Darnell, Tom McGrath",
+    "id": "english-22",
+    "title": "Titanic",
+    "year": 1997,
+    "cast": "Leonardo DiCaprio, Kate Winslet",
+    "director": "James Cameron",
     "language": "english"
   },
   {
-    "id": "english-498",
-    "title": "Madagascar: Escape 2 Africa",
-    "year": 2008,
-    "cast": "Ben Stiller, Chris Rock",
-    "director": "Eric Darnell, Tom McGrath",
+    "id": "english-23",
+    "title": "Men in Black",
+    "year": 1997,
+    "cast": "Will Smith, Tommy Lee Jones",
+    "director": "Barry Sonnenfeld",
     "language": "english"
   },
   {
-    "id": "english-499",
-    "title": "Madagascar 3: Europe's Most Wanted",
-    "year": 2012,
-    "cast": "Ben Stiller, Chris Rock",
-    "director": "Eric Darnell, Tom McGrath, Conrad Vernon",
+    "id": "english-24",
+    "title": "The Truman Show",
+    "year": 1998,
+    "cast": "Jim Carrey, Laura Linney",
+    "director": "Peter Weir",
     "language": "english"
   },
   {
-    "id": "english-500",
-    "title": "Penguins of Madagascar",
-    "year": 2014,
-    "cast": "Tom McGrath, Chris Miller",
-    "director": "Eric Darnell, Simon J. Smith",
+    "id": "english-25",
+    "title": "The Matrix",
+    "year": 1999,
+    "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+    "director": "Lana Wachowski, Lilly Wachowski",
     "language": "english"
   },
   {
-    "id": "english-501",
-    "title": "Kung Fu Panda 2",
-    "year": 2011,
-    "cast": "Jack Black, Angelina Jolie",
-    "director": "Jennifer Yuh Nelson",
+    "id": "english-26",
+    "title": "Fight Club",
+    "year": 1999,
+    "cast": "Brad Pitt, Edward Norton",
+    "director": "David Fincher",
     "language": "english"
   },
   {
-    "id": "english-502",
-    "title": "Kung Fu Panda 3",
-    "year": 2016,
-    "cast": "Jack Black, Bryan Cranston",
-    "director": "Jennifer Yuh Nelson, Alessandro Carloni",
+    "id": "english-27",
+    "title": "The Sixth Sense",
+    "year": 1999,
+    "cast": "Bruce Willis, Haley Joel Osment",
+    "director": "M. Night Shyamalan",
     "language": "english"
   },
   {
-    "id": "english-503",
-    "title": "Shrek 2",
-    "year": 2004,
-    "cast": "Mike Myers, Eddie Murphy",
-    "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+    "id": "english-28",
+    "title": "Cast Away",
+    "year": 2000,
+    "cast": "Tom Hanks, Helen Hunt",
+    "director": "Robert Zemeckis",
     "language": "english"
   },
   {
-    "id": "english-504",
-    "title": "Shrek the Third",
-    "year": 2007,
-    "cast": "Mike Myers, Eddie Murphy",
-    "director": "Chris Miller, Raman Hui",
+    "id": "english-29",
+    "title": "Gladiator",
+    "year": 2000,
+    "cast": "Russell Crowe, Joaquin Phoenix",
+    "director": "Ridley Scott",
     "language": "english"
   },
   {
-    "id": "english-505",
-    "title": "Shrek Forever After",
-    "year": 2010,
-    "cast": "Mike Myers, Eddie Murphy",
-    "director": "Mike Mitchell",
-    "language": "english"
-  },
-  {
-    "id": "english-506",
-    "title": "Despicable Me 2",
-    "year": 2013,
-    "cast": "Steve Carell, Kristen Wiig",
-    "director": "Pierre Coffin, Chris Renaud",
-    "language": "english"
-  },
-  {
-    "id": "english-507",
-    "title": "Despicable Me 3",
-    "year": 2017,
-    "cast": "Steve Carell, Kristen Wiig",
-    "director": "Pierre Coffin, Kyle Balda, Eric Guillon",
-    "language": "english"
-  },
-  {
-    "id": "english-508",
-    "title": "Despicable Me 4",
-    "year": 2024,
-    "cast": "Steve Carell, Kristen Wiig",
-    "director": "Chris Renaud, Patrick Delage",
-    "language": "english"
-  },
-  {
-    "id": "english-509",
-    "title": "Minions: The Rise of Gru",
-    "year": 2022,
-    "cast": "Steve Carell, Pierre Coffin",
-    "director": "Kyle Balda",
-    "language": "english"
-  },
-  {
-    "id": "english-510",
-    "title": "Sing",
-    "year": 2016,
-    "cast": "Matthew McConaughey, Reese Witherspoon",
-    "director": "Garth Jennings",
-    "language": "english"
-  },
-  {
-    "id": "english-511",
-    "title": "Sing 2",
-    "year": 2021,
-    "cast": "Matthew McConaughey, Reese Witherspoon",
-    "director": "Garth Jennings",
-    "language": "english"
-  },
-  {
-    "id": "english-512",
-    "title": "The Secret Life of Pets",
-    "year": 2016,
-    "cast": "Louis C.K., Eric Stonestreet",
-    "director": "Chris Renaud, Yarrow Cheney",
-    "language": "english"
-  },
-  {
-    "id": "english-513",
-    "title": "The Secret Life of Pets 2",
-    "year": 2019,
-    "cast": "Patton Oswalt, Kevin Hart",
-    "director": "Chris Renaud",
-    "language": "english"
-  },
-  {
-    "id": "english-514",
-    "title": "Zootopia",
-    "year": 2016,
-    "cast": "Ginnifer Goodwin, Jason Bateman",
-    "director": "Byron Howard, Rich Moore",
-    "language": "english"
-  },
-  {
-    "id": "english-515",
-    "title": "Wreck-It Ralph",
-    "year": 2012,
-    "cast": "John C. Reilly, Sarah Silverman",
-    "director": "Rich Moore",
-    "language": "english"
-  },
-  {
-    "id": "english-516",
-    "title": "Ralph Breaks the Internet",
-    "year": 2018,
-    "cast": "John C. Reilly, Sarah Silverman",
-    "director": "Rich Moore, Phil Johnston",
-    "language": "english"
-  },
-  {
-    "id": "english-517",
-    "title": "Monsters, Inc.",
+    "id": "english-30",
+    "title": "Shrek",
     "year": 2001,
-    "cast": "John Goodman, Billy Crystal",
-    "director": "Pete Docter",
+    "cast": "Mike Myers, Eddie Murphy, Cameron Diaz",
+    "director": "Andrew Adamson, Vicky Jenson",
     "language": "english"
   },
   {
-    "id": "english-518",
-    "title": "Monsters University",
-    "year": 2013,
-    "cast": "Billy Crystal, John Goodman",
-    "director": "Dan Scanlon",
+    "id": "english-31",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "year": 2001,
+    "cast": "Daniel Radcliffe, Rupert Grint, Emma Watson",
+    "director": "Chris Columbus",
     "language": "english"
   },
   {
-    "id": "english-519",
-    "title": "The Incredibles",
-    "year": 2004,
-    "cast": "Craig T. Nelson, Holly Hunter",
-    "director": "Brad Bird",
-    "language": "english"
-  },
-  {
-    "id": "english-520",
-    "title": "Incredibles 2",
-    "year": 2018,
-    "cast": "Craig T. Nelson, Holly Hunter",
-    "director": "Brad Bird",
-    "language": "english"
-  },
-  {
-    "id": "english-521",
-    "title": "Finding Dory",
-    "year": 2016,
-    "cast": "Ellen DeGeneres, Albert Brooks",
+    "id": "english-32",
+    "title": "Finding Nemo",
+    "year": 2003,
+    "cast": "Albert Brooks, Ellen DeGeneres",
     "director": "Andrew Stanton",
     "language": "english"
   },
   {
-    "id": "english-522",
-    "title": "Cars",
-    "year": 2006,
-    "cast": "Owen Wilson, Paul Newman",
-    "director": "John Lasseter",
-    "language": "english"
-  },
-  {
-    "id": "english-523",
-    "title": "Cars 2",
-    "year": 2011,
-    "cast": "Owen Wilson, Larry the Cable Guy",
-    "director": "John Lasseter",
-    "language": "english"
-  },
-  {
-    "id": "english-524",
-    "title": "Cars 3",
-    "year": 2017,
-    "cast": "Owen Wilson, Cristela Alonzo",
-    "director": "Brian Fee",
-    "language": "english"
-  },
-  {
-    "id": "english-525",
-    "title": "Toy Story 2",
-    "year": 1999,
-    "cast": "Tom Hanks, Tim Allen",
-    "director": "John Lasseter",
-    "language": "english"
-  },
-  {
-    "id": "english-526",
-    "title": "Toy Story 3",
-    "year": 2010,
-    "cast": "Tom Hanks, Tim Allen",
-    "director": "Lee Unkrich",
-    "language": "english"
-  },
-  {
-    "id": "english-527",
-    "title": "Toy Story 4",
-    "year": 2019,
-    "cast": "Tom Hanks, Tim Allen",
-    "director": "Josh Cooley",
-    "language": "english"
-  },
-  {
-    "id": "english-528",
-    "title": "Inside Out 2",
-    "year": 2024,
-    "cast": "Amy Poehler, Maya Hawke",
-    "director": "Kelsey Mann",
-    "language": "english"
-  },
-  {
-    "id": "english-529",
-    "title": "The Emperor's New Groove",
-    "year": 2000,
-    "cast": "David Spade, John Goodman",
-    "director": "Mark Dindal",
-    "language": "english"
-  },
-  {
-    "id": "english-530",
-    "title": "Lilo & Stitch",
-    "year": 2002,
-    "cast": "Daveigh Chase, Chris Sanders",
-    "director": "Chris Sanders, Dean DeBlois",
-    "language": "english"
-  },
-  {
-    "id": "english-531",
-    "title": "The Croods",
-    "year": 2013,
-    "cast": "Nicolas Cage, Emma Stone",
-    "director": "Chris Sanders, Kirk DeMicco",
-    "language": "english"
-  },
-  {
-    "id": "english-532",
-    "title": "The Croods: A New Age",
-    "year": 2020,
-    "cast": "Nicolas Cage, Emma Stone",
-    "director": "Joel Crawford",
-    "language": "english"
-  },
-  {
-    "id": "english-533",
-    "title": "Ice Age",
-    "year": 2002,
-    "cast": "Ray Romano, John Leguizamo",
-    "director": "Chris Wedge",
-    "language": "english"
-  },
-  {
-    "id": "english-534",
-    "title": "Ice Age: The Meltdown",
-    "year": 2006,
-    "cast": "Ray Romano, John Leguizamo",
-    "director": "Carlos Saldanha",
-    "language": "english"
-  },
-  {
-    "id": "english-535",
-    "title": "Ice Age: Dawn of the Dinosaurs",
-    "year": 2009,
-    "cast": "Ray Romano, John Leguizamo",
-    "director": "Carlos Saldanha",
-    "language": "english"
-  },
-  {
-    "id": "english-536",
-    "title": "Ice Age: Continental Drift",
-    "year": 2012,
-    "cast": "Ray Romano, John Leguizamo",
-    "director": "Steve Martino, Michael Thurmeier",
-    "language": "english"
-  },
-  {
-    "id": "english-537",
-    "title": "The SpongeBob SquarePants Movie",
+    "id": "english-33",
+    "title": "Mean Girls",
     "year": 2004,
-    "cast": "Tom Kenny, Bill Fagerbakke",
-    "director": "Stephen Hillenburg",
+    "cast": "Lindsay Lohan, Rachel McAdams",
+    "director": "Mark Waters",
     "language": "english"
   },
   {
-    "id": "english-538",
-    "title": "The SpongeBob Movie: Sponge Out of Water",
-    "year": 2015,
-    "cast": "Tom Kenny, Antonio Banderas",
-    "director": "Paul Tibbitt",
+    "id": "english-34",
+    "title": "The Notebook",
+    "year": 2004,
+    "cast": "Ryan Gosling, Rachel McAdams",
+    "director": "Nick Cassavetes",
     "language": "english"
   },
   {
-    "id": "english-539",
-    "title": "Austin Powers: International Man of Mystery",
-    "year": 1997,
-    "cast": "Mike Myers, Elizabeth Hurley",
-    "director": "Jay Roach",
-    "language": "english"
-  },
-  {
-    "id": "english-540",
-    "title": "Austin Powers: The Spy Who Shagged Me",
-    "year": 1999,
-    "cast": "Mike Myers, Heather Graham",
-    "director": "Jay Roach",
-    "language": "english"
-  },
-  {
-    "id": "english-541",
-    "title": "Austin Powers in Goldmember",
-    "year": 2002,
-    "cast": "Mike Myers, Beyoncé Knowles",
-    "director": "Jay Roach",
-    "language": "english"
-  },
-  {
-    "id": "english-542",
-    "title": "Wayne's World",
-    "year": 1992,
-    "cast": "Mike Myers, Dana Carvey",
-    "director": "Penelope Spheeris",
-    "language": "english"
-  },
-  {
-    "id": "english-543",
-    "title": "Wayne's World 2",
-    "year": 1993,
-    "cast": "Mike Myers, Dana Carvey",
-    "director": "Stephen Surjik",
-    "language": "english"
-  },
-  {
-    "id": "english-544",
-    "title": "School of Rock",
-    "year": 2003,
-    "cast": "Jack Black, Joan Cusack",
-    "director": "Richard Linklater",
-    "language": "english"
-  },
-  {
-    "id": "english-545",
-    "title": "Nacho Libre",
+    "id": "english-35",
+    "title": "The Devil Wears Prada",
     "year": 2006,
-    "cast": "Jack Black, Ana de la Reguera",
-    "director": "Jared Hess",
+    "cast": "Meryl Streep, Anne Hathaway, Emily Blunt",
+    "director": "David Frankel",
     "language": "english"
   },
   {
-    "id": "english-546",
-    "title": "Jumanji: Welcome to the Jungle",
-    "year": 2017,
-    "cast": "Dwayne Johnson, Kevin Hart",
-    "director": "Jake Kasdan",
+    "id": "english-36",
+    "title": "The Departed",
+    "year": 2006,
+    "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson",
+    "director": "Martin Scorsese",
     "language": "english"
   },
   {
-    "id": "english-547",
-    "title": "Jumanji: The Next Level",
-    "year": 2019,
-    "cast": "Dwayne Johnson, Kevin Hart",
-    "director": "Jake Kasdan",
-    "language": "english"
-  },
-  {
-    "id": "english-548",
-    "title": "Central Intelligence",
-    "year": 2016,
-    "cast": "Dwayne Johnson, Kevin Hart",
-    "director": "Rawson Marshall Thurber",
-    "language": "english"
-  },
-  {
-    "id": "english-549",
-    "title": "Ride Along",
-    "year": 2014,
-    "cast": "Ice Cube, Kevin Hart",
-    "director": "Tim Story",
-    "language": "english"
-  },
-  {
-    "id": "english-550",
-    "title": "Ride Along 2",
-    "year": 2016,
-    "cast": "Ice Cube, Kevin Hart",
-    "director": "Tim Story",
-    "language": "english"
-  },
-  {
-    "id": "english-551",
-    "title": "The Pacifier",
-    "year": 2005,
-    "cast": "Vin Diesel, Lauren Graham",
-    "director": "Adam Shankman",
-    "language": "english"
-  },
-  {
-    "id": "english-552",
-    "title": "The Game Plan",
+    "id": "english-37",
+    "title": "Ratatouille",
     "year": 2007,
-    "cast": "Dwayne Johnson, Madison Pettis",
-    "director": "Andy Fickman",
+    "cast": "Patton Oswalt, Ian Holm",
+    "director": "Brad Bird",
     "language": "english"
   },
   {
-    "id": "english-553",
-    "title": "The Tooth Fairy",
-    "year": 2010,
-    "cast": "Dwayne Johnson, Ashley Judd",
-    "director": "Michael Lembeck",
-    "language": "english"
-  },
-  {
-    "id": "english-554",
-    "title": "The Pink Panther Strikes Again",
-    "year": 1976,
-    "cast": "Peter Sellers, Herbert Lom",
-    "director": "Blake Edwards",
-    "language": "english"
-  },
-  {
-    "id": "english-555",
-    "title": "A Shot in the Dark",
-    "year": 1964,
-    "cast": "Peter Sellers, Elke Sommer",
-    "director": "Blake Edwards",
-    "language": "english"
-  },
-  {
-    "id": "english-556",
-    "title": "The Party",
-    "year": 1968,
-    "cast": "Peter Sellers, Claudine Longet",
-    "director": "Blake Edwards",
-    "language": "english"
-  },
-  {
-    "id": "english-557",
-    "title": "Blazing Saddles",
-    "year": 1974,
-    "cast": "Cleavon Little, Gene Wilder",
-    "director": "Mel Brooks",
-    "language": "english"
-  },
-  {
-    "id": "english-558",
-    "title": "Young Frankenstein",
-    "year": 1974,
-    "cast": "Gene Wilder, Peter Boyle",
-    "director": "Mel Brooks",
-    "language": "english"
-  },
-  {
-    "id": "english-559",
-    "title": "Spaceballs",
-    "year": 1987,
-    "cast": "Bill Pullman, John Candy",
-    "director": "Mel Brooks",
-    "language": "english"
-  },
-  {
-    "id": "english-560",
-    "title": "Robin Hood: Men in Tights",
-    "year": 1993,
-    "cast": "Cary Elwes, Richard Lewis",
-    "director": "Mel Brooks",
-    "language": "english"
-  },
-  {
-    "id": "english-561",
-    "title": "History of the World, Part I",
-    "year": 1981,
-    "cast": "Mel Brooks, Dom DeLuise",
-    "director": "Mel Brooks",
-    "language": "english"
-  },
-  {
-    "id": "english-562",
-    "title": "Monty Python and the Holy Grail",
-    "year": 1975,
-    "cast": "Graham Chapman, John Cleese",
-    "director": "Terry Gilliam, Terry Jones",
-    "language": "english"
-  },
-  {
-    "id": "english-563",
-    "title": "Monty Python's Life of Brian",
-    "year": 1979,
-    "cast": "Graham Chapman, John Cleese",
-    "director": "Terry Jones",
-    "language": "english"
-  },
-  {
-    "id": "english-564",
-    "title": "The Big Lebowski",
-    "year": 1998,
-    "cast": "Jeff Bridges, John Goodman",
-    "director": "Joel Coen",
-    "language": "english"
-  },
-  {
-    "id": "english-565",
-    "title": "O Brother, Where Art Thou?",
-    "year": 2000,
-    "cast": "George Clooney, John Turturro",
-    "director": "Joel Coen",
-    "language": "english"
-  },
-  {
-    "id": "english-566",
-    "title": "Burn After Reading",
+    "id": "english-38",
+    "title": "The Dark Knight",
     "year": 2008,
-    "cast": "George Clooney, Frances McDormand",
-    "director": "Joel Coen, Ethan Coen",
+    "cast": "Christian Bale, Heath Ledger",
+    "director": "Christopher Nolan",
     "language": "english"
   },
   {
-    "id": "english-567",
+    "id": "english-39",
+    "title": "Mamma Mia!",
+    "year": 2008,
+    "cast": "Meryl Streep, Amanda Seyfried",
+    "director": "Phyllida Lloyd",
+    "language": "english"
+  },
+  {
+    "id": "english-40",
+    "title": "Slumdog Millionaire",
+    "year": 2008,
+    "cast": "Dev Patel, Freida Pinto, Anil Kapoor",
+    "director": "Danny Boyle",
+    "language": "english"
+  },
+  {
+    "id": "english-41",
+    "title": "Avatar",
+    "year": 2009,
+    "cast": "Sam Worthington, Zoe Saldaña",
+    "director": "James Cameron",
+    "language": "english"
+  },
+  {
+    "id": "english-42",
+    "title": "The Hangover",
+    "year": 2009,
+    "cast": "Bradley Cooper, Ed Helms, Zach Galifianakis",
+    "director": "Todd Phillips",
+    "language": "english"
+  },
+  {
+    "id": "english-43",
+    "title": "Inception",
+    "year": 2010,
+    "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+    "director": "Christopher Nolan",
+    "language": "english"
+  },
+  {
+    "id": "english-44",
+    "title": "Black Swan",
+    "year": 2010,
+    "cast": "Natalie Portman, Mila Kunis",
+    "director": "Darren Aronofsky",
+    "language": "english"
+  },
+  {
+    "id": "english-45",
+    "title": "The Social Network",
+    "year": 2010,
+    "cast": "Jesse Eisenberg, Andrew Garfield",
+    "director": "David Fincher",
+    "language": "english"
+  },
+  {
+    "id": "english-46",
+    "title": "The Avengers",
+    "year": 2012,
+    "cast": "Robert Downey Jr., Chris Evans, Scarlett Johansson",
+    "director": "Joss Whedon",
+    "language": "english"
+  },
+  {
+    "id": "english-47",
+    "title": "The Hunger Games",
+    "year": 2012,
+    "cast": "Jennifer Lawrence, Josh Hutcherson",
+    "director": "Gary Ross",
+    "language": "english"
+  },
+  {
+    "id": "english-48",
+    "title": "Life of Pi",
+    "year": 2012,
+    "cast": "Suraj Sharma, Irrfan Khan",
+    "director": "Ang Lee",
+    "language": "english"
+  },
+  {
+    "id": "english-49",
+    "title": "Frozen",
+    "year": 2013,
+    "cast": "Kristen Bell, Idina Menzel",
+    "director": "Chris Buck, Jennifer Lee",
+    "language": "english"
+  },
+  {
+    "id": "english-50",
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "cast": "Leonardo DiCaprio, Jonah Hill, Margot Robbie",
+    "director": "Martin Scorsese",
+    "language": "english"
+  },
+  {
+    "id": "english-51",
+    "title": "Interstellar",
+    "year": 2014,
+    "cast": "Matthew McConaughey, Anne Hathaway",
+    "director": "Christopher Nolan",
+    "language": "english"
+  },
+  {
+    "id": "english-52",
+    "title": "Gone Girl",
+    "year": 2014,
+    "cast": "Ben Affleck, Rosamund Pike",
+    "director": "David Fincher",
+    "language": "english"
+  },
+  {
+    "id": "english-53",
+    "title": "Whiplash",
+    "year": 2014,
+    "cast": "Miles Teller, J. K. Simmons",
+    "director": "Damien Chazelle",
+    "language": "english"
+  },
+  {
+    "id": "english-54",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "cast": "Tom Hardy, Charlize Theron",
+    "director": "George Miller",
+    "language": "english"
+  },
+  {
+    "id": "english-55",
+    "title": "Inside Out",
+    "year": 2015,
+    "cast": "Amy Poehler, Phyllis Smith",
+    "director": "Pete Docter",
+    "language": "english"
+  },
+  {
+    "id": "english-56",
+    "title": "La La Land",
+    "year": 2016,
+    "cast": "Ryan Gosling, Emma Stone",
+    "director": "Damien Chazelle",
+    "language": "english"
+  },
+  {
+    "id": "english-57",
+    "title": "Get Out",
+    "year": 2017,
+    "cast": "Daniel Kaluuya, Allison Williams",
+    "director": "Jordan Peele",
+    "language": "english"
+  },
+  {
+    "id": "english-58",
+    "title": "The Greatest Showman",
+    "year": 2017,
+    "cast": "Hugh Jackman, Zac Efron, Zendaya",
+    "director": "Michael Gracey",
+    "language": "english"
+  },
+  {
+    "id": "english-59",
+    "title": "A Quiet Place",
+    "year": 2018,
+    "cast": "Emily Blunt, John Krasinski",
+    "director": "John Krasinski",
+    "language": "english"
+  },
+  {
+    "id": "english-60",
+    "title": "Bohemian Rhapsody",
+    "year": 2018,
+    "cast": "Rami Malek, Lucy Boynton",
+    "director": "Bryan Singer",
+    "language": "english"
+  },
+  {
+    "id": "english-61",
+    "title": "Parasite",
+    "year": 2019,
+    "cast": "Song Kang-ho, Choi Woo-shik, Park So-dam",
+    "director": "Bong Joon-ho",
+    "language": "english"
+  },
+  {
+    "id": "english-62",
+    "title": "Knives Out",
+    "year": 2019,
+    "cast": "Daniel Craig, Ana de Armas, Chris Evans",
+    "director": "Rian Johnson",
+    "language": "english"
+  },
+  {
+    "id": "english-63",
+    "title": "Joker",
+    "year": 2019,
+    "cast": "Joaquin Phoenix, Robert De Niro",
+    "director": "Todd Phillips",
+    "language": "english"
+  },
+  {
+    "id": "english-64",
+    "title": "Tenet",
+    "year": 2020,
+    "cast": "John David Washington, Robert Pattinson",
+    "director": "Christopher Nolan",
+    "language": "english"
+  },
+  {
+    "id": "english-65",
+    "title": "Dune",
+    "year": 2021,
+    "cast": "Timothée Chalamet, Rebecca Ferguson",
+    "director": "Denis Villeneuve",
+    "language": "english"
+  },
+  {
+    "id": "english-66",
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "cast": "Michelle Yeoh, Ke Huy Quan",
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "language": "english"
+  },
+  {
+    "id": "english-67",
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "cast": "Tom Cruise, Miles Teller",
+    "director": "Joseph Kosinski",
+    "language": "english"
+  },
+  {
+    "id": "english-68",
+    "title": "Barbie",
+    "year": 2023,
+    "cast": "Margot Robbie, Ryan Gosling",
+    "director": "Greta Gerwig",
+    "language": "english"
+  },
+  {
+    "id": "english-69",
+    "title": "Oppenheimer",
+    "year": 2023,
+    "cast": "Cillian Murphy, Emily Blunt, Robert Downey Jr.",
+    "director": "Christopher Nolan",
+    "language": "english"
+  },
+  {
+    "id": "english-70",
+    "title": "Poor Things",
+    "year": 2023,
+    "cast": "Emma Stone, Mark Ruffalo",
+    "director": "Yorgos Lanthimos",
+    "language": "english"
+  },
+  {
+    "id": "english-71",
+    "title": "The Substance",
+    "year": 2024,
+    "cast": "Demi Moore, Margaret Qualley",
+    "director": "Coralie Fargeat",
+    "language": "english"
+  },
+  {
+    "id": "english-72",
+    "title": "Wicked",
+    "year": 2024,
+    "cast": "Cynthia Erivo, Ariana Grande",
+    "director": "Jon M. Chu",
+    "language": "english"
+  },
+  {
+    "id": "english-73",
     "title": "The Grand Budapest Hotel",
     "year": 2014,
     "cast": "Ralph Fiennes, Tony Revolori",
@@ -4536,219 +1432,59 @@
     "language": "english"
   },
   {
-    "id": "english-568",
-    "title": "Fantastic Mr. Fox",
+    "id": "english-74",
+    "title": "The Lobster",
+    "year": 2015,
+    "cast": "Colin Farrell, Rachel Weisz",
+    "director": "Yorgos Lanthimos",
+    "language": "english"
+  },
+  {
+    "id": "english-75",
+    "title": "The Menu",
+    "year": 2022,
+    "cast": "Ralph Fiennes, Anya Taylor-Joy",
+    "director": "Mark Mylod",
+    "language": "english"
+  },
+  {
+    "id": "english-76",
+    "title": "Cocaine Bear",
+    "year": 2023,
+    "cast": "Keri Russell, O'Shea Jackson Jr.",
+    "director": "Elizabeth Banks",
+    "language": "english"
+  },
+  {
+    "id": "english-77",
+    "title": "Snakes on a Plane",
+    "year": 2006,
+    "cast": "Samuel L. Jackson, Julianna Margulies",
+    "director": "David R. Ellis",
+    "language": "english"
+  },
+  {
+    "id": "english-78",
+    "title": "Cloudy with a Chance of Meatballs",
     "year": 2009,
-    "cast": "George Clooney, Meryl Streep",
-    "director": "Wes Anderson",
+    "cast": "Bill Hader, Anna Faris",
+    "director": "Phil Lord, Christopher Miller",
     "language": "english"
   },
   {
-    "id": "english-569",
-    "title": "The Royal Tenenbaums",
-    "year": 2001,
-    "cast": "Gene Hackman, Gwyneth Paltrow",
-    "director": "Wes Anderson",
-    "language": "english"
-  },
-  {
-    "id": "english-570",
-    "title": "Moonrise Kingdom",
-    "year": 2012,
-    "cast": "Jared Gilman, Kara Hayward",
-    "director": "Wes Anderson",
-    "language": "english"
-  },
-  {
-    "id": "english-571",
-    "title": "The Nice Guys",
-    "year": 2016,
-    "cast": "Russell Crowe, Ryan Gosling",
-    "director": "Shane Black",
-    "language": "english"
-  },
-  {
-    "id": "english-572",
-    "title": "Kiss Kiss Bang Bang",
+    "id": "english-79",
+    "title": "The Hitchhiker's Guide to the Galaxy",
     "year": 2005,
-    "cast": "Robert Downey Jr., Val Kilmer",
-    "director": "Shane Black",
+    "cast": "Martin Freeman, Zooey Deschanel",
+    "director": "Garth Jennings",
     "language": "english"
   },
   {
-    "id": "english-573",
-    "title": "The Princess Bride",
-    "year": 1987,
-    "cast": "Cary Elwes, Robin Wright",
-    "director": "Rob Reiner",
-    "language": "english"
-  },
-  {
-    "id": "english-574",
-    "title": "When Harry Met Sally...",
-    "year": 1989,
-    "cast": "Billy Crystal, Meg Ryan",
-    "director": "Rob Reiner",
-    "language": "english"
-  },
-  {
-    "id": "english-575",
-    "title": "This Is Spinal Tap",
-    "year": 1984,
-    "cast": "Christopher Guest, Michael McKean",
-    "director": "Rob Reiner",
-    "language": "english"
-  },
-  {
-    "id": "english-576",
-    "title": "A Fish Called Wanda",
-    "year": 1988,
-    "cast": "John Cleese, Jamie Lee Curtis",
-    "director": "Charles Crichton",
-    "language": "english"
-  },
-  {
-    "id": "english-577",
-    "title": "Groundhog Day",
-    "year": 1993,
-    "cast": "Bill Murray, Andie MacDowell",
-    "director": "Harold Ramis",
-    "language": "english"
-  },
-  {
-    "id": "english-578",
-    "title": "What About Bob?",
-    "year": 1991,
-    "cast": "Bill Murray, Richard Dreyfuss",
-    "director": "Frank Oz",
-    "language": "english"
-  },
-  {
-    "id": "english-579",
-    "title": "Stripes",
-    "year": 1981,
-    "cast": "Bill Murray, Harold Ramis",
-    "director": "Ivan Reitman",
-    "language": "english"
-  },
-  {
-    "id": "english-580",
-    "title": "Kingpin",
-    "year": 1996,
-    "cast": "Woody Harrelson, Randy Quaid",
-    "director": "Peter Farrelly, Bobby Farrelly",
-    "language": "english"
-  },
-  {
-    "id": "english-581",
-    "title": "The Flintstones",
-    "year": 1994,
-    "cast": "John Goodman, Rick Moranis",
-    "director": "Brian Levant",
-    "language": "english"
-  },
-  {
-    "id": "english-582",
-    "title": "The Addams Family",
-    "year": 1991,
-    "cast": "Anjelica Huston, Raul Julia",
-    "director": "Barry Sonnenfeld",
-    "language": "english"
-  },
-  {
-    "id": "english-583",
-    "title": "Addams Family Values",
-    "year": 1993,
-    "cast": "Anjelica Huston, Raul Julia",
-    "director": "Barry Sonnenfeld",
-    "language": "english"
-  },
-  {
-    "id": "english-584",
-    "title": "The Goonies",
-    "year": 1985,
-    "cast": "Sean Astin, Josh Brolin",
-    "director": "Richard Donner",
-    "language": "english"
-  },
-  {
-    "id": "english-585",
-    "title": "The Sandlot",
-    "year": 1993,
-    "cast": "Tom Guiry, Mike Vitar",
-    "director": "David Mickey Evans",
-    "language": "english"
-  },
-  {
-    "id": "english-586",
-    "title": "Honey, I Shrunk the Kids",
-    "year": 1989,
-    "cast": "Rick Moranis, Matt Frewer",
-    "director": "Joe Johnston",
-    "language": "english"
-  },
-  {
-    "id": "english-587",
-    "title": "Honey, I Blew Up the Kid",
-    "year": 1992,
-    "cast": "Rick Moranis, Marcia Strassman",
-    "director": "Randal Kleiser",
-    "language": "english"
-  },
-  {
-    "id": "english-588",
-    "title": "Night at the Museum: Battle of the Smithsonian",
-    "year": 2009,
-    "cast": "Ben Stiller, Amy Adams",
-    "director": "Shawn Levy",
-    "language": "english"
-  },
-  {
-    "id": "english-589",
-    "title": "Night at the Museum: Secret of the Tomb",
-    "year": 2014,
-    "cast": "Ben Stiller, Robin Williams",
-    "director": "Shawn Levy",
-    "language": "english"
-  },
-  {
-    "id": "english-590",
-    "title": "Jingle All the Way",
-    "year": 1996,
-    "cast": "Arnold Schwarzenegger, Sinbad",
-    "director": "Brian Levant",
-    "language": "english"
-  },
-  {
-    "id": "english-591",
-    "title": "Kindergarten Cop",
-    "year": 1990,
-    "cast": "Arnold Schwarzenegger, Penelope Ann Miller",
-    "director": "Ivan Reitman",
-    "language": "english"
-  },
-  {
-    "id": "english-592",
-    "title": "Twins",
-    "year": 1988,
-    "cast": "Arnold Schwarzenegger, Danny DeVito",
-    "director": "Ivan Reitman",
-    "language": "english"
-  },
-  {
-    "id": "english-593",
-    "title": "Junior",
-    "year": 1994,
-    "cast": "Arnold Schwarzenegger, Danny DeVito",
-    "director": "Ivan Reitman",
-    "language": "english"
-  },
-  {
-    "id": "english-594",
-    "title": "True Lies",
-    "year": 1994,
-    "cast": "Arnold Schwarzenegger, Jamie Lee Curtis",
-    "director": "James Cameron",
+    "id": "english-80",
+    "title": "The Unbearable Weight of Massive Talent",
+    "year": 2022,
+    "cast": "Nicolas Cage, Pedro Pascal",
+    "director": "Tom Gormican",
     "language": "english"
   }
 ]
